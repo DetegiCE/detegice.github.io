@@ -1,0 +1,65 @@
+---
+title: "KU COSE101 2017기말고사 5번 문제"
+date: 2019-06-14
+categories: C_Language KU
+---
+
+[< 2017기말4번 ](https://detegice.github.io/COSE101-2017Final-Pro4)
+ **2017기말5번** 
+[ 2018기말1번 >](https://detegice.github.io/COSE101-2018Final-Pro1)
+
+다음 C 프로그램에 대하여 물음에 답하시오.
+~~~c
+typedef struct node{
+  char* name;
+}Node, *NodePtr;
+
+NodePtr create(char* message) {
+  NodePtr new_element = (NodePtr)malloc(sizeof(Node));
+  if(!new_element){
+    printf("Out of memory\n");
+    return NULL;
+  }
+  new_element->name = message;
+  return new_element;
+}
+
+void destroy(NodePtr garbage_element) {
+  free(garbage_element->name);
+  free(garbage_element);
+}
+~~~
+
+(a) 다음 프로그램은 실행시간 오류(런타임 에러)를 발생시킨다. 오류가 발생하는 line을 지정하고 오류가 발생한 이유를 설명하시오.
+~~~c
+1 void main() {
+2   char message[] = "Hello, World";
+3   NodePtr element = create(message);
+4   if (element) { 
+5     printf("Element is %s\n", element->name);
+6     destroy(element);
+7   }
+8 }
+~~~
+
+(b) 다음 프로그램은 오류를 발생시킨다. 오류가 발생하는 line을 지정하고 오류가 발생한 이유를 설명하시오.
+~~~c
+1   void main() {
+2     char message[] = "Hello, world";
+3    char* copy = (char*)malloc(strlen(message) + 1);
+4    strcpy(copy, message); 
+5    NodePtr element1 = create(copy);
+6    NodePtr element2 = create(copy);
+7    if (element1)
+8      destroy(element1);
+9    if (element2)
+10     destroy(element2);
+11  }
+~~~
+
+(c) 위의 두 예제에서 오류 상황이 발생하지 않도록 *create()* 함수를 수정하시오.
+~~~c
+NodePtr create(char* message) {
+
+}
+~~~
