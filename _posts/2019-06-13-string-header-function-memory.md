@@ -4,13 +4,6 @@ date: 2019-06-13
 categories: C_Language string.h
 ---
 
-- [Memory Related Function](#memory-related-function)
-  * [memcpy : Copy block of memory](#memcpy---copy-block-of-memory)
-  * [memmove : Move block of memory](#memmove---move-block-of-memory)
-  * [memcmp : Compare two blocks of memory](#memcmp---compare-two-blocks-of-memory)
-  * [memchr : Locate character in block of memory](#memchr---locate-character-in-block-of-memory)
-  * [memset : Fill block of memory](#memset---fill-block-of-memory)
-
 ## Memory Related Function
 
 ### memcpy : Copy block of memory
