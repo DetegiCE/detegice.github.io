@@ -1,5 +1,5 @@
 ---
-title: "KU COSE101 2019기말고사 연습문제 3번"
+title: "KU COSE101 2019기말 연습문제 3번"
 date: 2019-06-15
 categories: C_Language
 ---
