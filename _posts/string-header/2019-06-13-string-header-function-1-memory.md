@@ -4,9 +4,9 @@ date: 2019-06-13
 categories: C_Language string.h
 ---
 
-## Memory Related Function
+# Memory Related Function
 
-### memcpy : Copy block of memory
+## memcpy : Copy block of memory
 ~~~c
 void* memcpy(void* destination, const void* source, size_t num);
 ~~~
@@ -42,7 +42,7 @@ person_copy: R.B.Kim, 19
 
 - - -
 
-### memmove : Move block of memory
+## memmove : Move block of memory
 ~~~c
 void* memmove(void* destination, const void* source, size_t num);
 ~~~
@@ -69,7 +69,7 @@ Now we know move
 
 - - -
 
-### memcmp : Compare two blocks of memory
+## memcmp : Compare two blocks of memory
 ~~~c
 int memcmp(const void* ptr1, const void* ptr2, size_t num);
 ~~~
@@ -111,7 +111,7 @@ int main ()
 
 - - -
 
-### memchr : Locate character in block of memory
+## memchr : Locate character in block of memory
 ~~~c
 void* memchr (void* ptr, int value, size_t num);
 ~~~
@@ -151,7 +151,7 @@ int main ()
 
 - - -
 
-### memset : Fill block of memory
+## memset : Fill block of memory
 ~~~c
 void* memset (void* ptr, int value, size_t num);
 ~~~
