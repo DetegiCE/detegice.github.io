@@ -4,6 +4,13 @@ date: 2019-06-15
 categories: C_Language
 ---
 
+| | | | | | | |
+|:---------:|:---:|:---:|:---:|:---:|:---:|-----|
+| 2016 기출 | [1번](https://detegice.github.io/COSE101-2016Final-Pro1) | [2번](https://detegice.github.io/COSE101-2016Final-Pro2) | [3번](https://detegice.github.io/COSE101-2016Final-Pro3) | [4번](https://detegice.github.io/COSE101-2016Final-Pro4) | [5번](https://detegice.github.io/COSE101-2016Final-Pro5) |     |
+| 2017 기출 | [1번](https://detegice.github.io/COSE101-2017Final-Pro1) | [2번](https://detegice.github.io/COSE101-2017Final-Pro2) | [3번](https://detegice.github.io/COSE101-2017Final-Pro3) | [4번](https://detegice.github.io/COSE101-2017Final-Pro4) | [5번](https://detegice.github.io/COSE101-2017Final-Pro5) |     |
+| 2018 기출 | [1번](https://detegice.github.io/COSE101-2018Final-Pro1) | [2번](https://detegice.github.io/COSE101-2018Final-Pro2) | [3번](https://detegice.github.io/COSE101-2018Final-Pro3) | [4번](https://detegice.github.io/COSE101-2018Final-Pro4) | [5번](https://detegice.github.io/COSE101-2018Final-Pro5) | [6번](https://detegice.github.io/COSE101-2018Final-Pro6) |
+| 2019 연습 | [1번](https://detegice.github.io/COSE101-FinalPractice-Pro1) | [2번](https://detegice.github.io/COSE101-FinalPractice-Pro2) | **3번** | [4번](https://detegice.github.io/COSE101-FinalPractice-Pro4) | | |
+
 > 입력예시에 등장하는 이름은 실존하는 인물과는 연관이 없습니다.
 
 학생들의 수 n과, n명의 이름(성, 이름), 학번, 컴퓨터프로그래밍 점수와 전산수학 점수가 *input.txt* 파일로 주어진다.
