@@ -1,5 +1,5 @@
 ---
-title: "<string.h> header functions (2) - Copy and Concatenate"
+title: "&lt;string.h&gt; header functions (2) - Copy and Concatenate"
 date: 2019-06-15
 categories: C_Langauge string.h
 ---
