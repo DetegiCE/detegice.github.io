@@ -4,9 +4,9 @@ date: 2019-06-15
 categories: C_Langauge string.h
 ---
 
-## Copy and Concatenate Funtion
+# Copy and Concatenate Funtion
 
-### strcpy : Copy string
+## strcpy : Copy string
 ~~~c
 char* strcpy(char* destination, const char* source);
 ~~~
@@ -41,7 +41,7 @@ str3: copy successful
 
 - - -
 
-### strncpy : Copy characters from string
+## strncpy : Copy characters from string
 ~~~c
 char* strncpy(char* destination, const char* source, size_t num);
 ~~~
@@ -86,7 +86,7 @@ To be
 
 - - -
 
-### strcat : Concatenate strings
+## strcat : Concatenate strings
 ~~~c
 char* strcat(char* destination, const char* source);
 ~~~
@@ -121,7 +121,7 @@ these strings are concatenated.
 
 - - -
 
-### strncat : Append characters from string
+## strncat : Append characters from string
 ~~~c
 char* strncat(char* destination, const char* source, size_t num);
 ~~~
