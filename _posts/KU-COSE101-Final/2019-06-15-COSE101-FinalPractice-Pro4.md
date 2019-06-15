@@ -20,7 +20,7 @@ struct calc{
   struct calc* next;
 };
 typedef struct calc calc;
-typedef CALC *calcPtr;
+typedef calc *calcPtr;
 ~~~
 
 계산은 int형으로만 진행된다. (ex) 3/2 = 1)
@@ -32,6 +32,6 @@ typedef CALC *calcPtr;
 5 + 10 - 10
 15 - 10
 5
----
+```
 
 ***
