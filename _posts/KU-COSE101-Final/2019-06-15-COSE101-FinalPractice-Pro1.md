@@ -77,7 +77,7 @@ void func3(int* x) {
 13) 6 : global 변수의 y에 1을 더하여 0이 되고, *x(main::x=6)에 0을 더하므로 6
 14) 13 : static 변수이므로 이전에 더했던 1이 저장되어있으므로 13
 15) 6 : main::x은 6
-16) 7 : main::Y는 7
+16) 7 : main::는 7
 {% endhighlight %}
 
 </details>
