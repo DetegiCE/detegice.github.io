@@ -63,3 +63,103 @@ int main()
 ```
 
 ***
+
+<details><summary>예시답안</summary>
+	
+{% highlight c %}
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+
+struct calc{
+	int num;
+	char oper;
+	struct calc* next;
+};
+typedef struct calc calc;
+typedef calc *calcPtr;
+
+int solve(calcPtr sPtr) {
+	calcPtr prevPtr = sPtr;
+	calcPtr curPtr = sPtr->next;
+	while(curPtr != NULL){
+		while(curPtr->oper == '*' || curPtr->oper == '/'){
+			if(curPtr->oper == '*'){
+				curPtr->num *= curPtr->next->num;
+			}
+			if(curPtr->oper == '/'){
+				curPtr->num /= curPtr->next->num;
+			}
+			curPtr->oper = curPtr->next->oper;
+			curPtr->next = curPtr->next->next;	
+		}
+		prevPtr = curPtr;
+		curPtr = curPtr->next;
+	}
+	
+	prevPtr = sPtr;
+	curPtr = sPtr->next;
+	while(curPtr != NULL){
+		while(curPtr->oper == '+' || curPtr->oper == '-'){
+			if(curPtr->oper == '+'){
+				curPtr->num += curPtr->next->num;
+			}
+			if(curPtr->oper == '-'){
+				curPtr->num -= curPtr->next->num;
+			}
+			curPtr->oper = curPtr->next->oper;
+			curPtr->next = curPtr->next->next;
+		}
+		
+		prevPtr = curPtr;
+		curPtr = curPtr->next;
+	}
+	
+	return sPtr->next->num;
+}
+
+void insert(calcPtr sPtr, int val, char op)
+{
+	calcPtr newPtr = (calcPtr)malloc(sizeof(calc));
+	newPtr->num = val;
+	newPtr->oper = op;
+	newPtr->next = NULL;
+	
+	calcPtr curPtr = sPtr;
+	while(curPtr != NULL){
+		if(curPtr->next == NULL){
+			curPtr->next = newPtr;
+			break;
+		}
+		curPtr = curPtr->next;
+	}
+}
+
+int main()
+{
+	calcPtr head = (calcPtr)malloc(sizeof(calc));
+	head->next = NULL;
+	
+	char a[100];
+	gets(a);
+	
+	char* temp = strtok(a, " ");
+	int tv;
+	char to;
+	while(temp!=NULL){
+		tv = atoi(temp);
+		temp = strtok(NULL," ");
+		if(temp==NULL){
+			insert(head, tv, 0);
+			break;
+		}
+		to = temp[0];
+		temp = strtok(NULL," ");
+		insert(head, tv, to);
+	}
+	
+	printf("%d", solve(head));
+}
+{% endhighlight %}
+	
+</details>
