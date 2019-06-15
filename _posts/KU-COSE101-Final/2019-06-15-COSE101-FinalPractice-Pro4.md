@@ -23,6 +23,32 @@ typedef struct calc calc;
 typedef calc *calcPtr;
 ~~~
 
+값을 대입하는 *insert*함수는 다음과 같다.
+~~~c
+void insert(calcPtr sPtr, int val, char op);
+~~~
+
+해를 구하는 *solve*함수는 다음과 같다.
+~~~c
+int solve(calcPtr sPtr);
+~~~
+
+*main*함수의 구조는 다음과 같다.
+~~~c
+int main()
+{
+	calcPtr head = (calcPtr)malloc(sizeof(calc));
+	head->next = NULL;
+	
+	char a[100];
+	gets(a);
+	
+	//삽입하는 부분
+	
+	printf("%d", solve(head));
+}
+~~~
+
 계산은 int형으로만 진행된다. (ex) 3/2 = 1)
 연산자 우선순위는 곱셈, 나눗셈, 덧셈, 뺄셈순서이다.
 
