@@ -17,7 +17,7 @@ categories: C_Language
 구조체는 다음과 같이 주어진다.
 ~~~c
 struct student{
-  char name[20];
+  char name[20]; //성 & 이름
   int stdnum; //학번
   int cpGrade; //컴프성적
   int laGrade; //전수성적
