@@ -126,3 +126,5 @@ size_t strxfrm(char* destination, const char* source, size_t num);
 **Return Value**
 
 The length of the transformed string, not including the terminating null-character.
+
+***Not Using this Function Usually***
