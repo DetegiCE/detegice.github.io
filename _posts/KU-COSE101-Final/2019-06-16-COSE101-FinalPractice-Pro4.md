@@ -4,6 +4,11 @@ date: 2019-06-16
 categories: C_Language
 ---
 
+
+| | | | | | |
+|:---------:|:---:|:---:|:---:|:---:|:---:|
+| 2019 연습 | [1번](https://detegice.github.io/COSE101-FinalPractice-Pro1) | [2번](https://detegice.github.io/COSE101-FinalPractice-Pro2) | [3번](https://detegice.github.io/COSE101-FinalPractice-Pro3) | **4번** | [5번](https://detegice.github.io/COSE101-FinalPractice-Pro5) |
+
 소수는 매우 다양한 주제를 가지고 탐구해 볼 수 있는 수의 집합 중 하나이다.
 소수란 약수가 1과 자기 자신 밖에 없는 1보다 큰 자연수를 말한다.
 
