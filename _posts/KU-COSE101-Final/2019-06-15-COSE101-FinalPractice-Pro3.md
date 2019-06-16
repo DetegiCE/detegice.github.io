@@ -26,12 +26,13 @@ struct student{
 
 input.txt의 예시는 다음과 같다.
 ```
-5
+6
 Kim Ryubin 127 100 100
 Lee Sangwook 94 60 30
 Jung Muyeong 112 60 80
 Jung Woosung 110 80 90
 Hong Seungjae 4 70 50
+Kang Jiwon 90 90 60
 ```
 
 ***
