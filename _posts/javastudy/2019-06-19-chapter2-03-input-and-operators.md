@@ -58,8 +58,7 @@ boolean hasNext() : 현재 입력된 토큰이 있으면 true, 아니면 새로�
 
 </details>
 
-**연습문제 1 : Scanner 클래스를 이용하여 자신의 이름, 학교, 나이, 학점, 결혼 여부를 입력받고
-다시 출력하는 프로그램 MyInfoScan.java을 작성하시오.**
+> **연습문제 1 : Scanner 클래스를 이용하여 자신의 이름, 학교, 나이, 학점, 결혼 여부를 입력받고 다시 출력하는 프로그램 MyInfoScan.java을 작성하시오.**
 
 <details><summary>연습문제 1 : 예시답안</summary>
 {% highlight java %}
@@ -92,7 +91,7 @@ public class MyInfoScan {
 | 조건 | ?: |
 | 대입 | = &#42;= /= += -= &= ^= &#124;= <<= >>= >>>= |
 
-**연습문제 2 : 초 단위의 정수를 입력받고, 시간, 분, 초 단위로 출력하는 프로그램 TimeConvert.java를 작성시오**
+> **연습문제 2 : 초 단위의 정수를 입력받고, 시간, 분, 초 단위로 출력하는 프로그램 TimeConvert.java를 작성시오**
 
 <details><summary>연습문제 2 : 예시답안</summary>
 {% highlight java %}
