@@ -170,6 +170,8 @@ int main ()
 Last occurrence of 's' found at 18
 ```
 
+- - -
+
 ## strspn : Get span of character set in string
 
 ~~~c
@@ -207,6 +209,8 @@ int main ()
 The initial number has 3 digits.
 ```
 
+- - -
+
 ## strstr : Locate substring
 
 ~~~c
@@ -241,6 +245,8 @@ int main ()
 ```
 This is a sample string
 ```
+
+- - -
 
 ## strtok : Split string into tokens
 
