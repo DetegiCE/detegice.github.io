@@ -15,11 +15,13 @@ categories : JAVA
   * 읽은 바이트를 문자, 정수, 실수, 불린, 문자열 등 다양한 타입으로 변환하여 리턴
   * *java.util.Scanner*
   * 객체의 생성
+  
   ~~~java
   import java.util.Scanner; //import
   ...
   Scanner sc = new Scanner(System.in); //Scanner 객체 생성
   ~~~
+  
 * Scanner에서 키 입력받기
   * Scanner는 입력되는 키 값을 공백으로 구분되는 토큰 단위로 읽음
   * 공백 문자 : \t, \f, \r,  , \n
@@ -39,6 +41,7 @@ categories : JAVA
   ~~~
   
 <details><summary>Scanner 주요 메소드</summary>
+
 {% highlight java %}
 String next() : 다음 토큰을 문자열로 리턴
 byte nextByte()
@@ -51,7 +54,8 @@ String nextLine() : '\n'을 포함하는 한 라인을 읽고 '\n'을 버린 나
 void close() : Scanner 사용 종료
 boolean hasNext() : 현재 입력된 토큰이 있으면 true, 아니면 새로운 입력이 들어올때까지 기다리고, 
                     새로운 입력이 들어오면 그때 true 리턴. Ctrl+Z 키가 입력되면 입력 끝이므로 false 리턴
-{%end highlight %}
+{% endhighlight %}
+
 </details>
 
 **연습문제 1 : Scanner 클래스를 이용하여 자신의 이름, 학교, 나이, 학점, 결혼 여부를 입력받고
