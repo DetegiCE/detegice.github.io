@@ -75,7 +75,7 @@ Hello
   * 대소문자 구별 (bar과 Bar은 서로 다른 식별자)
   
 * 식별자 예시
-```
+~~~java
 int name;
 char student_ID; // _ 사용 가능
 void $func() { } // $ 사용 가능
@@ -87,13 +87,13 @@ int 가격; // 한글 가능
 int 3Chapter; // 숫자로 시작 불가능
 class if { } // 키워드 사용 불가
 class %calc { } // 특수문자 사용 불가
-```
+~~~
 
 ## 데이터 타입 (data type)
 * 기본 데이터 타입
-```
+~~~java
 boolean, char, byte, short, int, long, float, double
-```
+~~~
 * 레퍼런스 타입
   * 레퍼런스 : C언어의 구조체나 포인터 같은 느낌. 일단은 있다고만 알아둡시다
   * class에 대한 레퍼런스
