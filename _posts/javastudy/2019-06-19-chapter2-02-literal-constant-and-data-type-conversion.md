@@ -12,6 +12,7 @@ categories: JAVA
 
 * 정수 리터럴
   * 10진수, 8진수, 16진수, 2진수 리터럴
+  
   ~~~java
   int n = 15; // 10진수 15
   int m = 015; // 8진수 15 (10진수 13)
@@ -21,23 +22,27 @@ categories: JAVA
   
   * 정수 리터럴은 int형으로 컴파일 됨
   * long 타입인 경우, 숫자 뒤에 L을 붙여 표시
+  
   ~~~java
   long g = 24L;
   ~~~
   
 * 실수 리터럴
   * 소수점 형태나 지수 형태로 표현
+  
   ~~~java
   12., 12.0, .1234, 0.1234, 1234E-4
   ~~~
   
   * 실수 리터럴은 double 형으로 컴파일 됨
+  
   ~~~java
   double d = 0.1234;
   double e = 1234E-4; // 1234E-4 = 1234x10-4 이므로 0.1234와 동일
   ~~~
   
   * f나 d를 붙여 float나 double로 명시적으로 표현
+  
   ~~~java
   float f = 0.1234f;
   double w = .1234D;
@@ -56,6 +61,7 @@ categories: JAVA
   ~~~
   
 * null 리터럴 : 레퍼런스에 대입 사용
+
   ~~~java
   int n = null; // 기본 데이터 타입에 사용 불가
   String str = null; 
@@ -63,9 +69,11 @@ categories: JAVA
   
 * 문자열 리터럴
   * 큰따옴표로 묶어 표현
+  
   ~~~java
   "Good", "Korea", "University", "자바 공부 하기 귀찮아", "4.5", "A+"
   ~~~
+  
   * 문자열 리터럴은 자동으로 String 클래스로 처리
   
 ## 상수
@@ -102,13 +110,16 @@ public class CircleArea {
 * 자동 타입 변환
   * 컴파일러에 의하여 원래의 타입보다 큰 타입으로 자동 변환
   * 치환문(=)이나 수식 내에서 타입이 일치하지 않을 경우
+  
   ~~~java
   long m = 25; // 25는 int이나, 큰 long으로 자동 변환
   double d = 3.14 * 10; // 실수 연산을 위해 10이 10.0으로 자동 변환
   ~~~
+  
 * 강제 타입 변환 (명시적 변환)
   * 개발자의 의도적 타입 변환
   * () 안에 명시적으로 타입 변환
+  
   ~~~java
   int n = 300;
   byte b = n; //int 타입이 byte로 자동 변환 불가능
