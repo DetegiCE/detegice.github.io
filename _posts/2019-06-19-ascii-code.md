@@ -13,7 +13,8 @@ Computer can only understand numbers, so an ASCII Code is the numerical represen
 
 You can use Ctrl+F to find the code.
 
-# ASCII Table 0&#126;31(00&#126;1F)
+# ASCII Table 0&#126;31 (00&#126;1F)
+
 | Dec | Hex | Oct | Char | Description |
 |:---:|:---:|:---:|:---:|:---:|
 | 0 | 0x00 | 00 | NULL | null |
@@ -48,3 +49,5 @@ You can use Ctrl+F to find the code.
 | 29 | 0x1D | 035 | GS | group separator |
 | 30 | 0x1E | 036 | RS | record separator |
 | 31 | 0x1F | 037 | US | unit separator |
+
+# ASCII Table 32&#126;63 (20&#126;3F)
