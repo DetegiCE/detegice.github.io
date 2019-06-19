@@ -6,7 +6,7 @@ categories: Computer_Science
 
 > The address of this page is **https://detegice.github.io/ascii-code**
 
-[[한국어]](https://detegice.github.io/ascii-code-kr/)
+[[한국어]](https://detegice.github.io/ascii-code-kr/) [[日本語]](https://detegice.github.io/ascii-code-jp/)
 
 # What is ASCII?
 
