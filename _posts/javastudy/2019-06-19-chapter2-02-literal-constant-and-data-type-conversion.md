@@ -46,6 +46,7 @@ categories: Java
 * 논리 리터럴
   * true 또는 false 뿐
   * boolean 타입 변수에 치환하거나 조건문에 이용
+  
   ~~~java
   boolean a = true;
   boolean b = 10 > 0; // 10 > 0 이 참이므로 b는 true
@@ -79,12 +80,11 @@ final double PI = 3.141592;
 ~~~
 
 
-```
-반지름 4.5인 원의 면적을 구하는 CircleArea.java 프로그램을 작성해보자.
-(단, PI는 3.14)
-```
 
-<details><summary>예시풀이</summary>
+**연습문제1 : 반지름 4.5인 원의 면적을 구하는 CircleArea.java 프로그램을 작성해보자.
+(단, PI는 3.14)**
+
+<details><summary>연습문제 1 예시풀이</summary>
 {% highlight java %}
 public class CircleArea {
 	public static void main(String[] args) {
@@ -119,7 +119,7 @@ public class CircleArea {
   int k = (int)d; // 강제 타입 변환으로 소수점 이하 손실 (1)
   ~~~
   
-다음 프로그램의 출력을 작성하시오.
+**연습문제 2 : 다음 프로그램의 출력을 작성하시오.**
 ~~~java
 public class TypeConversion {
 	public static void main(String[] args) {
