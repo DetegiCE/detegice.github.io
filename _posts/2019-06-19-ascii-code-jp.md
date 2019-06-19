@@ -4,7 +4,7 @@ date: 2019-06-19
 categories: Computer_Science
 ---
 
-このページのアドレスは**https://detegice.github.io/ascii-code-jp**です。
+> このページのアドレスは**https://detegice.github.io/ascii-code-jp**です。
 
 [[한국어]](https://detegice.github.io/ascii-code-kr/) [[English]](https://detegice.github.io/ascii-code/)
 
