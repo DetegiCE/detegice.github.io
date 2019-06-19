@@ -1,7 +1,7 @@
 ---
 title: "JAVA 03. Literal, Constant and Date Type Conversion"
 date: 2019-06-19
-categories: Java
+categories: JAVA
 ---
 
 # 리터럴, 상수, 형 변환
