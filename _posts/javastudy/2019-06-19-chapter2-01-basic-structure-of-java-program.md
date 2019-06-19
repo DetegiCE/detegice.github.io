@@ -121,5 +121,5 @@ boolean, char, byte, short, int, long, float, double
 ~~~java
 String name = "R.B.Kim";
 String person = name + "(19)"; //R.B.Kim(19)
-System.out.println(name + "가 정보관에 출몰함"); //R.B.Kim(19)가 정보관에 출몰함
+System.out.println(person + "가 정보관에 출몰함"); //R.B.Kim(19)가 정보관에 출몰함
 ~~~
