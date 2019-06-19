@@ -155,4 +155,5 @@ public class TimeConvert {
 | --a | a를 먼저 1 감소한 뒤 사용 |
 
 | 조건 연산자 | 설명 |
+|:---:|:---|
 | a ? b : c | a가 true면 결과는 b, false면 c |
