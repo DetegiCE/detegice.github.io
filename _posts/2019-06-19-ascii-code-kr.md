@@ -6,7 +6,7 @@ categories: Computer_Science
 
 > 이 페이지의 주소는 **https://detegice.github.io/ascii-code-kr** 입니다
 
-[[English]](https://detegice.github.io/ascii-code/)
+[[English]](https://detegice.github.io/ascii-code/) [[日本語]](https://detegice.github.io/ascii-code-jp/)
 
 # 아스키 코드란?
 
