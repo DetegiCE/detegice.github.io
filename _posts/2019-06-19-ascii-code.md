@@ -6,6 +6,8 @@ categories: Computer_Science
 
 > The address of this page is **https://detegice.github.io/ascii-code**
 
+[[한국어]](https://detegice.github.io/ascii-code-kr/)
+
 # What is ASCII?
 
 ASCII stands for American Standard Code for Information Interchange.
