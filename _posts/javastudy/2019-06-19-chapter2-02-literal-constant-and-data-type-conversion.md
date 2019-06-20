@@ -1,5 +1,5 @@
 ---
-title: "JAVA 03. Literal, Constant and Date Type Conversion"
+title: "JAVA 03. Literal, Constant and Data Type Conversion"
 date: 2019-06-19
 categories: JAVA
 ---
