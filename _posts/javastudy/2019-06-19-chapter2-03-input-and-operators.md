@@ -60,23 +60,7 @@ boolean hasNext() : 현재 입력된 토큰이 있으면 true, 아니면 새로�
 
 > **연습문제 1 : Scanner 클래스를 이용하여 자신의 이름, 학교, 나이, 학점, 결혼 여부를 입력받고 다시 출력하는 프로그램 MyInfoScan.java을 작성하시오.**
 
-<details><summary>연습문제 1 : 예시답안</summary>
-{% highlight java %}
-import java.util.Scanner;
-
-public class MyInfoScan {
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		String name = sc.next();
-		String school = sc.next();
-		int age = sc.nextInt();
-		double gpa = sc.nextDouble();
-		boolean marry = sc.nextBoolean();
-		System.out.println(name+" "+school+" "+age+" "+gpa+" "+marry);
-	}
-}
-{% endhighlight %}
-</details>
+[연습문제 1 : 예시풀이](https://github.com/DetegiCE/JavaStudy/blob/master/chapter2/MyInfoScan.java)
 
 ## 연산자
 
@@ -93,25 +77,7 @@ public class MyInfoScan {
 
 > **연습문제 2 : 초 단위의 정수를 입력받고, 시간, 분, 초 단위로 출력하는 프로그램 TimeConvert.java를 작성시오**
 
-<details><summary>연습문제 2 : 예시답안</summary>
-{% highlight java %}
-import java.util.Scanner;
-
-public class TimeConvert {
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		
-		int time = sc.nextInt();
-		
-		int hour = time/60/60;
-		int min = time/60%60;
-		int sec = time%60;
-		
-		System.out.println(time+"초 = "+hour+"시간 "+min+"분 "+sec+"초");
-	}
-}
-{% endhighlight %}
-</details>
+[연습문제 2 : 예시풀이](https://github.com/DetegiCE/JavaStudy/blob/master/chapter2/TimeConvert.java)
 
 | 비트 연산자 | 설명 |
 |:---:|:---|
