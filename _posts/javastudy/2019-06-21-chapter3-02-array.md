@@ -166,3 +166,27 @@ int intArray[][] = {{0,1,2},
 > **연습문제 4 : 2차원 배열에 학년별로 1, 2학기 학점을 입력받아 저장하고, 4년 전체 학점 평균을 출력하는 프로그램 FourYearGrade.java를 작성하시오.**
 
 [연습문제 4 : 예시풀이](https://github.com/DetegiCE/JavaStudy/blob/master/chapter3/FourYearGrade.java)
+
+
+## 배열을 리턴하는 메소드
+
+* 배열 리턴 : 배열의 레퍼런스만 리턴 (배열 전체가 리턴되는 것이 아님)
+
+* 메소드의 리턴 타입
+  * 리턴하는 배열 타입과 리턴 받는 배열 타입의 일치
+  * 리턴 타입에 배열의 크기를 지정하지 않음
+  
+~~~java
+int[] makeArray() {
+  int temp[] = new int[4];
+  return temp;
+}
+
+//main 메소드에서는
+int[] intArray;
+intArray = makeArray();
+~~~
+
+> **연습문제 5 : 1차원 정수 배열을 생성하여 리턴하는 makeArray()를 작성하고, 이 메소드로부터 배열을 전달받는 프로그램 ReturnArray.java를 작성하시오.**
+
+[연습문제 5 : 예시풀이](https://github.com/DetegiCE/JavaStudy/blob/master/chapter3/ReturnArray.java)
