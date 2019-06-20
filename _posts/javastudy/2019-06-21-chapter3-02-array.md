@@ -110,3 +110,59 @@ int size = intArray.length; //size = 5
 > **연습문제 2 : 배열의 length 필드를 이용하여 배열 크기만큼 정수를 입력받고 평균을 출력하는 ArrayAverage.java를 작성하시오.**
 
 [연습문제 2 : 예시풀이](https://github.com/DetegiCE/JavaStudy/blob/master/chapter3/ArrayAverage.java)
+
+
+## for-each 문
+
+* for-each문 : 배열이나 나열(enum)의 원소를 순차접근할때 유용한 fora문
+
+~~~java
+for(변수 : 배열레퍼런스) {
+  작업문
+}
+~~~
+
+~~~java
+int n[] = {1, 2, 3, 4, 5};
+int sum = 0;
+for(int k : n) {
+  sum+=k;
+}
+~~~
+
+> **연습문제 3 : 양수 5개를 받아 배열에 저장한 후, for-each 문을 활용하여 배열의 합을 구하는 프로그램 ForEachSum.java를 작성하시오.**
+
+[연습문제 3 : 예시풀이]
+
+
+## 2차원 배열
+
+* 2차원 배열의 선언
+
+~~~java
+int intArray[][];
+~~~
+
+* 2차원 배열의 생성
+
+~~~java
+intArray = new int[2][5];
+~~~
+
+* 선언과 생성을 동시에
+
+~~~java
+int intArray[][] = new int[2][5];
+~~~
+
+* 선언과 동시에 초기화
+
+~~~java
+int intArray[][] = {{0,1,2},
+                    {3,4,5},
+                    {6,7,8}};
+~~~
+
+> **연습문제 4 : 2차원 배열에 학년별로 1, 2학기 학점을 입력받아 저장하고, 4년 전체 학점 평균을 출력하는 프로그램 FourYearGrade.java를 작성하시오.**
+
+[연습문제 4 : 예시풀이](https://github.com/DetegiCE/JavaStudy/blob/master/chapter3/FourYearGrade.java)
