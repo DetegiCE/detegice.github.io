@@ -91,19 +91,7 @@ final double PI = 3.141592;
 
 > **연습문제1 : 반지름 4.5인 원의 면적을 구하는 CircleArea.java 프로그램을 작성해보자. (단, PI는 3.14)**
 
-<details><summary>연습문제 1 예시풀이</summary>
-{% highlight java %}
-public class CircleArea {
-	public static void main(String[] args) {
-		final double PI = 3.14;
-		double radius = 4.5;
-		double circleArea = radius*radius*PI;
-		
-		System.out.println("면적 = "+circleArea);
-	}
-}
-{% endhighlight %}
-</details>
+[연습문제1 : 예시풀이](https://github.com/DetegiCE/JavaStudy/blob/master/chapter2/CircleArea.java)
 
 ## 타입 변환
 * 타입 변환 : 한 타입의 값을 다른 타입의 값으로 변환
