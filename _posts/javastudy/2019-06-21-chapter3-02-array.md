@@ -82,6 +82,7 @@ intArray[1] = 7; //오류발생 : 배열이 생성되어 있지 않음
 ## 레퍼런스 치환과 배열 공유
 
 * 레퍼런스 교환으로 두 레퍼런스가 하나의 배열을 공유
+
 ~~~java
 int intArray[] = new int [5];
 int myArray[] = intArray;
