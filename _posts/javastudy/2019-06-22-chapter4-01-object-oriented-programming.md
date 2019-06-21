@@ -87,4 +87,4 @@ categories: JAVA
   * 컴퓨터가 수행하는 작업을 객체 간의 상호작용으로 표현
   * 클래스 혹은 객체의 집합으로 프로그램 작성
   
-  <img src = "절차지향객체지향](https://github.com/DetegiCE/JavaStudy/blob/master/image/0403.png">
+  <img src = "https://github.com/DetegiCE/JavaStudy/blob/master/image/0403.png">
