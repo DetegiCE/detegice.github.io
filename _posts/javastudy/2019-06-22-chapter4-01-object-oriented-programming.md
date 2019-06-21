@@ -11,7 +11,7 @@ categories: JAVA
 * **캡슐화** : 객체를 캡슐로 싸서 내부를 볼 수 없게 하는 것
   * 객체의 가장 본질적인 특성 : 외부의 접근으로부터 객체를 보호
   
-  <img src="https://github.com/DetegiCE/JavaStudy/blob/master/image/0401.png">
+  ![0401](https://user-images.githubusercontent.com/26007107/59939276-6dd01400-9492-11e9-8c8d-49677a82ebd0.png)
   
   * 자바에서의 캡슐화 : class & object
     * class : 객체 모양을 선언한 틀 (캡슐화 하는 틀)
