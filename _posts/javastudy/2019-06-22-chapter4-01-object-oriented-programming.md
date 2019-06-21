@@ -11,7 +11,7 @@ categories: JAVA
 * **캡슐화** : 객체를 캡슐로 싸서 내부를 볼 수 없게 하는 것
   * 객체의 가장 본질적인 특성 : 외부의 접근으로부터 객체를 보호
   
-  ![캡슐화](https://github.com/DetegiCE/JavaStudy/blob/master/image/0401.png)
+  <img src="https://github.com/DetegiCE/JavaStudy/blob/master/image/0401.png">
   
   * 자바에서의 캡슐화 : class & object
     * class : 객체 모양을 선언한 틀 (캡슐화 하는 틀)
@@ -33,7 +33,8 @@ categories: JAVA
   * 상위 개체의 속성이 하위 개체에 물려짐
   * 하위 개체가 상위 개체의 속성을 모두 가지는 관계
   
-  ![상속](https://github.com/DetegiCE/JavaStudy/blob/master/image/0402.png)
+  <img src="https://github.com/DetegiCE/JavaStudy/blob/master/image/0402.png">
+  
   * 나무는 식물의 속성과 생물의 속성을 모두 가짐
   * 사람은 생물의 속성을 갖지만, 식물의 속성을 갖지는 않음
   
@@ -86,4 +87,4 @@ categories: JAVA
   * 컴퓨터가 수행하는 작업을 객체 간의 상호작용으로 표현
   * 클래스 혹은 객체의 집합으로 프로그램 작성
   
-  ![절차지향객체지향](https://github.com/DetegiCE/JavaStudy/blob/master/image/0403.png)
+  <img src = "절차지향객체지향](https://github.com/DetegiCE/JavaStudy/blob/master/image/0403.png">
