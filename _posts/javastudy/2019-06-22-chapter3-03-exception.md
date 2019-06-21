@@ -72,7 +72,8 @@ catch(ArrayIndexOutOfBoundsException e) {
 }
 ~~~
 
-> **연습문제 1 : try-catch-finally 문을 이용하여 위에 주어진 코드를 수정하여, 정수를 0으로 나누는 경우에 "0으로 나눌 수 없습니다"를 출력하는 프로그램 DivideZeroCatch.java를 작성하시오. **
+
+> **연습문제 1 : try-catch-finally 문을 이용하여 위에 주어진 코드를 수정하여, 정수를 0으로 나누는 경우에 "0으로 나눌 수 없습니다"를 출력하는 프로그램 DivideZeroCatch.java를 작성하시오.**
 
 [연습문제 1 : 예시풀이](https://github.com/DetegiCE/JavaStudy/blob/master/chapter3/DivideZeroCatch.java)
 
