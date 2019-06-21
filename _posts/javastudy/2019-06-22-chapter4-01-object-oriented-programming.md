@@ -33,7 +33,7 @@ categories: JAVA
   * 상위 개체의 속성이 하위 개체에 물려짐
   * 하위 개체가 상위 개체의 속성을 모두 가지는 관계
   
-  <img src="https://github.com/DetegiCE/JavaStudy/blob/master/image/0402.png">
+  ![0402](https://user-images.githubusercontent.com/26007107/59939367-b38cdc80-9492-11e9-94f6-4d8aacd5c80e.png)
   
   * 나무는 식물의 속성과 생물의 속성을 모두 가짐
   * 사람은 생물의 속성을 갖지만, 식물의 속성을 갖지는 않음
@@ -87,4 +87,4 @@ categories: JAVA
   * 컴퓨터가 수행하는 작업을 객체 간의 상호작용으로 표현
   * 클래스 혹은 객체의 집합으로 프로그램 작성
   
-  <img src = "https://github.com/DetegiCE/JavaStudy/blob/master/image/0403.png">
+  ![0403](https://user-images.githubusercontent.com/26007107/59939389-c0113500-9492-11e9-9c5a-a3550dc4a5a1.png)
