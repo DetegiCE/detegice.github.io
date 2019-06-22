@@ -51,7 +51,7 @@ categories: JAVA
 
 [연습문제 1 : 예시풀이](https://github.com/DetegiCE/JavaStudy/blob/master/chapter4/Rectangle.java)
 
-## 생성자
+## 생성자 (Constructor)
 * 생성자
   * 객체가 생성될 때 초기화 목적으로 실행되는 메소드
   * 객체가 생성되는 순간에 자동 호출
@@ -75,3 +75,41 @@ categories: JAVA
   CircleA pizza = new Circle(10, "미스터피자"); //생성자 CircleA(int r, String n) 호출
   CircleA donut = new Circle(); //생성자 CircleA() 호출
   ~~~
+
+  * 생성자의 목적은 객체 생성시 초기화
+  * 생성자는 리턴 타입을 지정할 수 없음
+  
+  ~~~java
+  public void Circle() { ... } //오류 발생
+  ~~~
+
+> **연습문제 2 : title과 author 필드를 갖는 Book 클래스를 선언하고, 제목만 받는 생성자와 제목과 저자 모두 받는 생성자를 작성하시오.**
+
+[연습문제 2 : 예시풀이](https://github.com/DetegiCE/JavaStudy/blob/master/chapter4/Book.java)
+
+
+* 기본 생성자 (=디폴트 생성자)
+  * 매개변수 없고, 아무 작업 없이 단순 리턴하는 생성자
+  
+  ~~~java
+  class Circle {
+    public Circle() {} //기본 생성자
+  }
+  ~~~
+  
+  * 클래스에 생성자가 하나도 없는 경우, 컴파일러에 의해 기본 생성자 자동 생성
+  * 클래스에 생성자가 선언되어 있는 경우, 컴파일러는 자동으로 기본 생성자를 자동 생성하지 않음
+
+
+## this 레퍼런스
+
+* 객체 자신에 대한 레퍼런스
+  * 컴파일러에 의해 자동 관리
+  * *this.멤버* 형태로 멤버 접근 시 사용
+  
+  [CircleB 클래스를 통해 본 예시](https://github.com/DetegiCE/JavaStudy/blob/master/chapter4/CircleB.java)
+  
+* this() 로 다른 생성자 호출
+  * 같은 클래스의 다른 생성자 호출
+  * 생성자 내에서만 사용 가능
+  * 생성자 코드의 제일 처음에 있어야함
