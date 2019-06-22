@@ -113,3 +113,7 @@ categories: JAVA
   * 같은 클래스의 다른 생성자 호출
   * 생성자 내에서만 사용 가능
   * 생성자 코드의 제일 처음에 있어야함
+
+> **연습문제 3 : 연습문제 2에서 작성한 Book 클래스의 생성자를 this()를 이용하여 수정한 프로그램 BookA.java를 작성하시오.**
+
+[연습문제 3 : 예시풀이](https://github.com/DetegiCE/JavaStudy/blob/master/chapter4/BookA.java)
