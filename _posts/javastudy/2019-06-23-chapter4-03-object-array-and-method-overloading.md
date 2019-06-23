@@ -4,6 +4,8 @@ date: 2019-06-23
 categories: JAVA
 ---
 
+{% include java.md %}
+
 # Object Array and Method Overloading
 
 ## Object Array
@@ -76,4 +78,4 @@ categories: JAVA
 [메소드 오버로딩의 예시](https://github.com/DetegiCE/JavaStudy/blob/master/chapter4/MethodEx.java)
 
 
-
+{% include support.md %}
