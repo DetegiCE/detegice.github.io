@@ -4,6 +4,8 @@ date: 2019-06-19
 categories: JAVA
 ---
 
+{% include java.md %}
+
 # 리터럴, 상수, 형 변환
 
 ## 리터럴 (Literal)
@@ -149,3 +151,5 @@ A
 3
 {% endhighlight%}
 </details>
+
+{% include support.md %}
