@@ -4,6 +4,8 @@ date: 2019-06-22
 categories: JAVA
 ---
 
+{% include java.md %}
+
 # Exception
 
 ## 예외의 발생
@@ -81,3 +83,6 @@ catch(ArrayIndexOutOfBoundsException e) {
 > **연습문제 2 : 3개의 정수를 입력받아 합을 구하는 프로그램 IntSumCatch.java를 작성하시오. 단, 정수가 아닌 문자을 입력할 시 다시 입력하도록 하시오.** 
 
 [연습문제 2 : 예시풀이](https://github.com/DetegiCE/JavaStudy/blob/master/chapter3/IntSumCatch.java)
+
+
+{% include support.md %}
