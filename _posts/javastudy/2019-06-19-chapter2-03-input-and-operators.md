@@ -4,6 +4,8 @@ date: 2019-06-19
 categories : JAVA
 ---
 
+{% include java.md %}
+
 # 입력과 연산자
 
 ## System.in
@@ -127,3 +129,5 @@ boolean hasNext() : 현재 입력된 토큰이 있으면 true, 아니면 새로�
 | 조건 연산자 | 설명 |
 |:---:|:---|
 | a ? b : c | a가 true면 결과는 b, false면 c |
+
+{% include support.md %}
