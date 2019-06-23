@@ -55,10 +55,11 @@ categories : JAVA
 [연습문제 1 : 코드](https://github.com/DetegiCE/JavaStudy/blob/master/chapter4/StaticMethod.java)
 
 <details><summary>정답</summary>
-
+  
+{% highlight text %}
 s1함수 : static 메소드의 non-static 필드 접근 불가
-
 s2함수 : static 메소드의 non-static 메소드 접근 불가
+{% endhighlight %}
 
 </details>
 
