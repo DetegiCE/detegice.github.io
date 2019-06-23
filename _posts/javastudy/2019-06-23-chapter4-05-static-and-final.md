@@ -50,9 +50,9 @@ categories : JAVA
   * non-static 메소드 --> static 멤버 (O)
   * non-static 메소드 --> non-static 멤버 (O)
   
-> **연습문제 2 : 다음 코드에서 에러가 발생하는 부분을 찾으시오.**
+> **연습문제 1 : 다음 코드에서 에러가 발생하는 부분을 찾으시오.**
 
-[연습문제 2 : 코드](https://github.com/DetegiCE/JavaStudy/blob/master/chapter4/StaticMethod.java)
+[연습문제 1 : 코드](https://github.com/DetegiCE/JavaStudy/blob/master/chapter4/StaticMethod.java)
 
 <details><summary>정답</summary>
 
@@ -72,4 +72,5 @@ s2함수 : static 메소드의 non-static 메소드 접근 불가
 * final 메소드 : 오버라이딩 불가능한 메소드
 * final 필드 : 상수 선언할때 사용
   * 선언 시 초기값 지정
-  * 실행 중 
+  * 실행 중 값 변경 불가
+  
