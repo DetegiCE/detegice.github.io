@@ -87,7 +87,27 @@ categories: JAVA
 | 접근 가능 영역 | 클래스 내 | 동일 패키지 내 | 동일 패키지와 자식 클래스 | 모든 클래스 |
 
 <details><summary>public member</summary>
+<img src="https://user-images.githubusercontent.com/26007107/59971085-4b341d00-95b0-11e9-9691-11cfa1e9778d.png">
+</details>
+
+<details><summary>default member</summary>
+<img src="https://user-images.githubusercontent.com/26007107/59971102-964e3000-95b0-11e9-974a-12fa9472b3f3.png">
+</details>
+
+<details><summary>protected member</summary>
+<img src="https://user-images.githubusercontent.com/26007107/59971107-b382fe80-95b0-11e9-9e68-361ca7996901.png">
+</details>
+
+<details><summary>public member</summary>
+<img src="https://user-images.githubusercontent.com/26007107/59971111-cc8baf80-95b0-11e9-835b-96c10098b054.png">
+</details>
+
+> **연습문제 2 : 다음 코드에서 에러가 발생하는 이유를 설명하시오.**
+
+[연습문제 2 : 코드](https://github.com/DetegiCE/JavaStudy/blob/master/chapter4/AccessEx.java)
+
+<details><summary>정답</summary>
   
-![0409](https://user-images.githubusercontent.com/26007107/59971085-4b341d00-95b0-11e9-9691-11cfa1e9778d.png)
+field4는 SampleClass의 private 멤버이므로 SampleClass 외에 다른 클래스에서 접근할 수 없다.
 
 </details>
