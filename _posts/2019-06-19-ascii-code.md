@@ -166,4 +166,4 @@ You can use Ctrl+F to find the code.
 | 126 | 0x7E | 0176 | &#126; | tilde |
 | 127 | 0x7F | 0177 | DEL | delete |
 
-{% include support.html %}
+{% include support.md %}
