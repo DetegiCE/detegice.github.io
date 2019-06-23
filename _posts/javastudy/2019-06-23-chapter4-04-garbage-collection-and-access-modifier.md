@@ -18,8 +18,6 @@ categories: JAVA
 ## Garbage Collection
 
 * 가비지 : 가리키는 레퍼런스가 하나도 없는 객체
-* 가비지 컬렉션
-  * JVM의 가비지 컬렉터가 자동으로 가비지 수집, 반환
   
   ~~~java
   University a, b;
@@ -35,5 +33,61 @@ categories: JAVA
 <details><summary>정답</summary>
 
 <img src = "https://user-images.githubusercontent.com/26007107/59971008-a6fda680-95ae-11e9-9f65-123f5d79ae09.png">
+
+</details>
+
+* 가비지 컬렉션
+  * JVM이 가비지 자동 회수
+    * 가용 메모리 공간이 일정 이하로 부족해질 때
+    * 가비지를 수거하여 가용 메모리 공간으로 확보
+  * 가비지 컬렉터에 의해 자동 수행
+  
+  * 강제 가비지 컬렉션 수행
+  ~~~java
+  System.gc(); //제발 쓰지 말자
+  ~~~
+  
+## Package
+* 패키지
+  * 상호 관련 있는 클래스 파일(.class)을 저장하여 관리하는 디렉토리
+  * 자바 프로그램은 하나 이상의 패키지로 구성
+  
+## Access Modifier
+* 접근 지정자
+  * private, protected, public, default(생략 가능)
+  
+* 접근 지정자의 목적
+  * 클래스나 일부 멤버를 공개하여 다른 클래스에서 접근하도록 허용
+  * 객체 지향 언어의 캡슐화의 목적이 멤버를 보호하는 것
+  
+![0407](https://user-images.githubusercontent.com/26007107/59971055-36a35500-95af-11e9-9b83-8509e2867854.png)
+
+* 클래스 접근 지정
+  * 다른 클래스에서 사용하도록 허용할지 지정
+  * *public* 클래스 : 다른 모든 클래스에게 접근 허용
+  * *default* 클래스 : 같은 패키지의 클래스에만 접근 허용
+  
+  ~~~java
+  public class World { ... } // public class
+  class Local { ... } // default class
+  ~~~
+  
+![0408](https://user-images.githubusercontent.com/26007107/59971063-81bd6800-95af-11e9-83ef-a1d755659522.png)
+
+* 멤버 접근 지정
+  * *public* 멤버 : 패키지에 관계 없이 모든 클래스에게 접근 허용
+  * *private* 멤버 : 동일 클래스 내에만 접근 허용. 상속 받은 서브 클래스에서 접근 불가
+  * *protected* 멤버 : 동일 패키지 내의 다른 모든 클래스에게 접근 허용. 상속 받은 서브 클래스는 다른 패키지에 있어도 접근 가능
+  * *default* 멤버 : 같은 패키지 내의 다른 클래스에게 접근 허용
+  
+| 멤버에 접근하는 클래스 | private | default | protected | public |
+|:---:|:---:|:---:|:---:|:---:|
+| 같은 패키지의 클래스 | X | O | O | O |
+| 다른 패키지의 클래스 | X | X | X | O|
+| 접근 가능 영역 | 클래스 내 | 동일 패키지 내 | 동일 패키지와 자식 클래스 | 모든 클래스 |
+
+<details><summary>public member</summary>
+  
+![0409](https://user-images.githubusercontent.com/26007107/59971085-4b341d00-95b0-11e9-9691-11cfa1e9778d.png)
 
 </details>
