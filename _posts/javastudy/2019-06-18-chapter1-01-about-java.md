@@ -4,6 +4,8 @@ date: 2019-06-18
 categories: JAVA
 ---
 
+{% include java.md %}
+
 # About JAVA
 
 ## Birth of JAVA
@@ -28,3 +30,5 @@ categories: JAVA
 2. 클래스 생성
 3. 코드 작성
 4. 컴파일&실행 (F11)
+
+{% include support.md %}
