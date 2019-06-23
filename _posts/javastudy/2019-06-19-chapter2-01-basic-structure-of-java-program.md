@@ -4,6 +4,8 @@ date: 2019-06-19
 categories: JAVA
 ---
 
+{% include java.md %}
+
 # Basic Structure of Java Program
 
 ## Basic Structure
@@ -123,3 +125,5 @@ String name = "R.B.Kim";
 String person = name + "(19)"; //R.B.Kim(19)
 System.out.println(person + "가 정보관에 출몰함"); //R.B.Kim(19)가 정보관에 출몰함
 ~~~
+
+{% include support.md %}
