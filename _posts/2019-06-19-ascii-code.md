@@ -165,3 +165,5 @@ You can use Ctrl+F to find the code.
 | 125 | 0x7D | 0175 | } | closing brace |
 | 126 | 0x7E | 0176 | &#126; | tilde |
 | 127 | 0x7F | 0177 | DEL | delete |
+
+{% include support.html %}
