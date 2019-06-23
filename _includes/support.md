@@ -6,6 +6,6 @@
 
 <center>
   
-[PayPal](https://paypal.me/ryubinkim) &#124; [Twip](https://twip.kr/donate/publicstatic) &#124; KEB Hana Bank 391-911274-03107
+<a href="https://paypal.me/ryubinkim">PayPal</a> | <a href="https://twip.kr/donate/publicstatic>Twip</a> | KEB Hana Bank 391-911274-03107
 
 </center>
