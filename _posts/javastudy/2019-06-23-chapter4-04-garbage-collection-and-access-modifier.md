@@ -4,6 +4,8 @@ date: 2019-06-23
 categories: JAVA
 ---
 
+{% include java.md %}
+
 # Garbage Collection and Access Modifier
 
 ## Object Extinction
@@ -111,3 +113,6 @@ categories: JAVA
 field4는 SampleClass의 private 멤버이므로 SampleClass 외에 다른 클래스에서 접근할 수 없다.
 
 </details>
+
+
+{% include support.md %}
