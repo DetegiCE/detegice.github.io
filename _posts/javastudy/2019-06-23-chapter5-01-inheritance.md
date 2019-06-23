@@ -4,6 +4,8 @@ date: 2019-06-23
 categories: JAVA
 ---
 
+{% include java2.md %}
+
 # Inheritance
 
 ## Object Oriented Inheritance
