@@ -2,7 +2,7 @@
 layout: page
 ---
 
-{% for post in site.categories[page.category] %}
+{% for post in site.categories[page.categories] %}
     <a href="{{ post.url | absolute_url }}">
       {{ post.title }}
     </a>
