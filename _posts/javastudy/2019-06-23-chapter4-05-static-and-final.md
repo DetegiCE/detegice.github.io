@@ -4,6 +4,8 @@ date: 2019-06-23
 categories : JAVA
 ---
 
+{% include java.md %}
+
 # static and final
 
 ## static member
@@ -75,3 +77,5 @@ s2함수 : static 메소드의 non-static 메소드 접근 불가
   * 선언 시 초기값 지정
   * 실행 중 값 변경 불가
   
+
+{% include support.md %}
