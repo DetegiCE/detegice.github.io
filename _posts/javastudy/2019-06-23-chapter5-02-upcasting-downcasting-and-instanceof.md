@@ -67,3 +67,5 @@ categories: JAVA
   
   if(3 instance of int) //문법 오류 : int는 객체가 아님
   ~~~
+
+{% include support.md %}
