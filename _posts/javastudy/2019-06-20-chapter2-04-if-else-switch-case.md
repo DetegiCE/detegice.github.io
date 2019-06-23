@@ -4,6 +4,8 @@ date: 2019-06-20
 categories: JAVA
 ---
 
+{% include java.md %}
+
 # if-else, switch-case
 
 ## if문, if-else 문
@@ -61,3 +63,5 @@ categories: JAVA
 > **연습문제 2 : switch-case문을 이용하여 1~12월 사이의 월을 입력받아 봄, 여름, 가을, 겨울을 판단하는 Weather.java를 작성하시오.**
 
 [연습문제 2 : 예시풀이](https://github.com/DetegiCE/JavaStudy/blob/master/chapter2/Weather.java)
+
+{% include support.md %}
