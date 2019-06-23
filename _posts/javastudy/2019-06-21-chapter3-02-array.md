@@ -4,6 +4,8 @@ date: 2019-06-21
 categories: JAVA
 ---
 
+{% include java.md %}
+
 # Array
 
 ## 배열 (Array)
@@ -189,3 +191,6 @@ intArray = makeArray();
 > **연습문제 5 : 1차원 정수 배열을 생성하여 리턴하는 makeArray()를 작성하고, 이 메소드로부터 배열을 전달받는 프로그램 ReturnArray.java를 작성하시오.**
 
 [연습문제 5 : 예시풀이](https://github.com/DetegiCE/JavaStudy/blob/master/chapter3/ReturnArray.java)
+
+
+{% include support.md %}
