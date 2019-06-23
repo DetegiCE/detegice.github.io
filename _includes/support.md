@@ -4,6 +4,4 @@
 
 [Twip](https://twip.kr/donate/publicstatic)
 
-NH농협 356-1204-3365-53
-
-KEB하나 391-911274-03107
+KEB Hana Bank 391-911274-03107
