@@ -4,6 +4,8 @@ date: 2019-06-22
 categories: JAVA
 ---
 
+{% include java.md %}
+
 # Class and Object
 
 ## 클래스와 객체
@@ -117,3 +119,6 @@ categories: JAVA
 > **연습문제 3 : 연습문제 2에서 작성한 Book 클래스의 생성자를 this()를 이용하여 수정한 프로그램 BookA.java를 작성하시오.**
 
 [연습문제 3 : 예시풀이](https://github.com/DetegiCE/JavaStudy/blob/master/chapter4/BookA.java)
+
+
+{% include support.md %}
