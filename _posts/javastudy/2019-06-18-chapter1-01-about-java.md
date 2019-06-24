@@ -25,7 +25,19 @@ categories: JAVA
   - JVM(Java Virtual Machine : 자바 바이트코드를 실행하는 SW)에 의해 해석되고 실행
   
 ## Eclipse
-[이클립스 설치하기](https://eclipse.org)
+
+* [자바 설치하기](https://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html)
+
+* 환경변수 설정하기
+  * 내PC 우클릭 > 설정 > 고급 시스템 설정 > 고급 > 환경변수
+  * 시스템변수 새로만들기 > 변수이름 : JAVA_HOME, 변수값 : 자바설치경로(C:\Program Files\Java\jdk버전) > 확인
+  * 사용자변수 > Path 선택 > 편집 > 새로만들기 > %JAVA_HOME%\bin
+  
+* 자바 설치 확인
+  * 윈도우+R > cmd > 확인 > *java -version* 입력 > 자바 버전이 뜨면 완료
+
+* [이클립스 설치하기](https://eclipse.org)
+
 1. 프로젝트 생성
 2. 클래스 생성
 3. 코드 작성
