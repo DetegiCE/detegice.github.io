@@ -24,7 +24,7 @@ categories: JAVA
   - CPU 종속적이지 않은 중립 코드
   - JVM(Java Virtual Machine : 자바 바이트코드를 실행하는 SW)에 의해 해석되고 실행
   
-## Eclipse
+## JAVA Install
 
 * [자바 설치하기](https://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html)
 
@@ -35,6 +35,8 @@ categories: JAVA
   
 * 자바 설치 확인
   * 윈도우+R > cmd > 확인 > *java -version* 입력 > 자바 버전이 뜨면 완료
+
+## IDE : Eclipse
 
 * [이클립스 설치하기](https://eclipse.org)
 
