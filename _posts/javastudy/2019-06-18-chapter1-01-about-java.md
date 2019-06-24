@@ -41,7 +41,7 @@ categories: JAVA
 * [이클립스 설치하기](https://eclipse.org)
 
 1. File > New > Java Project > 프로젝트 이름 지정 > Finish
-2. 생성한 프로젝트 우클릭 > New > Class > 클래스 이름 입력 > Finish
+2. 생성한 프로젝트 우클릭 > New > Class > 클래스 이름 입력 > Finish (클래스 이름이 파일의 이름이 됩니다.)
 3. 코드 작성
 4. 컴파일&실행 (F11)
 
