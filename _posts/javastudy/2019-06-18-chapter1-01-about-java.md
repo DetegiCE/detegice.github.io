@@ -40,8 +40,8 @@ categories: JAVA
 
 * [이클립스 설치하기](https://eclipse.org)
 
-1. 프로젝트 생성
-2. 클래스 생성
+1. File > New > Java Project > 프로젝트 이름 지정 > Finish
+2. 생성한 프로젝트 우클릭 > New > Class > 클래스 이름 입력 > Finish
 3. 코드 작성
 4. 컴파일&실행 (F11)
 
