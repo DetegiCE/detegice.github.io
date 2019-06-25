@@ -81,9 +81,13 @@ categories: JAVA
 
 
 * 여러분들이 앞으로 사용할 주요 패키지들
+
   * *java.lang* : String, Math, IO 등... (auto import 되서 굳이 import 할 필요 없음)
+  
   * *java.util* : date, time, Vector, HashMap 등의 클래스와 인터페이스
+  
   * *java.io* : 키보드, 모니터, 프린터, 디스크 등에 입출력 하는 클래스와 인터페이스
+  
   * *java.awt*, *java.swing* : GUI를 위한 패키지
   
-{% import support.md %}
+{% include support.md %}
