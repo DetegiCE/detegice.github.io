@@ -49,7 +49,7 @@ categories: JAVA
 ## switch-case 문
 
 * switch 문은 식과 case문의 값을 비교
-  * case의 비교 값과 일치함녀 해당 case의 실행문 수행
+  * case의 비교 값과 일치하면 해당 case의 실행문 수행
   * case의 비교 값과 일치하는 것이 없으면 default문 실행 (default 생략 가능)
   
 * switch 문 내의 break 문
