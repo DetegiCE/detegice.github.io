@@ -73,7 +73,7 @@ categories: JAVA
 * 제목 다는 것은 무조건 맨 처음에 해라
 
 * GUI는 창을 끈다고 프로그램이 종료되는 것이 아니다. 그냥 프레임이 안보이게 되는거다. 아래 구문을 꼭 추가해주자.
-  * *setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+  * *setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);*
   
 > **연습문제 2 : 프레임 제목 "ContentPane연습", 프레임 크기 300x150인 프레임에 OK, Cancel, Ignore 버튼을 부착한 스윙 프로그램을 작성하시오. (ThreeButtonFrame.java)**
 >
