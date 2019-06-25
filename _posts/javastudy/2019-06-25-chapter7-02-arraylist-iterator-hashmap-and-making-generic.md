@@ -106,6 +106,7 @@ void remove() | 마지막으로 리턴된 요소 제거
 HashMap<String, String> h = new HashMap<String, String>();
 ~~~
 
+
 메소드 | 설명
 :---|:---
 ★ void clear() | HashMap의 모든 요소 삭제
