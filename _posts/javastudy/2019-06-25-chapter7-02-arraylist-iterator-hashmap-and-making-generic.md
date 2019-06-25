@@ -139,13 +139,37 @@ int n = h.size(); //n은 2
 [연습문제 3 : 예시답안](https://github.com/DetegiCE/JavaStudy/blob/master/chapter7/DicHashMap.java)
 
 
+## Making Generic
 
+* 제네릭 클래스 작성
+  * 클래스 옆에 일반화된 타입 매개 변수 추가
+ 
+~~~java
+public class MyClass<T> {
+  T val;
+  void set(T a) {
+    val = a;
+  }
+  T get() {
+    return val;
+  }
+}
+~~~
 
+  * 제네릭 객체 생성 및 활용
 
+~~~java
+MyClass<String> s = new MyClass<String>();
+s.set("hello");
+System.out.println(s.get()); //hello 출력
 
+MyClass<Integer> n = new MyClass<Integer>();
+n.set(6);
+System.out.println(n); //6 출력
+~~~
 
+> **연습문제 4 : 제네릭 클래스 GVector를 만들어 값을 넣고 n번째 위치의 값을 출력해주는 기능을 만들어 String 형과 Integer 형으로 사용하는 프로그램 GenericVector.java를 작성하시오.**
 
+[연습문제 4 : 예시답안](https://github.com/DetegiCE/JavaStudy/blob/master/chapter7/GenericVector.java)
 
-
-
-
+{% include support.md %}
