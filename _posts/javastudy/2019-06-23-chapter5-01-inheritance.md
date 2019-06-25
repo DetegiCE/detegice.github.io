@@ -6,6 +6,8 @@ categories: JAVA
 
 {% include java2.md %}
 
+**자바 초심자 1차 통곡의 벽에 오신걸 환영합니다**
+
 # Inheritance
 
 ## Object Oriented Inheritance
