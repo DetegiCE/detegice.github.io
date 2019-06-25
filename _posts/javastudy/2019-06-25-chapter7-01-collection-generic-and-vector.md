@@ -27,10 +27,10 @@ categories: JAVA
 * 컬렉션은 제네릭 기법으로 구현
   * 제네릭
     * 특정 타입만 다루지 않고, 여러 종류의 타입으로 변할 수 있또록 클래스나 메소드를 일반화
-    * 위의 그림에서도 볼 수 있듯이, <E>, <K>, <V> 등의 타입매개변수 사용
-  * 예시 : Vector<E>
-    * <E>에서 E에 구체적인 타입을 주어 구체적인 타입만 다루는 벡터로 호라용
-    * Vector<Integer>, Vector<String> 등...
+    * 위의 그림에서도 볼 수 있듯이, &lt;E&gt;, &lt;K&gt;, &lt;V&gt; 등의 타입매개변수 사용
+  * 예시 : Vector&lt;E&gt;
+    * &lt;E&gt;에서 E에 구체적인 타입을 주어 구체적인 타입만 다루는 벡터로 호라용
+    * Vector&lt;Integer&gt;, Vector&lt;String&gt; 등...
 
 * 컬렉션의 요소는 객체만 사용 가능
   * int, char 등의 기본 데이터 타입은 사용 불가
@@ -49,25 +49,25 @@ categories: JAVA
   * C++의 template와 동일
   
 
-## Vector<E>
+## Vector&lt;E&gt;
 
 * *import java.util.Vector* 필요
 
-* <E>에 사용할 요소의 특정 타입으로 구체화
+* &lt;E&gt;에 사용할 요소의 특정 타입으로 구체화
 * 배열을 가변 크기로 다룰 수 있게 하는 컨테이너
   * 배열의 길이가 무제한
   * 요소의 개수가 넘치면 자동으로 길이 조절
 * 요소 객체들을 삽입, 삭제, 검색 가능
 * 객체, null, Wrapper 객체 모두 삽입 가능
 
-* Vector<E> 클래스의 주요 메소드
+* Vector&lt;E&gt; 클래스의 주요 메소드
 
  메소드 | 설명 
 :---|:---
 ★ boolean add(E element) | 벡터의 맨 뒤에 element 추가
 ★ void add(int index, E element) | index에 element 삽입
 int capacity() | 벡터의 현재 용량 리턴
-boolean addAll(Collection<? extends E> c) | 컬렉션 c의 모든 요소를 벡터의 맨 뒤에 추가
+boolean addAll(Collection&lt;? extends E&gt; c) | 컬렉션 c의 모든 요소를 벡터의 맨 뒤에 추가
 ★ void clear() | 벡터의 모든 요소 삭제
 ★ boolean contains(Object o) | 벡터가 객체 o를 포함하면 true
 ★ E elementAt(int index) | index 위치의 요소 리턴
