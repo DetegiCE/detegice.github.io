@@ -8,12 +8,12 @@ categories: JAVA
 
 # ArrayList, Iterator, HashMap and Making Generic
 
-## ArrayList<E>
+## ArrayList&lt;E&gt;
 
 * *java.util.ArrayList* 를 import 해야됨
 
 * 가변 크기 배열을 구현한 클래스
-  * <E>에 요소로 사용할 특정 타입을 구체화
+  * &lt;E&gt;에 요소로 사용할 특정 타입을 구체화
 * 벡터와 거의 동일함
   * 다수의 스레드를 동시에 접근 시, 동기화가 되지 않음 (동시 작업이 안됨)
   * 위 내용 그냥 알 필요 없음. 그냥 어차피 안쓰니까 벡터랑 비슷하다고 보면 됨
@@ -26,7 +26,7 @@ ArrayList<String> = new ArrayList<String>();
 :---|:---
 ★ boolean add(E element) | ArrayList의 맨 뒤에 element 추가
 ★ void add(int index, E element) | index에 element 삽입
-boolean addAll(Collection<? extends E> c) | 컬렉션 c의 모든 요소를 벡터의 맨 뒤에 추가
+boolean addAll(Collection&lt;? extends E&gt; c) | 컬렉션 c의 모든 요소를 벡터의 맨 뒤에 추가
 ★ void clear() | ArrayList의 모든 요소 삭제
 ★ boolean contains(Object o) | ArrayList가 객체 o를 포함하면 true
 ★ E elementAt(int index) | index 위치의 요소 리턴
@@ -62,10 +62,10 @@ a.clear(); //요소 삭제
 [연습문제 1 : 예시답안](https://github.com/DetegiCE/JavaStudy/blob/master/chapter7/NameArrayList.java)
 
 
-## Iterator<E>
+## Iterator&lt;E&gt;
 
 * 리스트 구조의 컬렉션에서 요소의 순차 검색을 위한 인터페이스
-  * Vector<E>, ArrayList<E>, LinkedList<E>가 상속받는 인터페이스
+  * Vector&lt;E&gt;, ArrayList&lt;E&gt;, LinkedList&lt;E&gt;가 상속받는 인터페이스
 * Iterator 객체 얻어내기
   * 컬렉션의 iterator() 메소드 호출
   * 해당 컬렉션을 순차 검색할 수 있는 Iterator 객체 리턴
@@ -92,7 +92,7 @@ void remove() | 마지막으로 리턴된 요소 제거
 [연습문제 2 : 예시답안](https://github.com/DetegiCE/JavaStudy/blob/master/chapter7/SumIterator.java)
 
 
-## HashMap<K,V>
+## HashMap&lt;K,V&gt;
 
 * *java.util.HashMap* 을 import 해야함
 
@@ -113,7 +113,7 @@ HashMap<String, String> h = new HashMap<String, String>();
 ★ boolean containsValue(Object value) | 하나 이상의 키를 지정된 값에 매핑 시킬 수 있으면 true 리턴
 ★ V get(Object key) | 키에 매핑되는 값 리턴. 없으면 null
 ★ boolean isEmpty() | HashMap이 비어있으면 true
-★ Set<K> keySet() | HashMap에 있는 모든 키를 담은 Set<K> 컬렉션 리턴
+★ Set&lt;K&gt; keySet() | HashMap에 있는 모든 키를 담은 Set&lt;K&gt; 컬렉션 리턴
 ★ V put(K key, V value) | 키와 값을 매핑하여 HashMap에 저장
 ★ V remove(Object key) | 지정된 키와 이에 매핑된 값을 HashMap에서 삭제
 ★ int size() | HashMap에 포함된 요소의 개수 리턴
