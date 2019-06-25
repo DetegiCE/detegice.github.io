@@ -29,7 +29,7 @@ categories: JAVA
     * 특정 타입만 다루지 않고, 여러 종류의 타입으로 변할 수 있또록 클래스나 메소드를 일반화
     * 위의 그림에서도 볼 수 있듯이, &lt;E&gt;, &lt;K&gt;, &lt;V&gt; 등의 타입매개변수 사용
   * 예시 : Vector&lt;E&gt;
-    * &lt;E&gt;에서 E에 구체적인 타입을 주어 구체적인 타입만 다루는 벡터로 호라용
+    * &lt;E&gt;에서 E에 구체적인 타입을 주어 구체적인 타입만 다루는 벡터로 
     * Vector&lt;Integer&gt;, Vector&lt;String&gt; 등...
 
 * 컬렉션의 요소는 객체만 사용 가능
