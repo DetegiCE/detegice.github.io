@@ -37,7 +37,7 @@ class MyActionListener implements ActionListener {
 
 * 이벤트 리스너 등록
   * 이벤트를 받아 처리하고자 하는 컴포넌트에 이벤트 리스너 등록
-  * *component.addXXXListener(listener)
+  * *component.addXXXListener(listener)*
     * XXX : 이벤트 명, listener : 이벤트 리스터 객체
     
 ~~~java
