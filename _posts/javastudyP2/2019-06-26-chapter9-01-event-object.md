@@ -1,12 +1,12 @@
 ---
-title: "JAVA 26. Event Object and Listener Interface"
+title: "JAVA 26. Event Object"
 date: 2019-06-26
 categories: JAVA
 ---
 
 {% include java3.md %}
 
-# Event Object and Listener Interface
+# Event Object
 
 ## Event Driven Programming (이벤트 기반 프로그래밍)
 
@@ -72,6 +72,5 @@ TextEvent | TextField | 텍스트 변경
 TextEvent | TextArea | 텍스트 변경
 WindowEvent | Window | Window를 상속받는 모든 컴포넌트에 대해 윈도우 활성화, 비활성화, 아이콘화, 아이콘에서 복구, 왼도우 열기, 닫기, 종류
 
-
-
+ 
 {% include support.md %}
