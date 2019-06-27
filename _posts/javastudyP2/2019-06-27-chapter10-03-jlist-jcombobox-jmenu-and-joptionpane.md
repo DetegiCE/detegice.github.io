@@ -126,6 +126,74 @@ categories: JAVA
 [연습문제 2 : 예시답안](https://github.com/DetegiCE/JavaStudy/blob/master/chapter10/JMenuAction.java)
 
 
+## JOptionPane
+
+* JOptionPane : 팝업 다이얼로그
+  * 사용자에게 메시지를 전달하거나 문자열을 간단히 입력받는 용도
+  * JOptionPane 클래스를 이용하여 생성
+  
+* **입력 다이얼로그**
+  * 한 줄 입력받는 다이얼로그
+  * *static String JOptionPane.showInputDialog(String msg)*
+    * msg : 다이얼로그 메시지
+    * 리턴 값 : 사용자가 입력한 문자열. 취소 선택하거나 창이 닫히면 null
+    
+  * ~~~java
+    String name = JOptionPane.showInputDialog("이름을 입력하세요.");
+    ~~~
+    
+  * ![1010](https://user-images.githubusercontent.com/26007107/60235996-ad5c8d00-98e4-11e9-97cc-cd2e5b8199bc.png)
+  
+* **확인 다이얼로그**
+  * 사용자로부터 YES/NO 응답을 입력받는 다이얼로그
+  * *static int JOptionPane.showConfirmDialog(Component parentComponent, Object msg, String title, int optionType)*
+    * parentComponent : 다이얼로그가 출력되는 영역의 범위 지정. null이면 전체 화면 중앙에 출력
+    * msg : 다얼로그 메시지
+    * title : 다이얼로그 타이틀
+    * optionType : 다이얼로그 옵션 종류 지정
+      * YES_NO_OPTION, YES_NO_CANCEL_OPTION, OK_CANCEL_OPTION
+    * 리턴 값 : 사용자가 선택한 옵션 종류
+      * YES_OPTION, NO_OPTION, CANCEL_OPTION, OK_OPTION, CLOSED_OPTION 
+    
+  * ~~~java
+    int res = JOptionPane.showConfirmDialog(null, "진행하시겠습니까?", "Confirm", JOptionPane.YES_NO_CANCEL_OPTION);
+    ~~~
+    
+  * ![1011](https://user-images.githubusercontent.com/26007107/60236165-586d4680-98e5-11e9-8133-deb2b35d14cd.png)
+
+* **메시지 다이얼로그**
+  * 단순 메시지를 출력하는 다이얼로그
+  * *static void JOptionPane.showMessageDialog(Component parentComponent, Obj msg, String title, int messageType)*
+    * parentComponent : 다이얼로그가 출력되는 영역의 범위 지정. null이면 전체 화면 중앙에 출력
+    * msg : 다이얼로그 메시지
+    * title : 다이얼로그 타이틀
+    * messageType : 다이얼로그 아이콘
+      * ERROR_MESSAGE, INFORMATION_MESSAGE, WARNING_MESSAGE, QUESTION_MESSAGE, PLAIN_MESSAGE
+  
+  * ~~~java
+    JOptionPane.showMessageDialog(null, "그것도 점수입니까?", "Are You Human?", JOptionPane.WARNING_MESSAGE);
+    ~~~
+  
+  * ![1012](https://user-images.githubusercontent.com/26007107/60237555-ca459000-98e5-11e9-8da7-09e03af7b09b.png)
+
+> **연습문제 3 : 구성은 아래의 그림과 같다. "Input Score" 버튼을 누르면 점수를 입력하게 하라. 그리고 입력한 버튼을 TextField에 출력하라. "Confirm" 버튼을 누르면 진행할 것인지 물어본다. 진행할 경우, Input Score과 Confirm 버튼, TextField은 비활성화한다. 진행하지 않을 경우, 아무런 변화가 없다. "Message" 버튼을 누르면 70점을 기준으로 하여 높으면 긍정적인 멘트를, 낮으면 부정적인 멘트를 팝업 다이얼로그로 띄우는 프로그램 JOptionPaneScore.java를 작성하시오.**
+>
+> 프레임제목 "OptionPane 예제", 프레임 크기 400 x 200
+>
+> JButton은 객체 배열로 생성하시오.
+>
+> 컨텐트팬의 배치관리자는 BorderLayout이다.
+>
+> JButton과 JTextField는 하나의 JPanel에 넣으시오. JPanel의 배치관리자는 FlowLayout이다.
+>
+> JTextField은 10칸짜리이다.
+>
+> 문자열을 정수로 바꾸는 메소드는 *int Integer.parseInt(String)* 이다.
+>
+> ![1013](https://user-images.githubusercontent.com/26007107/60239265-04179600-98e8-11e9-9653-e272b6f90e5c.png)
+
+
+[연습문제 3 : 예시답안](https://github.com/DetegiCE/JavaStudy/blob/master/chapter10/JOptionPaneScore.java)
 
 
 
