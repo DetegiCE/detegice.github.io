@@ -66,4 +66,67 @@ categories: JAVA
 [연습문제 1 : 예시답안](https://github.com/DetegiCE/JavaStudy/blob/master/chapter10/JComboBoxCol.java)
 
 
+## JMenu
+
+* 메뉴 만들기에 필요한 컴포넌트
+  * JMenuItem : 메뉴 아이템
+  * JMenu : 메뉴
+  * JMenuBar : 메뉴바
+  * addSeparator() : 분리선
+  
+* 메뉴 만드는 과정
+  * JMenuBar 컴포넌트 생성
+  
+  ~~~java
+  JMenuBar mb = new JMenuBar();
+  ~~~
+  
+  * JMenu 컴포넌트를 생성하여 JMenuBar에 붙임
+  
+  ~~~java
+  JMenu fileMenu = new JMenu("File");
+  mb.add(fileMenu);
+  ~~~
+  
+  * JMenuItem 컴포넌트를 생성하여 JMenu에 붙임
+  
+  ~~~java
+  fileMenu.add(new JMenuItem("Open"));
+  ~~~
+  
+  * JMenuBar 컴포넌트를 JFrame에 붙임
+  
+  ~~~java
+  frame.setJMenuBar(mb);
+  ~~~
+  
+* [JMenu 예시 코드](https://github.com/DetegiCE/JavaStudy/blob/master/chapter10/JMenuEx.java)
+  * ![1008](https://user-images.githubusercontent.com/26007107/60235071-7b95f700-98e1-11e9-9583-3de2c5a71a64.png)
+
+* JMenu에 이벤트 달기
+  * 메뉴 아이템은 클릭하면 Action 발생
+  * 사용자로부터의 지시나 명령을 받는데 사용
+  * ActionListener 인터페이스로 리스너 작성
+  * 각 메뉴 아이템마다 이벤트 리스너 설정
+  
+> **연습문제 2 : Picture 메뉴에 4개의 메뉴 아이템을 만들고, "KOREA"를 선택하면 koreauniv.jpg를 출력하고, "Hide"를 선택하면 이미지를 숨기며, "YONSEI"를 선택하면 yonseiuniv.jpg를 출력하고, "Exit"를 선택하면 프로그램을 종료하는 프로그램 JMenuAction.java를 작성하시오.**
+>
+> 프레임 제목 "정문사진", 프레임 크기 806 x 500
+>
+> 컨텐트팬의 배치관리자 : BorderLayout
+>
+> JMenuItem은 객체 배열로 선언하시오
+>
+> JMenuItem의 메뉴명은 *getActionCommand()* 메소드로 불러올 수 있습니다.
+>
+> 사진은 JLabel로 띄우며, *setIcon(ImageIcon)* 메소드로 설정할 수 있습니다.
+>
+> ![1009](https://user-images.githubusercontent.com/26007107/60235804-f5c77b00-98e3-11e9-8909-28c5aaba3068.png)
+
+[연습문제 2 : 예시답안](https://github.com/DetegiCE/JavaStudy/blob/master/chapter10/JMenuAction.java)
+
+
+
+
+
 {% include support.md %}
