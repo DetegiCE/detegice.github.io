@@ -189,4 +189,4 @@ categories: JAVA
 [연습문제 5 : 예시답안](https://github.com/DetegiCE/JavaStudy/blob/master/chapter10/JTextAreaNames.java)
 
 
-{% import support.md %}
+{% include support.md %}
