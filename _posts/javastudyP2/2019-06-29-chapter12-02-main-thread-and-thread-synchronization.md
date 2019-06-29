@@ -93,5 +93,8 @@ void execute(String text) {
 	
 ![1202](https://user-images.githubusercontent.com/26007107/60382684-c8283080-9aa1-11e9-8cad-3e0139b85354.png)
 
-	
-	
+> **연습문제 3 : [이 코드](https://github.com/DetegiCE/JavaStudy/blob/master/chapter12/TabAndThreadEx.java)에서 동기화가 되는 부분이 어느 부분인지 설명하고, 발생 가능한 오류를 모두 찾아 수정하시오.**
+>
+> 정답 없음
+
+{% include support.md %}
