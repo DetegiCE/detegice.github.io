@@ -115,5 +115,11 @@ categories: JAVA
   component.getParent().repaint();
   ~~~
     
+* [repaint() 예시 코드](https://github.com/DetegiCE/JavaStudy/blob/master/chapter11/RepaintOval.java)
+
+> **연습문제 2 : 위의 예시 코드는 타원을 그리면 흔적이 남는다. 흔적이 남지 않도록 프로그램을 수정하시오.**
+
+[연습문제 2 : 예시답안](https://github.com/DetegiCE/JavaStudy/blob/master/chapter11/RepaintOval_.java)
     
     
+{% include support.md %}
