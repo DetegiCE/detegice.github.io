@@ -108,7 +108,11 @@ categories: JAVA
 
 > **연습문제 1 : draw와 fill을 이용해서 놀아보자.**
 
+[재미없게 놀아본 코드 예시](https://github.com/DetegiCE/JavaStudy/blob/master/chapter11/GraphicsFillEx.java)
 
+<details><summary>재미없게 놀아본 코드 출력</summary>
+<img src="https://user-images.githubusercontent.com/26007107/60380447-aff3e980-9a80-11e9-881f-be6d5c2c21dc.png">
+</details>
 
 
 
