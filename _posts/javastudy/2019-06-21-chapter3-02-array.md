@@ -117,7 +117,7 @@ int size = intArray.length; //size = 5
 
 ## for-each 문
 
-* for-each문 : 배열이나 나열(enum)의 원소를 순차접근할때 유용한 fora문
+* for-each문 : 배열이나 나열(enum)의 원소를 순차접근할때 유용한 for문
 
 ~~~java
 for(변수 : 배열레퍼런스) {
