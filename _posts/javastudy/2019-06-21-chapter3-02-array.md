@@ -135,7 +135,7 @@ for(int k : n) {
 
 > **연습문제 3 : 양수 5개를 받아 배열에 저장한 후, for-each 문을 활용하여 배열의 합을 구하는 프로그램 ForEachSum.java를 작성하시오.**
 
-[연습문제 3 : 예시풀이]
+[연습문제 3 : 예시풀이](https://github.com/DetegiCE/JavaStudy/blob/master/chapter3/ForEachSum.java)
 
 
 ## 2차원 배열
