@@ -88,7 +88,7 @@ categories: JAVA
 | 다른 패키지의 클래스 | X | X | X | O|
 | 접근 가능 영역 | 클래스 내 | 동일 패키지 내 | 동일 패키지와 자식 클래스 | 모든 클래스 |
 
-<details><summary>public member</summary>
+<details><summary>private member</summary>
 <img src="https://user-images.githubusercontent.com/26007107/59971085-4b341d00-95b0-11e9-9691-11cfa1e9778d.png">
 </details>
 
