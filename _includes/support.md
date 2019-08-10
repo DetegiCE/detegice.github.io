@@ -12,4 +12,3 @@
 
 <!-- </center> -->
 
-{% include ad.html %}
