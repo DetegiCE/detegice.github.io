@@ -103,3 +103,4 @@ Text(0, 0.5, '점수')
 
 다음번엔 이거를 고쳐보도록하자.
 
+[오늘 쓴 코드(fig1.py)](https://github.com/DetegiCE/PythonStudy/blob/master/matplotlib/fig1.py)
