@@ -101,6 +101,7 @@ bool emptyStack(STACK* stack) {
 int stackCount(STACK* stack) {
   return stack->count;
 }
+~~~
 
 ## 굳이 필요없는 연산
 
