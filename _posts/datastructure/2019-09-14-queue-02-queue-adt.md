@@ -1,5 +1,5 @@
 ---
-title: "큐 ADT"
+title: "Queue 02. 큐 ADT"
 date: 2019-09-14
 categories: data_structure queue
 ---
