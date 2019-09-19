@@ -13,17 +13,22 @@ categories: java
 ### Description
 
 **WithCS 4429 : 16진법 예외처리**
+
 Sample Code를 참고하여 입력 문자열이 16진법이 아니면 16진법 예외가 발생한 위치를 알려주는 프로그램을 구현하시오.
+
 본 문제에서 사용하는 16진법은 아라비아 숫자와 알파벳 대문자__(소문자는 예외처리)__로만 표현된 숫자라고 가정한다. 0X, 0x 표기는 생략한다.
 
 ### Input
 
 Line 1 : 문자열의 개수 N
+
 Line 2 ~ 1+N : 16진법이거나 아닌 문자열들
 
 ### Output
 Line 1 ~ N : 16진법이라면 10진수로 변환 /
+
 16진법이 아니라면
+
 HexFormatException: Illegal hex character: "16진법이 아닌 문자" 출력
 
 ### Sample Code
