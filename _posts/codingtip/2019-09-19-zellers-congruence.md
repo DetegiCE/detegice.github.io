@@ -20,6 +20,10 @@ categories: mathematics
 
 **단, 1월 2월의 경우, 연을 1씩 빼줘야 합니다.**
 
+이 공식을 이용해 달력을 출력하는 경우, 해당 월의 1일의 요일을 알아낸 다음
+
+2차원 배열을 이용해 채워나가면 됩니다.
+
 ## Java 예시
 
 ~~~java
@@ -44,3 +48,5 @@ public class Zeller {
 	}
 }
 ~~~
+
+{% include support.md %}
