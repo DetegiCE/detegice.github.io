@@ -2,7 +2,7 @@
 
 >**Thanks for watching my post!**
 
->**Please support me!** -->
+>**Please support me!**
 
 <center> 
   
