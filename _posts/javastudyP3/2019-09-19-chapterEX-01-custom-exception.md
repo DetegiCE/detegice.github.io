@@ -127,4 +127,4 @@ if(str.charAt(i) == 'G') {
 }
 ~~~
 
-{@ include support.md %}
+{% include support.md %}
