@@ -123,7 +123,7 @@ class HexFormat {
 
 ~~~java
 if(str.charAt(i) == 'G') {
-  throws new HexFormatException(str.charAt(i));
+  throw new HexFormatException(str.charAt(i));
 }
 ~~~
 
