@@ -29,4 +29,14 @@ categories: c-language file
 |``#``|specifier에서 ``o``, ``x``, ``X``에서 0이 아닌 수에 대해 ``0``, ``0x``, ``0X``으로 시작함.<br>``a``, ``A``, ``e``, ``E``, ``f``, ``F``, ``g``, ``G``와 오는 경우, 뒤에 소수가 없더라도 소수점이 포함<br>Used with ``o``, ``x``, ``X`` specifiers the value is preceeded with ``0``, ``0x``, ``0X`` respectively for values different than zero.<br>Used with ``a``, ``A``, ``e``, ``E``, ``f``, ``F``, ``g``, ``G``, it forces the written output to contain a decimal point even if no more digits follow.|
 |``0``|왼쪽에 공백이 있는 경우 0으로 대체함<br>Left-pads the number with zeros instead of spaces when padding is specified.|
 
+## width
 
+| width | description |
+|:---:|:---|
+|_(Number)_|출력될 너비를 설정. 출력 값이 길이보다 작을 경우 나머지는 공백. 클 경우에는 값 무시.<br>Minimum number of characters to be printed. If the value to be printed is shorter than this number, the result is padded with blank. The value is not truncated even if the result is larger.|
+
+## .precision
+
+| .precision | description |
+|:---:|:---|
+|``.``_(Number)_|asdfasdf|
