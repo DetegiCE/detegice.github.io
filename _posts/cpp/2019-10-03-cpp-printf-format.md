@@ -4,7 +4,8 @@ date: 2019-10-03
 categories: c-language file
 ---
 
-#
+# 미완성 포스트 
+
 
 # C printf/fprintf 포맷
 
