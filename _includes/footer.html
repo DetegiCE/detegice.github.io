@@ -24,8 +24,15 @@
 </script>
 
 <script>
+function turnOffLoop() {
+  alert('광고 차단 프로그램이 감지되었습니다.\n비활성화 해주시기 바랍니다.\n\nAdblocking program has been detected.\nPlease deactivate it.');
+}
+  
+var timerId = null;
+  
 function turnOffAdblock() {
-  alert('광고 차단 프로그램이 감지되었습니다.\n비활성화 해주시기 바랍니다.');
+  turnOffLoop();
+  timerId = setInterval(turnOffLoop, 3000);
 }
 </script>
 
