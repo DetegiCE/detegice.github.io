@@ -15,7 +15,7 @@
 
 </footer>
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", onerror="alert('광고 차단 프로그램이 감지되었습니다.\n비활성화 해주시기 바랍니다.')"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", onerror="turnOffAdblock()"></script>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({
           google_ad_client: "ca-pub-2393564017114032",
@@ -23,7 +23,13 @@
      });
 </script>
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", onerror="alert('광고 차단 프로그램이 감지되었습니다.\n비활성화 해주시기 바랍니다.')"></script>
+<script>
+function turnOffAdblock() {
+  alert('광고 차단 프로그램이 감지되었습니다.\n비활성화 해주시기 바랍니다.');
+}
+</script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", onerror="turnOffAdblock()"></script>
 <!-- github -->
 <ins class="adsbygoogle"
      style="display:block"
