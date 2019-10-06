@@ -1,4 +1,3 @@
 ---
-layout: categories
-title: JAVA
+redirect: "/java.md"
 ---
