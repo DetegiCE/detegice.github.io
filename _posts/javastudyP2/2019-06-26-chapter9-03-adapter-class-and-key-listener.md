@@ -1,7 +1,7 @@
 ---
 title: "JAVA 28. Adapter Class and Key Listener"
 date: 2019-06-26
-categories: JAVA
+categories: java gui
 ---
 
 {% include java3.md %}
