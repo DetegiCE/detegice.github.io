@@ -1,7 +1,7 @@
 ---
 title: "JAVA 13. static and final"
 date: 2019-06-23
-categories : JAVA
+categories : java
 ---
 
 {% include java.md %}
