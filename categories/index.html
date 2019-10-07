@@ -12,9 +12,9 @@ permalink: /categories
     {% for categoryName in eachCategory[0] %}
       {% if categoryName != null %}
       <li>
-        <span><a href="/categories/{{ categoryName }}">
+        <h3><a href="/categories/{{ categoryName }}">
           {{ categoryName }}
-        </a></span>
+        </a></h3>
         <span class="count">{{ eachCategory[1].size }}</span>
     </li>
     {% endif %}
