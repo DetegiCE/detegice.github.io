@@ -1,7 +1,7 @@
 ---
 title: "ASCII Code (아스키 코드)"
 date: 2019-06-19
-categories: Computer_Science
+categories: computer_science
 ---
 
 > 이 페이지의 주소는 **https://detegice.github.io/ascii-code-kr** 입니다
