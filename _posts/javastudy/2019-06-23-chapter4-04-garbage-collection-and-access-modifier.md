@@ -1,7 +1,7 @@
 ---
 title: "JAVA 12. Garbage Collection and Access Modifier"
 date: 2019-06-23
-categories: JAVA
+categories: java
 ---
 
 {% include java.md %}
