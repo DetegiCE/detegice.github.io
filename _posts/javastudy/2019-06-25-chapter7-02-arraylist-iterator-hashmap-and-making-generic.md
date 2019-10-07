@@ -1,7 +1,7 @@
 ---
 title: "JAVA 22. ArrayList, Iterator, HashMap and Making Generic"
 date: 2019-06-25
-categories: JAVA
+categories: java
 ---
 
 {% include java2.md %}
