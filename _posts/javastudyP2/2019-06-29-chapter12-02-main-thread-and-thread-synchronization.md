@@ -1,7 +1,7 @@
 ---
 title: "JAVA 36. main Thread and Thread Synchronization"
 date: 2019-06-29
-categories: java gui
+categories: java
 ---
 
 {% include java4.md %}
