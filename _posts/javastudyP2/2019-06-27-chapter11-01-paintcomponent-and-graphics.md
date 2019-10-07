@@ -1,7 +1,7 @@
 ---
 title: "JAVA 33. paintComponent and Graphics"
 date: 2019-06-27
-categories: JAVA
+categories: java gui
 ---
 
 {% include java3.md %}
