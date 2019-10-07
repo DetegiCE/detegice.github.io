@@ -1,7 +1,7 @@
 ---
 title: "ASCII Code (ASCIIコード)"
 date: 2019-06-19
-categories: Computer_Science
+categories: computer_science japanese
 ---
 
 > このページのアドレスは**https://detegice.github.io/ascii-code-jp**です。
