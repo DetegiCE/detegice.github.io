@@ -1,7 +1,7 @@
 ---
 title: "JAVA 23. About JAVA GUI"
 date: 2019-06-25
-categories: JAVA
+categories: java gui
 ---
 
 {% include java3.md %}
