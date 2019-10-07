@@ -1,7 +1,7 @@
 ---
 title: "JAVA 34. Images and repaint"
 date: 2019-06-27
-categories: JAVA
+categories: java gui
 ---
 
 {% include java3.md %}
