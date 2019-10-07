@@ -1,7 +1,7 @@
 ---
 title: "JAVA 17. Abstract Class and Interface"
 date: 2019-06-24
-categories: JAVA
+categories: java
 ---
 
 {% include java2.md %}
