@@ -1,7 +1,7 @@
 ---
 title: "JAVA 29. Mouse Event"
 date: 2019-06-26
-categories: JAVA
+categories: java gui
 ---
 
 {% include java3.md %}
