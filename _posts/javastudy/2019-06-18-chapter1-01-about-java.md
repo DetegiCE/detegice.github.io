@@ -1,7 +1,7 @@
 ---
 title: "JAVA 01. About JAVA"
 date: 2019-06-18
-categories: JAVA
+categories: java
 ---
 
 {% include java.md %}
