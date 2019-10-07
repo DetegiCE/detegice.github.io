@@ -1,7 +1,7 @@
 ---
 title: "Linked List Practice"
 date: 2019-06-12 12:43:11 +0900
-categories: Data_Structure C_Language
+categories: data_structure c_language
 ---
 
 inserting characters in alphabetical order (function *insert*)
