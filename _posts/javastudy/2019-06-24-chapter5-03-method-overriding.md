@@ -1,7 +1,7 @@
 ---
 title: "JAVA 16. Method Overriding"
 date: 2019-06-24
-categories: JAVA
+categories: java
 ---
 
 {% include java2.md %}
