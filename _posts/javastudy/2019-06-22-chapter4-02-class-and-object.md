@@ -1,7 +1,7 @@
 ---
 title: "JAVA 10. Class and Object"
 date: 2019-06-22
-categories: JAVA
+categories: java
 ---
 
 {% include java.md %}
