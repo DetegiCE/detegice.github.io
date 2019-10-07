@@ -1,7 +1,7 @@
 ---
 title: "JAVA 30. JComponent, JLabel and JButton"
 date: 2019-06-27
-categories: JAVA
+categories: java gui
 ---
 
 {% include java3.md %}
