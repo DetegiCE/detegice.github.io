@@ -1,7 +1,7 @@
 ---
 title: "JAVA 04. Input and Operators"
 date: 2019-06-19
-categories : JAVA
+categories : java
 ---
 
 {% include java.md %}
