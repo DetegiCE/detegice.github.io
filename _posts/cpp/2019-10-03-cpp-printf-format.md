@@ -1,7 +1,7 @@
 ---
 title: "C printf/fprintf format"
 date: 2019-10-03
-categories: c_language
+categories: c_language stdio
 ---
 
 # C printf/fprintf 포맷
