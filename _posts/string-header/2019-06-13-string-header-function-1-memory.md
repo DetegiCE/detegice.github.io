@@ -1,7 +1,7 @@
 ---
 title: "&lt;string.h&gt; header functions (1) - memory"
 date: 2019-06-13
-categories: C_Language string.h
+categories: c_language string
 ---
 
 # Memory Related Function
