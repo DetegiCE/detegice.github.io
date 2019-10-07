@@ -1,7 +1,7 @@
 ---
 title: "JAVA 25. Container Layout Manager"
 date: 2019-06-25
-categories: JAVA
+categories: java gui
 ---
 
 {% include java3.md %}
