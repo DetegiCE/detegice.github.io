@@ -1,7 +1,7 @@
 ---
 title: "JAVA 14. Inheritance"
 date: 2019-06-23
-categories: JAVA
+categories: java
 ---
 
 {% include java2.md %}
