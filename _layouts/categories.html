@@ -12,7 +12,7 @@ layout: default
         {% endif %}
             {{ post.title }} 
             </a></strong>
-          <time>{{ post.date }}</time>
+          <time>{{ post.date | date: "%b %d, %Y" }}</time>
       </li>
       {% endif %}
   </ul>
