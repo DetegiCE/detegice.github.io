@@ -1,7 +1,7 @@
 ---
 title: "JAVA 19. Object Class and Wrapper Class"
 date: 2019-06-25
-categories: JAVA
+categories: java
 ---
 
 {% include java2.md %}
