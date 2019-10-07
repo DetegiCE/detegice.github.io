@@ -1,7 +1,7 @@
 ---
 title: "ASCII Code"
 date: 2019-06-19
-categories: Computer_Science
+categories: computer_science english
 ---
 
 > The address of this page is **https://detegice.github.io/ascii-code**
