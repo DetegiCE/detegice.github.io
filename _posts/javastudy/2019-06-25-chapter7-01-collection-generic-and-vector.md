@@ -1,7 +1,7 @@
 ---
 title: "JAVA 21. Collection, Generic and Vector"
 date: 2019-06-25
-categories: JAVA
+categories: java
 ---
 
 {% include java2.md %}
