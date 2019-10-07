@@ -1,7 +1,7 @@
 ---
 title : "JAVA 35. Java Thread"
 date: 2019-06-29
-categories: java gui
+categories: java
 ---
 
 {% include java4.md %}
