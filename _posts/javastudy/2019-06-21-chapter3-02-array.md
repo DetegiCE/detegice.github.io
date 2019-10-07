@@ -1,7 +1,7 @@
 ---
 title: "JAVA 07. Array"
 date: 2019-06-21
-categories: JAVA
+categories: java
 ---
 
 {% include java.md %}
