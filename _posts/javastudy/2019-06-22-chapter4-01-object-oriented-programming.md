@@ -1,7 +1,7 @@
 ---
 title: "JAVA 09. Object Oriented Programming"
 date: 2019-06-22
-categories: JAVA
+categories: java
 ---
 
 {% include java.md %}
