@@ -1,7 +1,7 @@
 ---
 title: "JAVA 18. Package"
 date: 2019-06-25
-categories: JAVA
+categories: java
 ---
 
 {% include java2.md %}
