@@ -1,7 +1,7 @@
 ---
 title: "JAVA 20. String and Math Class"
 date: 2019-06-25
-categories: JAVA
+categories: java
 ---
 
 {% include java2.md %}
