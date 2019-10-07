@@ -1,7 +1,7 @@
 ---
 title: "JAVA 11. Object Array and Method Overloading"
 date: 2019-06-23
-categories: JAVA
+categories: java
 ---
 
 {% include java.md %}
