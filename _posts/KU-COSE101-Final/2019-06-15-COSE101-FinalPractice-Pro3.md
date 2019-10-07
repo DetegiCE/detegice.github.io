@@ -1,7 +1,7 @@
 ---
 title: "KU COSE101 2019기말대비 연습문제 3번"
 date: 2019-06-15
-categories: C_Language
+categories: c_language ku
 ---
 
 | | | | | | |
