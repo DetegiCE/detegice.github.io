@@ -1,7 +1,7 @@
 ---
 title: "&lt;string.h&gt; header functions (4) - Search"
 date: 2019-06-20
-categories: C_Language string.h
+categories: c_language string
 ---
 
 # Search Functions
