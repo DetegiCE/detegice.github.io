@@ -1,7 +1,7 @@
 ---
 title: "JAVA 03. Literal, Constant and Data Type Conversion"
 date: 2019-06-19
-categories: JAVA
+categories: java
 ---
 
 {% include java.md %}
