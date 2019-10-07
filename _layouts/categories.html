@@ -4,15 +4,15 @@ layout: default
 {% for post in site.categories[page.title] %}
   <ul class="category">
     {% if post.title != null %}
-      <li>
+      <li><strong>
         {% if post.link %}
           <a href="{{ post.link }}">
         {% else %}
           <a href="{{ site.baseurl }}{{ post.url }}">
         {% endif %}
             {{ post.title }} 
-            </a>
-          <time>{{ post.date }}</time>
+            </a></strong>
+          <time>{{ post.date | date = "%mm %dd, %Y }}</time>
       </li>
       {% endif %}
   </ul>
