@@ -1,7 +1,7 @@
 ---
 title : "JAVA 15. Upcasting, Downcasting and instanceof"
 date: 2019-06-23
-categories: JAVA
+categories: java
 ---
 
 {% include java2.md %}
