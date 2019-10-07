@@ -1,7 +1,7 @@
 ---
 title: "Zeller's Congruence (제라의 공식)"
 date: 2019-09-19
-categories: mathematics
+categories: math
 ---
 
 # Zeller's Congruence (제라의 공식)
