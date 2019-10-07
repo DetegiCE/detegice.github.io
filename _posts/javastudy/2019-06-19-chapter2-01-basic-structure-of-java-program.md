@@ -1,7 +1,7 @@
 ---
 title: "JAVA 02. Basic Structure of Java Program"
 date: 2019-06-19
-categories: JAVA
+categories: java
 ---
 
 {% include java.md %}
