@@ -1,7 +1,7 @@
 ---
 title: "JAVA 05. if-else, switch-case"
 date: 2019-06-20
-categories: JAVA
+categories: java
 ---
 
 {% include java.md %}
