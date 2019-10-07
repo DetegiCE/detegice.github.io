@@ -1,7 +1,7 @@
 ---
 title: "JAVA 32. JList, JComboBox, JMenu and JOptionPane"
 date: 2019-06-27
-categories: JAVA
+categories: java gui
 ---
 
 {% include java3.md %}
