@@ -1,7 +1,7 @@
 ---
 title: "&lt;string.h&gt; header functions (3) - Comparison"
 date: 2019-06-17
-categories: C_Language string.h
+categories: c_language string
 ---
 
 # Compare Functions
