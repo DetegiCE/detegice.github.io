@@ -75,31 +75,31 @@ end createList
 
 1. 빈 리스트에 값을 넣는 경우
 
-  ~~~c
-  set pNew link to list head
-  set list head to pNew
-  ~~~
+~~~c
+set pNew link to list head
+set list head to pNew
+~~~
   
-1. 맨 앞에 넣는 경우
+2. 맨 앞에 넣는 경우
 
-  ~~~c
-  set pNew link to list head
-  set list head to pNew
-  ~~~
+~~~c
+set pNew link to list head
+set list head to pNew
+~~~
   
-1. 중간에 넣는 경우
+3. 중간에 넣는 경우
 
-  ~~~c
-  set pNew link to pPre link
-  set pPre link to pNew
-  ~~~
+~~~c
+set pNew link to pPre link
+set pPre link to pNew
+~~~
   
-1. 마지막에 넣는 경우
+4. 마지막에 넣는 경우
 
-  ~~~c
-  set pNew link to null pointer
-  set pPre link to pNew
-  ~~~
+~~~c
+set pNew link to null pointer
+set pPre link to pNew
+~~~
 
 전체
 ~~~c
@@ -120,18 +120,18 @@ end insertNode
 ### deletion
 
 1. 맨 앞 값을 지우는 경우
+~~~c
+set list head to pLoc link
+recycle(pLoc)
+~~~
+  
+2. 그 외의 경우
+  
+~~~c
+set pPre link to pLoc link
+recycle(pLoc)
+~~~
 
-  ~~~c
-  set list head to pLoc link
-  recycle(pLoc)
-  ~~~
-  
-1. 그 외의 경우
-  
-  ~~~c
-  set pPre link to pLoc link
-  recycle(pLoc)
-  
 전체
 
 ~~~c
