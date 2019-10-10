@@ -28,7 +28,7 @@ categories: data_structure linear_list
 
 ### traversal
 
-* 데이터의 존재 여부를 반환
+* 리스트의 순회
 
 ![list01](https://user-images.githubusercontent.com/26007107/66530030-f0afd400-eb40-11e9-8a20-16e30d002891.PNG)
 
