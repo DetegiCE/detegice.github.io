@@ -84,3 +84,36 @@ int addNode (LIST* pList, void* dataInPtr) {
   return 0;
 }
 ~~~
+
+## internal function
+
+### insert
+
+~~~c
+static bool _insert (LIST* pList, NODE* pPre, void* dataInPtr) {
+  NODE* pNew;
+  
+  if(!(pNew = (NODE*)malloc(sizeof(NODE))))
+    return false;
+    
+  pNew->dataPtr = dataInPtr;
+  pNew->link = NULL;
+  
+  if (pPre == NULL) {
+    pNew -> link = pList -> head;
+    pList -> head = pNew;
+    if (pList -> count == 0) 
+      pList -> rear = pNew;
+  }
+  else {
+    pNew -> link = pPre -> link;
+    pPre -> link = pNew;
+    
+    if (pNew -> link = NULL)
+      pList -> rear = pNew;
+  }
+  
+  (pList -> count)++;
+  return true;
+}
+~~~
