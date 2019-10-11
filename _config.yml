@@ -121,7 +121,7 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/DetegiCE/"
-    - label: "Categories"
+    - label: "[ Blog Categories ]"
       icon: "fa-li fa fa-square"
       url: "https://detegice.github.io/categories"
     - label: "Facebook"
