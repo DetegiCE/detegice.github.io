@@ -36,6 +36,26 @@ categories: data_structure linear_list
 
 <script src="https://gist.github.com/DetegiCE/4e544cb30490821e51a9eb01e034602a.js"></script>
 
+## Traverse List
+
+<script src="https://gist.github.com/DetegiCE/323d44a69ffc9a23f8431d164ebfdcc9.js"></script>
+
+## Empty List
+
+<script src="https://gist.github.com/DetegiCE/fb2b55c459d7f257ec7f39c38ddf76b2.js"></script>
+
+## Full List
+
+<script src="https://gist.github.com/DetegiCE/af3bb7a20fe96d3eae990665c9b92ec7.js"></script>
+
+## List Count
+
+<script src="https://gist.github.com/DetegiCE/65e9854891f1a2da0a62dad18a633208.js"></script>
+
+## Destroy List
+
+<script src="https://gist.github.com/DetegiCE/7f78c13875132cfab7089c5ef1f4ef1d.js"></script>
+
 ## internal function
 
 ### insert
