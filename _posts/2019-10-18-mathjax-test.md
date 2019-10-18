@@ -2,8 +2,9 @@
 title: "MathJax Test"
 date: 2019-10-18
 categories: blog
-use_math: true
 ---
+
+{% include mathjax_support.html %}
 
 This formula $f(x) = x^2$ is an example.
 
