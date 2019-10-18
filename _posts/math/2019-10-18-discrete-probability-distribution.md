@@ -80,3 +80,33 @@ $$
 \sigma ^2 = npq = n \cdot \frac{k}{N} \left( 1- \frac{k}{N} \right)
 $$
 
+## Negative Binomial Distribution 음이항분포
+
+독립적인 반복시행에서 성공확률이 $p$, 실패확률이 $q$라 하면, $k$번째 성공이 일어날 때까지의 시행횟수인 확률변수 $X$의 확률분포는
+
+$$
+b^* (x;k,p) = \binom{x-1}{k-1} p^k q^{x-k}, x = k, k+1, k+2, \cdots
+$$
+
+로 주어진다.
+
+## Geometric Distribution 기하분포
+
+독립적인 반복시행에서 성공확률이 $p$, 실패확률이 $q=1-p$라 할 때, 첫 번째 성공이 일어날 때 까지의 시행횟수인 확률변수 $X$의 확률분포는 
+
+$$
+g(x;p) = pq^{x-1}, x=1, 2, 3, \cdots
+$$
+
+으로 주어진다.
+
+기하분포를 따르는 확률변수의 평균과 분산은 각각 다음과 같다.
+
+$$
+\mu = \frac{1}{p}
+$$
+
+$$
+\sigma ^2 = \frac{1-p}{p^2}
+$$
+
