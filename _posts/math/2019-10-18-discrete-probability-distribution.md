@@ -55,3 +55,15 @@ $k$개의 성공과 $N-k$개의 실패로 구성된 크기 $N$인 유한모집�
 $$
 h(x;N,n,k) = \frac{ \binom{k}{x} \binom{N-k}{n-x} }{ \binom{N}{n} }, max \{ 0, n-(N-k) \} \le x \le min \{ n, k \}
 $$
+
+초기하분포 $h(x;N,n,k)$ 의 평균과 분산은 다음과 같다.
+
+$$
+\mu = \frac{nk}{N}
+$$
+
+$$
+\sigma ^2 = \frac{N-n}{N-1} \cdot n \cdot \frac{k}{N} \left( 1- \frac{k}{N} \right)
+$$
+
+
