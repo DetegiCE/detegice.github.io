@@ -110,3 +110,14 @@ $$
 \sigma ^2 = \frac{1-p}{p^2}
 $$
 
+## Poisson Distribution 포아송 분포
+
+일정한 시간간격 $t$ 동안에 또는 일정영역 $t$에서 발생하는 결과의 수를 나타내는 포아송 확률변수 $X$의 확률분포는 다음과 같다.
+
+$$
+p(x; \lambda t) = \frac{ e^{- \lambda t} (\lambda t)^x }{x!} ,  x=0, 1, 2, \cdots
+$$
+
+여기서 $\lambda$는 단위시간 또는 단위면적에서 발생하는 결과의 평균수이고, $e=2.71828\cdots$이다.
+
+포아송 분포 $p(x; \lambda t)$의 평균과 분산은 $\lambda t$ 이다.
