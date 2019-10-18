@@ -1,14 +1,14 @@
 ---
-title: "Blog Categories"
 layout: default
 permalink: /categories/
 author_profile: true
 ---
+<h1 id="page-title" class="page__title">Posts by Category</h1>
 
 {% if site.posts.size == 0 %}
 <h2>No post found</h2>
 {% endif %}
-<div>
+<div class="archive">
   {% for eachCategory in site.categories %}
   <ul class="taxonomy__index">
     {% for categoryName in eachCategory[0] %}
@@ -23,4 +23,36 @@ author_profile: true
     {% endfor %}
   </ul>
   {% endfor %}
+  
+  {% for eachCategory in site.categories %}
+    {% for categoryName in eachCategory[0] %}
+      {% if categoryName != null %}
+      <section id="{{ categoryName }}" class="taxonomy__section">
+        <h2 class="archive__subtitle">{{ categoryName }}</h2>
+        <div class="entries-list">
+          {% for post in site.categories[page.title] %}
+            <div class="list__item">
+              {% if post.title != null %}
+                <strong>
+                  {% if post.link %}
+                    <a href="{{ post.link }}">
+                  {% else %}
+                    <a href="{{ site.baseurl }}{{ post.url }}">
+                  {% endif %}
+                  {{ post.title }}
+                      </a>
+                </strong>
+                  <time>{{ post.date | date: "%b %d, %Y" }}</time>
+              {% endif %}
+            </div>
+          {% endfor %}
+        </div>
+        <a href="#page-title" class="back-to-top">Back to top↑</a>
+      </section>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+  
+  
+  
 </div>
