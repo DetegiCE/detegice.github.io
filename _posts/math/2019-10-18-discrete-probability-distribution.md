@@ -15,3 +15,7 @@ f(x;k) = \frac{1}{k}, x = x_1, x_2, \cdots, x_k
 $$
 
 로 주어진다.
+
+이산형 균일분포의 평균과 분산은
+$\mu = \frac{1}{k} \sum_{i=1}^{k} x_i$ 와 $\sigma ^2 = \frac{1}{k} \sum_{i=1}^{k} (x_i - \mu)^2$
+이 된다.
