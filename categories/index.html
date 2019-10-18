@@ -30,7 +30,7 @@ author_profile: true
       <section id="{{ categoryName }}" class="taxonomy__section">
         <h2 class="archive__subtitle">{{ categoryName }}</h2>
         <div class="entries-list">
-          {% for post in site.categories[page.title] %}
+          {% for post in site.categories[categoryName] %}
             <div class="list__item">
               {% if post.title != null %}
                 <strong>
