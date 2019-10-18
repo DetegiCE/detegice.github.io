@@ -69,3 +69,7 @@ function turnOffAdblock() {
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
+{% if page.use_math %}
+  {% include mathjax_support.html %}
+{% endif %}
