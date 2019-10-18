@@ -121,3 +121,9 @@ $$
 여기서 $\lambda$는 단위시간 또는 단위면적에서 발생하는 결과의 평균수이고, $e=2.71828\cdots$이다.
 
 포아송 분포 $p(x; \lambda t)$의 평균과 분산은 $\lambda t$ 이다.
+
+$X$를 $b = (x;n,p)$를 따르는 이항확률변수라 하자. $n \rightarrow \inf, p \rightarrow 0$ 이고, $np \rightarrow \mu$가 상수이면,
+
+$$
+b(x;n,p) \rightarrow p(x; \mu)
+$$
