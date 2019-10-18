@@ -66,4 +66,17 @@ $$
 \sigma ^2 = \frac{N-n}{N-1} \cdot n \cdot \frac{k}{N} \left( 1- \frac{k}{N} \right)
 $$
 
+### 이항분포와의 관계
+
+초기하분포를 $p=k/N$ 인 이항분포로 근사시킬 수 있다.
+
+평균과 분산 또한 다음과 같이 근사시킬 수 있다.
+
+$$
+\mu = np = \frac{nk}{N}
+$$
+
+$$
+\sigma ^2 = npq = n \cdot \frac{k}{N} \left( 1- \frac{k}{N} \right)
+$$
 
