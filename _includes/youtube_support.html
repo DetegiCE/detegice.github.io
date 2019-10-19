@@ -1,1 +1,9 @@
-<iframe width="560" height="315" frameborder="0" allowfullscreen></iframe>
+{% if include.width != '' %}
+  <div style="width: {{include.width}}; margin:0 auto;">
+{% else %}
+  <div>
+{% endif %}
+  <div class="ytcontainer">
+    <iframe class="yt" allowfullscreen src="https://www.youtube.com/embed/{{include.id}}"></iframe>
+  </div>
+</div>
