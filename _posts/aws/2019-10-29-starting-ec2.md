@@ -1,5 +1,5 @@
 ---
-title: "EC2 시작하기"
+title: "[개인 서버 만들기] 2. EC2 시작하기"
 date: 2019-10-29
 categories: aws
 ---
