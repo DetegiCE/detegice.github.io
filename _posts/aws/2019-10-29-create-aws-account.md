@@ -1,5 +1,5 @@
 ---
-title: "AWS 계정 생성하기"
+title: "[개인 서버 만들기] 1. AWS 계정 생성하기"
 date: 2019-10-29
 categories: aws
 ---
