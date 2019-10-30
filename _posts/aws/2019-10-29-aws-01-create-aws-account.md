@@ -25,3 +25,5 @@ categories: aws
 그 후, **기본 플랜**을 선택하시면 AWS 계정 생성이 완료됩니다.
 
 **콘솔에 로그인**을 하셔서 본인이 입력하신 이메일 주소와 비밀번호를 입력하세요.
+
+[(NEXT) 2. EC2 시작하기](https://detegice.github.io/aws-02-starting-ec2/)
