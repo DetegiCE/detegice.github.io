@@ -49,3 +49,5 @@ categories: aws
 ![ec2_6](https://user-images.githubusercontent.com/26007107/67738422-dc7d3980-fa51-11e9-882a-2c07ca59e07d.png)
 
 이 창이 뜬다면 성공적으로 완성이 된 것입니다.
+
+[(NEXT) 3. 서버 접속하기](https://detegice.github.io/aws-03-access-to-server/)
