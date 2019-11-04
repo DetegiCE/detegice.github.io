@@ -33,3 +33,5 @@ aws에서 다운로드 받은 pem 파일은 putty에서 지원하지 않기 때�
 그리고 **Open**을 누르면 로그인이 완료됩니다.
 
 ![ec2_16](https://user-images.githubusercontent.com/26007107/68113212-8f5c0480-ff36-11e9-8c9b-bd13cc4b2856.png)
+
+[(NEXT) 4. GUI로 접속하기](https://detegice.github.io/aws-04-access-by-gui/)
