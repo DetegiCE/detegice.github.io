@@ -1,5 +1,5 @@
 ---
-title: "[개인 서버 만들기] 3. 서버 접속하기 (PuTTY Ver.)
+title: "[개인 서버 만들기] 3. 서버 접속하기 (PuTTY Ver.)"
 date: 2019-11-04
 categories: aws
 ---
