@@ -45,3 +45,5 @@ categories: aws
 그리고 **OK**를 눌러주시면, 본인의 서버에 접속하실 수 있습니다.
 
 ![ec2_11](https://user-images.githubusercontent.com/26007107/67828990-cab29980-fb18-11e9-9d4a-ad18c810450a.png)
+
+[(NEXT) 4. GUI로 접속하기](https://detegice.github.io/aws-04-access-by-gui/)
