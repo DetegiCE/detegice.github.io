@@ -6,6 +6,8 @@ categories: aws
 
 이제 본인의 개인 서버를 만들어봅시다.
 
+**우리가 만들 서버는 12개월 동안만 무료로 제공되는 서비스이며, 그 이후에는 요금이 부과됩니다.**
+
 [이 포스팅](https://detegice.github.io/aws-01-create-aws-account/)을 읽고 나서 AWS에 가입이 완료되었다면, AWS Management Console로 로그인을 하실 수 있습니다.
 
 ![ec2_1](https://user-images.githubusercontent.com/26007107/67737986-66c49e00-fa50-11e9-8251-9d889a2e74c6.png)
