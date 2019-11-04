@@ -70,3 +70,30 @@ gnome-terminal &
 
 **Connection > SSH > Tunnels**로 들어가 **Source port**에 5902, **Destination**에 서버IP:5901을 입력해주고 **Add**를 누릅니다.
 
+이제 포트를 열어줍시다.
+
+![ec2_22](https://user-images.githubusercontent.com/26007107/68115433-b9fc8c00-ff3b-11e9-87e2-7267675fa2c7.PNG)
+
+EC2 콘솔의 인스턴스로 들어가 자신의 서버의 보안그룹을 눌러줍니다.
+
+**인바운드**를 누르고 **편집**에서 다음과 같이 5901 포트를 열어줍니다.
+
+![ec2_23](https://user-images.githubusercontent.com/26007107/68115531-f0d2a200-ff3b-11e9-811a-ab84967b9f67.PNG)
+
+[TightVNC](https://www.tightvnc.com/download.php)를 다운로드 받아줍니다.
+
+![ec2_24](https://user-images.githubusercontent.com/26007107/68115655-37c09780-ff3c-11e9-98df-e8f7e1cd9ce4.png)
+
+다운로드는 알아서 해주시고
+
+![ec2_25](https://user-images.githubusercontent.com/26007107/68116101-5d9a6c00-ff3d-11e9-8d9b-258849bb2291.png)
+
+**Remote Host**에 서버IP::5902를 입력해주시고 **Connect**를 누릅니다.
+
+만약 안되는 경우, 아직 포트가 열리지 않은 것이므로, 서버로 돌아가 ``netstat -tnlp``를 통해 포트가 열려있는지 확인하고 다시 시도합니다.
+
+잘 되는 경우, 아까 입력했던 비밀번호를 입력해준 뒤, 접속합니다.
+
+성공적으로 접속되는 경우, 다음과 같이 화면이 뜹니다.
+
+![ec2_26](https://user-images.githubusercontent.com/26007107/68116095-583d2180-ff3d-11e9-92a6-1d862c7a53de.png)
