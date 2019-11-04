@@ -13,4 +13,7 @@ sudo apt-get update
 sudo apt-get install ubuntu-desktop
 ```
 
-``ubuntu-desktop``의 용량이 2.1GB이기 때문에 서버 용량을 잘 확인하신 후 설치하시기 바랍니다.
+``ubuntu-desktop``의 용량이 **2.1GB**이기 때문에 서버 용량을 잘 확인하신 후 설치하시기 바랍니다.
+
+![ec2_17](https://user-images.githubusercontent.com/26007107/68113522-52dcd880-ff37-11e9-82c0-5881be847357.png)
+
