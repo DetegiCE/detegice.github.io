@@ -26,6 +26,8 @@ categories: aws
 
 [MobaXTerm 다운로드](https://mobaxterm.mobatek.net/)
 
+[PuTTY를 이용한 접속방법](https://detegice.github.io/aws-03-access-to-server-putty/)
+
 ![ec2_9](https://user-images.githubusercontent.com/26007107/67828811-30525600-fb18-11e9-8f76-8e44e5076820.png)
 
 **New Session**을 눌러 서버에 접속해봅시다.
