@@ -1,6 +1,6 @@
 ---
 title: "[Ubuntu] 01. 기본 명령어"
-date: 2019-11-05
+date: 2019-11-06
 categories: ubuntu
 ---
 
