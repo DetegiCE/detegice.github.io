@@ -86,9 +86,50 @@ MaKe DIRectory의 약자로 새로운 폴더를 생성
 
 ## rmdir
 
-ReMove DIRectory의 약자로 폴더를 삭제
+ReMove DIRectory의 약자로 폴더를 삭제 (단, 해당 디렉토리의 삭제 권한 필요)
 
 ``rmdir abc`` : 현재 디렉토리의 abc 디렉토리를 삭제 (단, abc 디렉토리 아래에 파일이 있는 경우 오류)
 
 ``rmdir -r abc`` : 현재 디렉토리에 있는 abc 디렉토리와 그 하위 요소들을 전부삭제
 
+## cat
+
+conCATenate의 약자로 파일의 내용을 보여줌
+
+``cat a.txt`` : a.txt 파일의 내용을 보여줌
+
+``cat a.txt b.txt`` : a.txt와 b.txt 파일의 내용을 연결하여 보여줌
+
+## head, tail
+
+해당 파일의 앞, 뒤를 보여줌
+
+``head a.txt`` : a.txt의 앞 10줄을 보여줌
+
+``tail a.txt`` : a.txt의 뒤 10줄을 보여줌
+
+``head -5 a.txt`` : a.txt의 앞 5줄을 보여줌
+
+``tail -7 a.txt`` : a.txt의 뒤 7줄을 보여줌
+
+## more
+
+해당 파일을 페이지 형식으로 보여줌
+
+``Space Bar``를 누르는 경우 다음 페이지로, ``B``를 누르면 앞 페이지로, ``Q``를 누르면 종료한다
+
+``more a.txt`` : a.txt를 보여줌
+
+``more +10 a.txt`` : a.txt를 10번째 줄부터 보여줌
+
+## less
+
+``more``과 동일하나, 방향키와 ``Page Up``, ``Page Down`` 사용 가능
+
+## file
+
+해당 파일이 어떤 종류의 파일인지 보여줌
+
+## clear
+
+현재 사용중인 터미널 화면을 깨끗하게 지워줌
