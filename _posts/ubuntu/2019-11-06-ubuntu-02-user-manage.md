@@ -150,3 +150,10 @@ CHange AGE의 약자로서 사용자의 암호를 주기적으로 변경하도�
 
 ``gpasswd -d newuser2 newgroup1`` : newgroup1에서 newuser2를 제거
 
+# 실습
+
+1. user1 사용자를 만들어보자.
+1. user1 사용자를 삭제해보자.
+1. group1 그룹을 만들어보자
+1. user1 사용자를 group1 그룹에 속하도록 설정하여 만들어보자.
+1. user1 사용자의 홈 디렉토리와 ``/etc/skel`` 폴더의 내용을 비교해보자.
