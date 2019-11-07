@@ -54,8 +54,17 @@ deb http://security.ubuntu.com/ubuntu bionic universe
 
 ``bionic-updates``인 경우, 그 이후에 버전이 올라간 경우 올라간 버전을 설치하겠다는 것이다.
 
+**저장소 종류**의 경우, 총 4가지의 저장소가 있는데 main, universe, multiverse, restricted가 있다.
 
+``main``의 경우, 우분투에서 공식적으로 지원하는 무료 소프트웨어
 
+``universe``의 경우, 우분투에서 지원하지 않는 무료 소프트웨어
+
+``multiverse``의 경우, 우분투에서 지원하지 않는 유료 소프트웨어
+
+``restricted``의 경우, 우분투에서 공식적으로 지원하는 유료 소프트웨어
+
+를 뜻한다.
 
 
 # 실습
