@@ -106,3 +106,21 @@ action | 동작
 
 ``find /home -name "*.swp" -exec rm { } \;`` : ``/home`` 디렉토리 하위에 확장자가 ``.swp``인 파일 삭제 
 
+# 주기 관련 명령어
+
+## cron
+
+시스템 작업을 예약하는 명령어이다.
+
+cron과 관련된 서비슨느 crond이고, 파일은 ``/etc/crontab``에 있다.
+
+![05-01](https://user-images.githubusercontent.com/26007107/68398388-fcca9800-01b7-11ea-9f2c-8455373bf1b4.png)
+
+``분 시 일 월 요일 사용자 실행명령`` 의 형식을 이루고 있다.
+
+``15 14 3 * * root cp -r /home /backup``의 경우, 매월 3일 14시 15분에 root 사용자 권한으로 ``cp -r /home /backup`` 명령을 실행한다는 것이다.
+
+``systemctl status cron`` 명령어를 통해 cron 서비스가 제대로 작동하는지 확인할 수 있다.
+
+``vi /etc/crontab`` 명령어를 통해 cron 명령을 추가할 수 있다.
+
