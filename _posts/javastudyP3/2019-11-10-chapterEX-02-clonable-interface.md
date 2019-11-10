@@ -1,31 +1,31 @@
 ---
-title: "JAVA 39. Clonable Interface"
+title: "JAVA 39. Cloneable Interface"
 date: 2019-11-10
 categories: java
 ---
 
-# ``Clonable`` Interface
+# ``Cloneable`` Interface
 
 [인터페이스?](https://detegice.github.io/chapter5-04-abstract-class-and-interface/)
 
 ```java
 package java.lang;
 
-public interface Clonable {
+public interface Cloneable {
 
 }
 ```
 
-이 Clonable 인터페이스는 **marker interface**라 하여 그 내부가 비어있다.
+이 Cloneable 인터페이스는 **marker interface**라 하여 그 내부가 비어있다.
 
 ![clonableinterface](https://user-images.githubusercontent.com/26007107/68531309-43ed9000-0354-11ea-9642-d7f49f321b96.PNG)
 (It is used to denote that a class possesses certain desirable properties.)
 
-이 ``Clonable`` 인터페이스를 구현(implement)하는 클래스는 clonable한 상태가 되며, 
+이 ``Cloneable`` 인터페이스를 구현(implement)하는 클래스는 clonable한 상태가 되며, 
 
 ``Object`` 클래스 내부에서 ``clone()`` 메소드를 이용하여 복제가 가능하다.
 
-자바 라이브러리 상에 존재하는 ``Date``, ``Calendar``, ``ArrayList``등의 많은 클래스들이 ``Clonable`` 인터페이스를 구현하고 있다.
+자바 라이브러리 상에 존재하는 ``Date``, ``Calendar``, ``ArrayList``등의 많은 클래스들이 ``Cloneable`` 인터페이스를 구현하고 있다.
 
 <script src="https://gist.github.com/DetegiCE/2230412c8b30570a995ac3db55842ee1.js"></script>
 
