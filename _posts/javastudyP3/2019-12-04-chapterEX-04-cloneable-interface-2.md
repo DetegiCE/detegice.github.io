@@ -6,7 +6,7 @@ categories: java
 
 내용 코드 출처 : [객체 클로닝에 관하여 - javacan](https://javacan.tistory.com/entry/31)
 
-# ``Cloneable`` Interface
+# ``Cloneable`` Interface (2) 
 
 [``Cloneable`` Interface 1편](https://detegice.github.io/chapterEX-02-cloneable-interface/)
 
