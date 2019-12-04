@@ -8,9 +8,9 @@ categories: data_structure java python string
 
 * 특정한 규칙을 가진 문자열의 집합을 표현하기 위해 쓰이는 형식 언어
 
-* 정규식에서 사용되는 기호를 **Meta** 문자라고 함.flu
+* 정규식에서 사용되는 기호를 **Meta** 문자라고 함.
 
-# Meta Characters
+## Meta Characters
 
 * ``^`` : 문자열의 시작을 표현
   * ``^abc`` : **abc**로 시작하는 문자열 (``abc``, ``abc``de, ...)
@@ -46,7 +46,7 @@ categories: data_structure java python string
   * ``[0-9][a-z]*`` : 숫자 뒤에 소문자가 0개 이상 있음 (``0`` ``3da`` ``9`` ``8df`` ``8g`` ``4`` ``5``)
   * ``[a-z]*[0-9]+`` : 소문자가 0개 이상 뒤에 숫자가 1개 이상 있음 (C``lass94``SangwookL``ee094``)
 
-# Escape Characters 
+## Escape Characters 
 
 이스케이프의 경우 대문자로 작성시 그 반대를 찾음
 
