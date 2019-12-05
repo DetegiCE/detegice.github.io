@@ -4,7 +4,7 @@ date: 2019-12-04
 categories: java
 ---
 
-내용 코드 출처 : [객체 클로닝에 관하여 - javacan](https://javacan.tistory.com/entry/31)
+내용 코드 원본 (JDK 구버전) : [객체 클로닝에 관하여 - javacan](https://javacan.tistory.com/entry/31)
 
 # ``Cloneable`` Interface (2) 
 
@@ -58,7 +58,7 @@ public class MyArrayClass implements Cloneable {
 
 ```java
 public Object clone() throws CloneNotSupportedException {
-  MyArrayClass myObj = super.cloen();
+  MyArrayClass myObj = (MyArrayClass)super.clone();
   myObj.numbers = (int[])numbers.clone();
   return myObj;
 }
@@ -77,7 +77,7 @@ public class MyReferenceClass implements Cloneable {
   }
   
   public Object clone() throws CloneNotSupportedException {
-    MyReferenceClass myObj = super.clone();
+    MyReferenceClass myObj = (MyReferenceClass)super.clone();
     myObj.data = (MyData)data.clone();
     return myObj;
   }
@@ -99,7 +99,7 @@ public class MyCollectionClass implements Cloneable {
   }
   
   public Object clone() throws CloneNotSupportedException {
-    MyCollectionClass myObj = super.clone();
+    MyCollectionClass myObj = (MyCollectionClass)super.clone();
     myObj.vector = (Vector)vector.clone();
     return myObj;
   }
