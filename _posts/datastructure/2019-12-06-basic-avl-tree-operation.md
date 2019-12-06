@@ -70,3 +70,20 @@ root의 balance factor가 -2 이므로 left rotation을 시행
 ![arrow](https://user-images.githubusercontent.com/26007107/70289542-67eba680-1818-11ea-9b2e-080d5795fc7e.png)
 ![syntax_tree (22)](https://user-images.githubusercontent.com/26007107/70289306-b2205800-1817-11ea-857b-515b261f77d5.png)
 
+### Left of Right
+
+* Simple double rotation right
+
+![syntax_tree (23)](https://user-images.githubusercontent.com/26007107/70289652-c0bb3f00-1818-11ea-80f6-7f06221283e5.png)
+![arrow](https://user-images.githubusercontent.com/26007107/70289542-67eba680-1818-11ea-9b2e-080d5795fc7e.png)
+![syntax_tree (24)](https://user-images.githubusercontent.com/26007107/70289670-cf095b00-1818-11ea-9405-f7203d4df3bf.png)
+![arrow](https://user-images.githubusercontent.com/26007107/70289542-67eba680-1818-11ea-9b2e-080d5795fc7e.png)
+![syntax_tree (25)](https://user-images.githubusercontent.com/26007107/70289671-d03a8800-1818-11ea-8b7f-0de262bf8282.png)
+
+* Complex double rotation right
+
+![syntax_tree (26)](https://user-images.githubusercontent.com/26007107/70289704-f3fdce00-1818-11ea-9652-08c9e46ec7b1.png)
+![arrow](https://user-images.githubusercontent.com/26007107/70289542-67eba680-1818-11ea-9b2e-080d5795fc7e.png)
+![syntax_tree (27)](https://user-images.githubusercontent.com/26007107/70289707-f52efb00-1818-11ea-8d18-9cf17bbfbb2a.png)
+![arrow](https://user-images.githubusercontent.com/26007107/70289542-67eba680-1818-11ea-9b2e-080d5795fc7e.png)
+![syntax_tree (28)](https://user-images.githubusercontent.com/26007107/70289708-f5c79180-1818-11ea-92a1-776d1680434f.png)
