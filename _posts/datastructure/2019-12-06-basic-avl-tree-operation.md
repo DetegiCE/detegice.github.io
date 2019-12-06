@@ -8,6 +8,8 @@ categories: data_structure tree
 
 # AVL Tree
 
+기본적인 구조는 BST와 유사 
+
 * 러시아 수학자 G. M. **A**delson-**V**elskii와 E. M. **L**andis 의 이름을 따서 만든 트리 
 
 ## AVL 트리를 사용하는 이유
@@ -108,7 +110,40 @@ function AVLInsert (root, newData):
   return root
 ```
 
-### 균형 (Balance)
+### 삭제 (Delete)
+
+```c
+function AVLDelete (root, dltKey, success):
+  if subtree is empty:
+    set success to false
+    return null
+  if dltKey < root:
+    set left subtree to AVLDelete (left subtree, dltKey, success)
+    if tree is shorter:
+      set root to deleteRightBalance (root)
+  else if dltKey > root:
+    set right subtree to AVLDelete (right subtree, dltKey, success)
+    if tree is shorter:
+      set root to deleteLeftBalance (root)
+  else:
+    save root
+    if no right subtree:
+      set success to true
+      return left subtree
+    else if no left subtree:
+      set success to true
+      return right subtree
+    else:
+      find largest node on left subtree
+      save largest key
+      copy data in largest to root
+      set left subtree to AVLDelete (left subtree, largest key, success)
+      if tree is shorter:
+        set root to deleteRightBalance (root)
+  return root
+```
+
+### 삽입 중 균형 (Balance)
 
 ```c
 function leftBalance (root):
@@ -140,4 +175,19 @@ function rotateRight (root):
 function rotateLeft (root):
   exchange right subtree with left subtree of right subtree
   make right subtree a new root
+```
+
+### 삭제 중 균형 (Delete Balance)
+
+```c
+function deleteRightBalance (root):
+  if tree is not balanced:
+    set rightOfRight to right subtree
+    if left of rightOfRight is higher:
+      set leftOfRight to left subtree of rightOfRight
+      set right subtree to rotateRight (rightOfRight)
+      set root to rotateLeft (root)
+    else:
+      set root to rotateLeft (root)
+  return root
 ```
