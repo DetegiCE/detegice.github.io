@@ -4,8 +4,6 @@ date: 2019-12-06
 categories: data_structure tree
 ---
 
-# 미완성 포스트
-
 # AVL Tree
 
 기본적인 구조는 BST와 유사 
