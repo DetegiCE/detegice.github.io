@@ -87,3 +87,57 @@ root의 balance factor가 -2 이므로 left rotation을 시행
 ![syntax_tree (27)](https://user-images.githubusercontent.com/26007107/70289707-f52efb00-1818-11ea-8d18-9cf17bbfbb2a.png)
 ![arrow](https://user-images.githubusercontent.com/26007107/70289542-67eba680-1818-11ea-9b2e-080d5795fc7e.png)
 ![syntax_tree (28)](https://user-images.githubusercontent.com/26007107/70289708-f5c79180-1818-11ea-92a1-776d1680434f.png)
+
+## AVL ADT
+
+### 삽입 (insert)
+
+```c
+function AVLInsert (root, newData):
+  if subtree is empty:
+    insert newData as root
+    return root
+  if newData < root:
+    AVLInsert (left subtree, newData)
+    if left subtree is taller:
+      leftBalance (root)
+  else:
+    AVLInsert (right subtree, newData)
+    if right subtree is taller:
+      rightBalance (root)
+  return root
+```
+
+### 균형 (Balance)
+
+```c
+function leftBalance (root):
+  if left tree is higher:
+    rotateRight (root)
+  else:
+    rotateLeft (left subtree)
+    rotateRight (root)
+```
+
+```c
+functino rightBalance (root):
+  if right tree is higher:
+    rotateLeft (root)
+  else:
+    rotateRight (right subtree)
+    rotateLeft (root)
+```
+
+### 회전 (Rotate)
+
+```c
+function rotateRight (root):
+  exchange left subtree with right subtree of left subtree
+  make left subtree a new root
+```
+
+```c
+function rotateLeft (root):
+  exchange right subtree with left subtree of right subtree
+  make right subtree a new root
+```
