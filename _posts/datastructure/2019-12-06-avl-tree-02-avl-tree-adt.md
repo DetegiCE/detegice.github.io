@@ -4,6 +4,8 @@ date: 2019-12-06
 categories: data_structure tree
 ---
 
+# 미완성 포스트
+
 # AVL Tree ADT
 
 ![avl](https://user-images.githubusercontent.com/26007107/70292746-50b1b680-1822-11ea-85d0-4c5c316838c2.PNG)
