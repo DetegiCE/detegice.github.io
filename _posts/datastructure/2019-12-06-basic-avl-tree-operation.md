@@ -20,14 +20,42 @@ categories: data_structure tree
 
 ## AVL 트리의 삽입 과정
 
-### Left or Left
+### Left of Left
+
+root의 balance factor가 +2 이므로 right rotation을 시행
 
 * Simple right rotation
 
-![syntax_tree (3)](https://user-images.githubusercontent.com/26007107/70288681-ae8bd180-1815-11ea-87ab-9cc3b4e9403a.png)
+![syntax_tree (11)](https://user-images.githubusercontent.com/26007107/70288917-8781cf80-1816-11ea-8f8d-fd6c7b3de40d.png)
 ![syntax_tree (4)](https://user-images.githubusercontent.com/26007107/70288686-ba779380-1815-11ea-8de1-5a481a0c6ff4.png)
 
 * Complex right rotation
 
-![syntax_tree (5)](https://user-images.githubusercontent.com/26007107/70288737-e8f56e80-1815-11ea-80c7-a959f0fe26aa.png)
-![syntax_tree (6)](https://user-images.githubusercontent.com/26007107/70288757-fa3e7b00-1815-11ea-9ef9-38c0e03a628c.png)
+![syntax_tree (12)](https://user-images.githubusercontent.com/26007107/70288933-98cadc00-1816-11ea-94e9-9000e22c1be5.png)
+![syntax_tree (13)](https://user-images.githubusercontent.com/26007107/70288962-a84a2500-1816-11ea-9ce1-ca51cd4527b8.png)
+
+### Right of Right
+
+root의 balance factor가 -2 이므로 left rotation을 시행
+
+* Simple left rotation
+
+![syntax_tree (14)](https://user-images.githubusercontent.com/26007107/70288974-b5671400-1816-11ea-94a4-afd8d7a9da60.png)
+![syntax_tree (8)](https://user-images.githubusercontent.com/26007107/70288857-4be70580-1816-11ea-9174-03d9f6b57120.png)
+
+* Complex left rotation
+
+![syntax_tree (15)](https://user-images.githubusercontent.com/26007107/70288996-c44dc680-1816-11ea-960b-8398db13ecfb.png)
+![syntax_tree (16)](https://user-images.githubusercontent.com/26007107/70289012-d2034c00-1816-11ea-8fed-83b62b630e13.png)
+
+### Right of Left
+
+* Simple double rotation right
+
+![syntax_tree (17)](https://user-images.githubusercontent.com/26007107/70289104-17277e00-1817-11ea-95d7-a4cb1c6d8145.png)
+![syntax_tree (18)](https://user-images.githubusercontent.com/26007107/70289119-20184f80-1817-11ea-8140-47145978530e.png)
+![syntax_tree (19)](https://user-images.githubusercontent.com/26007107/70289126-27d7f400-1817-11ea-9db5-fac84639f577.png)
+
+* Complex double rotation right
+
+
