@@ -46,6 +46,9 @@ categories: java
   * 예외가 발생하지 않은 경우 : try --> finally
   
 ## 예외 클래스
+
+![exception](https://user-images.githubusercontent.com/26007107/70298299-8364aa80-1834-11ea-9860-6c76612025c2.PNG)
+
 * 프로그램 실행 중 오류를 탐지할 수 있도록 많은 예외를 클래스의 형태로 제공
 
 | 예외 타입 (클래스) | 예외 발생 경우 | import 패키지 |
