@@ -18,3 +18,16 @@ categories: data_structure tree
 
 <script src="https://gist.github.com/DetegiCE/53a6fdd60970e1fa0be2b4cb5f5ebed0.js"></script>
 
+## AVL Create
+
+<script src="https://gist.github.com/DetegiCE/ad6f724320dd470819ace6f5c64a9738.js"></script>
+
+## AVL Insert
+
+<script src="https://gist.github.com/DetegiCE/2465fc873b597d88a059e63ddd80e076.js"></script>
+
+## Internal Functions
+
+### insert
+
+<script src="https://gist.github.com/DetegiCE/1782510ee64a7a1b2cc8ee243f740aa9.js"></script>
