@@ -4,8 +4,6 @@ date: 2019-12-06
 categories: data_structure tree
 ---
 
-# 미완성 포스트
-
 # AVL Tree ADT
 
 ![avl](https://user-images.githubusercontent.com/26007107/70292746-50b1b680-1822-11ea-85d0-4c5c316838c2.PNG)
@@ -38,6 +36,14 @@ categories: data_structure tree
 
 <script src="https://gist.github.com/DetegiCE/dff828c645a4d95231ccbd7fd8b8299a.js"></script>
 
+## AVL Count & Empty & Full
+
+<script src="https://gist.github.com/DetegiCE/e8c06ce8cafca8b483142475a10a4178.js"></script>
+
+## AVL Destroy
+
+<script src="https://gist.github.com/DetegiCE/215b7bd90f657625cd200c381033bb36.js"></script>
+
 ## Internal Functions
 
 ### insert
@@ -64,4 +70,10 @@ categories: data_structure tree
 
 <script src="https://gist.github.com/DetegiCE/9e4bab1d6f8a35e8290de20f882650f6.js"></script>
 
+### traversal
 
+<script src="https://gist.github.com/DetegiCE/b5ba93464efad379f87c915883777574.js"></script>
+
+### destroy
+
+<script src="https://gist.github.com/DetegiCE/9808a747bcfcb1cb0fc930499dfd65f4.js"></script>
