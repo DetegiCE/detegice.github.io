@@ -149,33 +149,3 @@ public class Main {
 [JAVA 20](https://detegice.github.io/chapter6-03-string-and-math-class/#string-class)
 
 > A String object is immutable: Its content cannot be changed once the string is created.
-
-# 상속
-
-# ``super``
-
-# ``toString()``
-
-# ``equals()``
-
-# ``ArrayList``
-
-# ``final``
-
-# 예외 Error & Exception
-
-# Custom Exception
-
-# ``try-catch-finally``
-
-# 가상 클래스
-
-# 인터페이스
-
-# ``Calendar`` Class
-
-# ``Comparable`` Interface
-
-# ``Cloneable`` Interface
-
-# ``Rational`` Class
