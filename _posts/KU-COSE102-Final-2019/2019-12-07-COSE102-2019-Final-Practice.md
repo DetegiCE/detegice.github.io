@@ -40,17 +40,63 @@ categories: java ku
 >
 > Constructors are invoked using the new operator when an object is created. Constructors play the role of initializing objects.
 
-# 접근 지정자
-
 # ``Date`` Class
+
+[JAVA 42](https://detegice.github.io/chapterEX-05-date-calendar-class/#date-class)
 
 # ``Random`` Class
 
+[JAVA 20](https://detegice.github.io/chapter6-03-string-and-math-class/#math-class)
+
+```java
+Random r = new Random();
+r.nextInt(); //random integer
+r.nextInt(int n); //random integer between 0~n, excluding n
+r.nextLong(); //random long
+r.nextDouble(); //random double between 0.0~1.0, excluding 1.0
+r.nextFloat(); //random float between 0.0F~1.0F, excluding 1.0F
+r.nextBoolean(); //random boolean value
+```
+
 # ``static``
+
+[JAVA 13](https://detegice.github.io/chapter4-05-static-and-final/#static-member)
+
+> A static variable is shared by all objects of the class.
+>
+> A static method cannot access instance members of the class.
+
+# Access Modifier (Visibility Modifier)
+
+[JAVA 12](Visibility modifiers can be used to specify the visibility of a class and its members.)
+
+> Visibility modifiers can be used to specify the visibility of a class and its members.
+
+멤버에 접근하는 클래스 | private | default | protected | public
+:---:|:---:|:---:|:---:|:---:
+같은 패키지의 클래스 | X | O | O | O
+다른 패키지의 클래스 | X | X | X | O
+접근 가능 영역 | 클래스 내 | 동일 패키지 내 | 동일 패키지와 자식 클래스 | 모든 클래스
+
+# Array of Objects
+
+[JAVA 11](Visibility modifiers can be used to specify the visibility of a class and its members.)
 
 # ``this``
 
+[JAVA 10](https://detegice.github.io/chapter4-02-class-and-object/#this-%EB%A0%88%ED%8D%BC%EB%9F%B0%EC%8A%A4)
+
+> The keyword this refers to the object itself.
+>
+> It can also be used inside a constructor to invoke another constructor of the same class.
+
 # Wrapper Class
+
+[JAVA 19](https://detegice.github.io/chapter6-02-object-class-and-wrapper-class/#wrapper-class)
+
+> A primitive type value is not an object, but it can be wrapped in an object using a wrapper class in the Java API.
+
+> A primitive type value can be automatically converted to an object using a wrapper class, and vice versa, depending on the context.
 
 # ``BigInteger`` Class
 
