@@ -12,26 +12,114 @@ categories: java ku
 
 {% include youtube_support.html id="GBaKmkppD5A" %} 되냐 되냐?
 
-
 # 상속
+
+[JAVA 14](https://detegice.github.io/chapter5-01-inheritance/#inheritance)
+
+> Object-oriented programming allows you to define new classes from existing classes. This is called inheritance.
+>
+> Inheritance enables you to define a general class (i.e., a superclass) and later extend it to more specialized classes (i.e., subclasses).
 
 # ``super``
 
+[JAVA 14](https://detegice.github.io/chapter5-01-inheritance/#super)
+
+[JAVA 14 - constructor relation](https://detegice.github.io/chapter5-01-inheritance/#%EC%83%9D%EC%84%B1%EC%9E%90)
+
+> The keyword super refers to the superclass and can be used to invoke the superclass’s methods and constructors.
+
+The ``this`` Reference, introduced the use of the keyword ``this`` to reference the calling object. 
+
+The keyword ``super`` refers to the superclass of the class in which ``super`` appears. 
+
+It can be used in two ways:
+
+* To call a superclass constructor.
+* To call a superclass method.
+
+# Override
+
+[JAVA 16](https://detegice.github.io/chapter5-03-method-overriding/#%EB%A9%94%EC%86%8C%EB%93%9C-%EC%98%A4%EB%B2%84%EB%9D%BC%EC%9D%B4%EB%94%A9)
+
+> To override a method, the method must be defined in the subclass using the same signature and the same return type as in its superclass.
+
+# Overloading
+
+[JAVA 11](https://detegice.github.io/chapter4-03-object-array-and-method-overloading/#method-overloading)
+
+[Overload vs Override](https://detegice.github.io/chapter5-03-method-overriding/#%EC%98%A4%EB%B2%84%EB%A1%9C%EB%94%A9-vs-%EC%98%A4%EB%B2%84%EB%9D%BC%EC%9D%B4%EB%94%A9)
+
+> Overloading means to define multiple methods with the same name but different signatures.
+>
+> Overriding means to provide a new implementation for a method in the subclass.
+
+# ``Object`` Class
+
+[JAVA 19](https://detegice.github.io/chapter6-02-object-class-and-wrapper-class/#properties-of-object-class)
+
+> Every class in Java is descended from the java.lang.Object class.
+
 # ``toString()``
+
+[JAVA 19](https://detegice.github.io/chapter6-02-object-class-and-wrapper-class/#tostring)
+
+```java
+public String toString()
+```
+
+> Invoking toString() on an object returns a string that describes the object. 
+>
+> By default, it returns a string consisting of a class name of which the object is an instance, an at sign (@), and the object’s memory address in hexadecimal.
 
 # ``equals()``
 
+[JAVA 19](https://detegice.github.io/chapter6-02-object-class-and-wrapper-class/#object-comparison-and-equals)
+
+> Like the toString() method, the equals(Object) method is another useful method defined in the Object class.
+
+```java
+public boolean equals(Object o)
+```
+
+**default implementation**
+
+```java
+public boolean equals(Object obj) {
+  return (this == obj);
+}
+```
+
 # ``ArrayList``
+
+[JAVA 22](https://detegice.github.io/chapter7-02-arraylist-iterator-hashmap-and-making-generic/#arrayliste)
+
+> An ArrayList object can be used to store a list of objects.
 
 # ``final``
 
-# 예외 Error & Exception
+[JAVA 13](https://detegice.github.io/chapter4-05-static-and-final/#final)
+
+# Error & Exception
+
+[JAVA 08](https://detegice.github.io/chapter3-03-exception/#%EC%98%88%EC%99%B8%EC%9D%98-%EB%B0%9C%EC%83%9D)
+
+> Exception handling enables a program to deal with exceptional situations and continue its normal execution.
+
+> Exceptions are thrown from a method. The caller of the method can catch and handle the exception.
+
+> Exceptions are objects, and objects are defined using classes. The root class for exceptions is java.lang.Throwable.
 
 # Custom Exception
 
+[JAVA 38](https://detegice.github.io/chapterEX-01-custom-exception/#custom-exception-1)
+
 # ``try-catch-finally``
 
-# 가상 클래스
+[JAVA 08](https://detegice.github.io/chapter3-03-exception/#%EC%98%88%EC%99%B8-%EC%B2%98%EB%A6%AC-%EB%B0%A9%EB%B2%95-try-catch-%EB%AC%B8)
+
+# Abstract Class 추상 클래스
+
+[JAVA 17](https://detegice.github.io/chapter5-04-abstract-class-and-interface/#abstract-class)
 
 # 인터페이스
 
