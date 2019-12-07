@@ -157,10 +157,43 @@ public boolean equals(Object obj) {
 
 [JAVA 42](https://detegice.github.io/chapterEX-05-date-calendar-class/#calendar-class)
 
-
-
 # ``Comparable`` Interface
+
+> The Comparable interface defines the compareTo method for comparing objects.
+
+```java
+package java.lang;
+
+public interface Comparable<E> {
+    public int compareTo(E o);
+}
+```
+
+> The ``compareTo`` method determines the order of this object with the specified object ``o`` and returns a negative integer, zero, or a positive integer if this object is less than, equal to, or greater than o.
+
+> The ``Comparable`` interface is a generic interface. 
+>
+> The generic type ``E`` is replaced by a concrete type when implementing this interface.
+
+![comparable](https://user-images.githubusercontent.com/26007107/70374926-9615d700-193b-11ea-85cf-3099c0f77c7c.PNG)
+
+> Since all Comparable objects have the compareTo method, the ``java.util.Arrays.sort(Object[])`` method in the Java API uses the compareTo method to compare and sorts the objects in an array, provided that the objects are instances of the Comparable interface.
+
+{% include open_support_none.html title="예시코드" content='<script src="https://gist.github.com/DetegiCE/4a7c551aa2241731215293b2a4c5431e.js"></script>' %}
+
+**출력결과**
+
+```
+Width: 3.4 Height: 5.4 Area: 18.36
+Width: 1.4 Height: 25.4 Area: 35.559999999999995
+Width: 7.4 Height: 35.4 Area: 261.96
+Width: 13.24 Height: 55.4 Area: 733.496
+```
 
 # ``Cloneable`` Interface
 
-# ``Rational`` Class
+[JAVA 39](https://detegice.github.io/chapterEX-02-cloneable-interface/)
+
+[JAVA 41](https://detegice.github.io/chapterEX-04-cloneable-interface-2/)
+
+> The ``Cloneable`` interface specifies that an object can be cloned.
