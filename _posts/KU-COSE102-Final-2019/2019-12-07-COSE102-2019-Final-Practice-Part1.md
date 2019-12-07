@@ -1,10 +1,10 @@
 ---
-title: "KU COSE102 2019기말고사 복습"
+title: "KU COSE102 2019기말고사 복습 Part 1"
 date: 2019-12-07
 categories: java ku
 ---
 
-# 미완성 포스트
+# KU COSE102 2019 기말고사 복습 Part 1
 
 {% include mathjax_support.html %}
 
@@ -80,7 +80,7 @@ r.nextBoolean(); //random boolean value
 
 # Array of Objects
 
-[JAVA 11](Visibility modifiers can be used to specify the visibility of a class and its members.)
+[JAVA 11](https://detegice.github.io/chapter4-03-object-array-and-method-overloading/#object-array)
 
 # ``this``
 
@@ -100,7 +100,55 @@ r.nextBoolean(); //random boolean value
 
 # ``BigInteger`` Class
 
+> The BigInteger and BigDecimal classes can be used to represent integers or decimal numbers of any size and precision.
+
+``import java.math.*;`` 필요
+
+```java
+import java.math.*;
+
+public class Main {
+    public static void main(String[] args) {
+        BigInteger a = new BigInteger("12313434247874365645");
+        BigInteger b = new BigInteger("4641351341341141");
+
+        BigInteger sum = a.add(b);
+        BigInteger sub = a.subtract(b);
+        BigInteger mul = a.multiply(b);
+        BigInteger div = a.divide(b);
+        BigInteger rem = a.remainder(b);
+        BigInteger one = BigInteger.ONE;
+
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(sum);
+        System.out.println(sub);
+        System.out.println(mul);
+        System.out.println(div);
+        System.out.println(rem);
+        System.out.println(one);
+    }
+}
+```
+
+**출력결과**
+
+```
+12313434247874365645
+4641351341341141
+12318075599215706786
+12308792896533024504
+57150974562887630658699188915500945
+2652
+4570490637659713
+1
+```
+
 # ``String`` Class
+
+[JAVA 20](https://detegice.github.io/chapter6-03-string-and-math-class/#string-class)
+
+> A String object is immutable: Its content cannot be changed once the string is created.
 
 # 상속
 
