@@ -121,9 +121,43 @@ public boolean equals(Object obj) {
 
 [JAVA 17](https://detegice.github.io/chapter5-04-abstract-class-and-interface/#abstract-class)
 
-# 인터페이스
+> A superclass defines common behavior for related subclasses. An interface can be used to define common behavior for classes (including unrelated classes).
+
+> An abstract class cannot be used to create objects. An abstract class can contain abstract methods, which are implemented in concrete subclasses.
+
+> An abstract method cannot be contained in a nonabstract class. 
+>
+> If a subclass of an abstract superclass does not implement all the abstract methods, the subclass must be defined as abstract.
+>
+> In other words, in a nonabstract subclass extended from an abstract class, all the abstract methods must be implemented. 
+>
+> Also note that abstract methods are nonstatic.
+
+> A class that contains abstract methods must be abstract.
+>
+> However, it is possible to define an abstract class that doesn’t contain any abstract methods.
+>
+> In this case, you cannot create instances of the class using the ``new`` operator. 
+>
+> This class is used as a base class for defining subclasses.
+
+# Interface 인터페이스
+
+[JAVA 17](https://detegice.github.io/chapter5-04-abstract-class-and-interface/#interface)
+
+> An interface is a class-like construct that contains only constants and abstract methods.
+
+> An interface is treated like a special class in Java.
+>
+> Each interface is compiled into a separate bytecode file, just like a regular class. 
+>
+> You can use an interface more or less the same way you use an abstract class.
 
 # ``Calendar`` Class
+
+[JAVA 42](https://detegice.github.io/chapterEX-05-date-calendar-class/#calendar-class)
+
+
 
 # ``Comparable`` Interface
 
