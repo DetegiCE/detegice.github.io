@@ -153,6 +153,8 @@ public boolean equals(Object obj) {
 >
 > You can use an interface more or less the same way you use an abstract class.
 
+![abcandint](https://user-images.githubusercontent.com/26007107/70375009-a5495480-193c-11ea-98bc-9cacef9a4c0a.PNG)
+
 # ``Calendar`` Class
 
 [JAVA 42](https://detegice.github.io/chapterEX-05-date-calendar-class/#calendar-class)
