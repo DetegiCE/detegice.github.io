@@ -4,8 +4,6 @@ date: 2019-12-07
 categories: java ku
 ---
 
-# 미완성 포스트
-
 # KU COSE102 2019 기말고사 복습 Part 2
 
 {% include mathjax_support.html %}
