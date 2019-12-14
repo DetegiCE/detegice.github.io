@@ -47,17 +47,26 @@ function turnOffAdblock() {
   turnOffLoop();
   timerId = setInterval(turnOffLoop, 3000);
 }
+  
+function turnOffCloseLoop() {
+  alert('광고 차단 프로그램이 감지되었습니다.\n비활성화 하지 않으실 경우, 사이트를 이용하실 수 없습니다.\n\nAdblocking program has been detected.\nPlease deactivate it.');
+}
+
+function turnOffAdblockClose() {
+  turnOffCloseLoop();
+  self.close();
+}
 </script>
 
 <script type="text/javascript">
 (function(cl,i,c,k,m,o,n){m=cl.location.protocol+c;o=cl.referrer;m+='&mon_rf='+encodeURIComponent(o);
-n='<'+i+' type="text/javascript" src="'+m+'" onerror="turnOffAdblock()"></'+i+'>';cl.writeln(n);
+n='<'+i+' type="text/javascript" src="'+m+'" onerror="turnOffAdblockClose()"></'+i+'>';cl.writeln(n);
 })(document,'script','//tab2.clickmon.co.kr/pop/wp_ad_728_js.php?PopAd=CM_M_1003067%7C%5E%7CCM_A_1065777%7C%5E%7CAdver_M_1046207');
 </script>
 
 <script type="text/javascript">
 (function(cl,i,c,k,m,o,n){m=cl.location.protocol+c;o=cl.referrer;m+='&mon_rf='+encodeURIComponent(o);
-n='<'+i+' type="text/javascript" src="'+m+'" onerror="turnOffAdblock()"></'+i+'>';cl.writeln(n);
+n='<'+i+' type="text/javascript" src="'+m+'" onerror="turnOffAdblockClose()"></'+i+'>';cl.writeln(n);
 })(document,'script','//tab2.clickmon.co.kr/pop/wp_ad_300_up_js.php?PopAd=CM_M_1003067%7C%5E%7CCM_A_1065777%7C%5E%7CAdver_M_1046207');
 </script>
 
