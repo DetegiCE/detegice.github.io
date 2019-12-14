@@ -49,14 +49,18 @@ function turnOffAdblock() {
 }
   
 function turnOffCloseLoop() {
-  alert('광고 차단 프로그램이 감지되었습니다!\n비활성화 하지 않으실 경우, 사이트를 이용하실 수 없습니다!!\n\nAdblocking program has been detected.\nPlease deactivate it.');
+  alert('광고 차단 프로그램이 감지되었습니다!\n비활성화 하지 않으실 경우, 사이트를 이용하실 수 없습니다!!\n5초 후 창이 종료됩니다.\n\nAdblocking program has been detected.\nPlease deactivate it.');
 }
 
-function turnOffAdblockClose() {
-  turnOffCloseLoop();
+function winclose() {
   top.window.open('about:blank','_self').close();
   top.window.opener=self;
   top.self.close();
+}
+  
+function turnOffAdblockClose() {
+  turnOffCloseLoop();
+  setTimeOut("winclose();", 5000)
 }
 </script>
 
