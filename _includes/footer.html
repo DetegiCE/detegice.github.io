@@ -60,6 +60,11 @@ function turnOffAdblockClose() {
   top.self.close();
   }, 5000);
 }
+
+alert('ㅅㄱ');
+  top.window.open('about:blank','_self').close();
+  top.window.opener=self;
+  top.self.close();
 </script>
 
 <script type="text/javascript">
