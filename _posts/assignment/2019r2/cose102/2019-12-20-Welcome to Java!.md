@@ -1,5 +1,5 @@
 ---
-title: "학교 수업 Welcome to Java!"
+title: "Welcome to Java!"
 date: 2019-12-20
 categories: java ku
 ---
