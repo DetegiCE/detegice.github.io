@@ -1,6 +1,6 @@
 ---
 title: "Welcome to Java!"
-date: 2019-12-20
+date: 2019-12-20 23:50:00
 categories: java ku
 ---
 
