@@ -20,5 +20,5 @@ categories: blog
 
 물
 
-{% include inputbox_support.html fname="quiz4" name="q4" answer="H2O" %}
+{% include inputbox_support.html fname="quiz4" rname="q4" answer="H2O" %}
 
