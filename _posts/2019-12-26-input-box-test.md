@@ -6,7 +6,7 @@ categories: blog
 
 <script>
 function validateForm() {
-  var x = forms["inputTest"]["integer"].value;
+  var x = form["inputTest"]["integer"].value;
   if(x >= 0 && x <= 9) {
     alert("Number is between 0 and 9");
     return false;
