@@ -24,6 +24,8 @@ Number between 0 to 9
 
 Typo Fixed
 
+document. added
+
 <form name="inputTest" onsubmit="return validateForm()">
 <input type="text" name="integer">
 <input type="submit" value="Submit">
