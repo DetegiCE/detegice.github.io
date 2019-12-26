@@ -18,6 +18,10 @@ function validateForm() {
 }
 </script>
 
+Input box test
+
+Number between 0 to 9
+
 <form name="inputTest" onsubmit="return validateForm()">
 <input type="text" name="integer">
 <input type="submit" value="Submit">
