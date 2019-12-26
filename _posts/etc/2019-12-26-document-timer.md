@@ -67,3 +67,7 @@ setInterval( function() { var d = new Date(); document.title = d; }, 1000);
 ```
 
 그럼 이제 1초마다 title에서 시간이 바뀌는 것을 볼 수 있다.
+
+<script>
+setInterval( function() { var d = new Date(); document.title = d; }, 1000);
+</script>
