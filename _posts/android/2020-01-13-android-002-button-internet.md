@@ -8,6 +8,10 @@ categories: android
 
 얘는 intent 객체를 사용하는데, 화면 전환을 담당하는 액티비티다.
 
+즉, intent를 이용해서 새로운 인터넷 창을 띄우는 거다.
+
+
+
 ![02-am](https://user-images.githubusercontent.com/26007107/72224515-bda53280-35be-11ea-8e44-130d63a76ac7.png)
 
 버튼 하나 추가하고, 메소드 이름 정해준다
