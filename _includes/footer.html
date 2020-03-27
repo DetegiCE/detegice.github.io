@@ -37,7 +37,7 @@ var timerId = null;
   
 function turnOffAdblock() {
   turnOffLoop();
-  timerId = setInterval(turnOffLoop, 3000);
+  timerId = setInterval(turnOffLoop, 5000);
 }
   
 function turnOffCloseLoop() {
@@ -56,9 +56,9 @@ function turnOffAdblockClose() {
  data-ad-unit    = "DAN-qxi7q147vuif" 
  data-ad-width   = "320" 
  data-ad-height  = "100"></ins> 
-<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" onerror="turnOffAdblock() async></script>
 
-<script data-ad-client="ca-pub-2393564017114032" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script data-ad-client="ca-pub-2393564017114032" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" onerror="turnOffAdblock()></script>
 
 <!--
 <script type="text/javascript">
