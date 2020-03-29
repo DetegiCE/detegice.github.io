@@ -29,6 +29,8 @@ function validateForm() {
 }
 </script>
 
+.
+
 <form name="inputTest" onsubmit="return validateForm()">
 <input type="text" name="integer">
 <input type="submit" value="Submit">
