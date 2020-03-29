@@ -4,12 +4,6 @@ date: 2020-01-01 00:00:00
 categories:
 ---
 
----
-title: "Input Box 테스트"
-date: 2019-12-26 17:07:00
-categories: blog
----
-
 <script>
 function validateForm() {
   var x = document.forms["inputTest"]["integer"].value;
