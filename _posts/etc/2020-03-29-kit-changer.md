@@ -20,7 +20,7 @@ function validateForm() {
   
   if(x >= 30000) {
     sum += (x-30000)/2000;
-    x = 3000;
+    x = 30000;
   }
   
   sum += x / 1000;
