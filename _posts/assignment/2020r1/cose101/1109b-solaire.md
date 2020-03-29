@@ -1,0 +1,25 @@
+---
+title: "Solaire"
+date: 2020-03-29 18:48:12
+categories: c_language ku
+---
+
+# DESCRIPTION
+무사히 Hello World를 출력했다면 이번엔 특수문자를 출력해보자.
+
+# INPUT
+
+# OUTPUT
+Line 1~2: 아래 Sample Output 그대로 출력
+
+# SAMPLE INPUT
+
+# SAMPLE OUTPUT
+```
+"Praise the sun"
+	\\[T]//
+```
+
+<script src="https://gist.github.com/DetegiCE/59657f52742728cf4676149f278e35d0.js"></script>
+
+<script src="https://gist.github.com/DetegiCE/21e57e0bb6a639cce94f3fea99bf1c06.js"></script>
