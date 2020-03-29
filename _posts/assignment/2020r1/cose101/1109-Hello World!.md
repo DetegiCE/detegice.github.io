@@ -1,0 +1,21 @@
+---
+title: "Hello World!"
+date: 2020-03-29 18:46:26
+categories: c_language ku
+---
+
+# DESCRIPTION
+"Hello World!"를 출력해보자.
+
+# INPUT
+
+# OUTPUT
+
+# SAMPLE INPUT
+
+# SAMPLE OUTPUT
+```
+Hello World!
+```
+
+<script src="https://gist.github.com/DetegiCE/2024a6855ab3ffb0afdd06fce282ac61.js"></script>
