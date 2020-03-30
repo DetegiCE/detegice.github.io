@@ -1,7 +1,7 @@
 ---
 title: "[C언어 과제] KU Mobile Phone Bill Calculator"
 date: 2019-12-26 16:51:00
-categories: c ku
+categories: c_language ku
 ---
 
 ![screenshot 1](https://user-images.githubusercontent.com/26007107/71465426-f8a61880-27ff-11ea-95b2-6574087a960b.png)
