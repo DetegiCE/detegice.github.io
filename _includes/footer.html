@@ -50,15 +50,19 @@ function turnOffAdblockClose() {
   top.window.opener=self;
   top.self.close();
 }
+  
+function turnOffAdblockNew() {
+  window.document.write("<center>광고 차단 프로그램을 비활성화 해주신 후, 새로고침 해주세요!!\n\nPlease deactivate Adblock and refresh.</center>"); 
+}
 </script>
 
-<script data-ad-client="ca-pub-2393564017114032" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" onerror="turnOffAdblock()"></script>
+<script data-ad-client="ca-pub-2393564017114032" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" onerror="turnOffAdblockNew()"></script>
 
 <ins class="kakao_ad_area" style="display:none;" 
  data-ad-unit    = "DAN-qxi7q147vuif" 
  data-ad-width   = "320" 
  data-ad-height  = "100"></ins> 
-<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" onerror="turnOffAdblock()" async> </script>
+<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" onerror="turnOffAdblockNew()" async> </script>
 
 {% if page.use_math %}
   {% include mathjax_support.html %}
