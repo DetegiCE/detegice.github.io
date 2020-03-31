@@ -4,6 +4,18 @@ date: 2020-01-01 00:00:00
 categories:
 ---
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- github -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2393564017114032"
+     data-ad-slot="7921062366"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 <script>
 function validateForm() {
   var x = document.forms["inputTest"]["integer"].value;
