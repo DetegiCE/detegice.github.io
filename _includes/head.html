@@ -33,7 +33,14 @@
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+
+  function turnOffAdblockNew() {
+    var title = "{{page.title}}";
+    window.document.write("<center>Redirecting to "+title+" - DetegiCE's GitHub<br><br>광고 차단 프로그램을 비활성화 해주신 후, 새로고침 해주세요!!<br><br>Please deactivate Adblock and refresh.</center>"); 
+  }
 </script>
+
+<script data-ad-client="ca-pub-2393564017114032" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" onerror="turnOffAdblockNew()"></script>
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="/assets/css/main.css">
