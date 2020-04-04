@@ -33,7 +33,7 @@ function wrapWindowByMask(){
     var maskHeight = $(document).height();
     var maskWidth = $(window).width();  
 
-    $('#mask').append("<center><span style='font-size:1.5em; color:white;'>Please turn off adblock!</span></center>");
+    $('#mask').append("<center><span style='font-size:2em; color:white;'>광고 차단 플러그인이 감지되었습니다!<br>이 사이트에서 광고 허용을 해주신 후 새로고침 해주세요!<br><br>Adblock Plugin detected!<br>Please allow in this site and refresh!</span></center>");
     $('#mask').css({'width':maskWidth,'height':maskHeight});  
 
     $('#mask').fadeIn(1000);
