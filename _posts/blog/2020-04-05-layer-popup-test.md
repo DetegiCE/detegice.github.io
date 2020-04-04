@@ -6,7 +6,7 @@ categories: blog js
 
 대충 콘텐츠
 
-2회 수정함
+3회 수정함
 
 <style>
 #mask { 
@@ -33,7 +33,7 @@ function wrapWindowByMask(){
     var maskHeight = $(document).height();
     var maskWidth = $(window).width();  
 
-    $('#mask').append("<center>Please turn off adblock!</center>");
+    $('#mask').append("<center><span style="font-size:1.5em; color:white;">Please turn off adblock!</span></center>");
     $('#mask').css({'width':maskWidth,'height':maskHeight});  
 
     $('#mask').fadeIn(1000);
