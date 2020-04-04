@@ -27,7 +27,7 @@ z-index: 10000;
 }
 </style>
 
-<script src="http://code.jquery.com/jquery-latest.js"></script>
+
 <script>
 function wrapWindowByMask(){
     var maskHeight = $(document).height();
