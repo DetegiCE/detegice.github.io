@@ -6,7 +6,7 @@ categories: blog js
 
 대충 콘텐츠
 
-
+1회 수정함
 
 <style>
 #mask { 
@@ -33,12 +33,19 @@ function wrapWindowByMask(){
     var maskHeight = $(document).height();
     var maskWidth = $(window).width();  
 
+    $('#mask').append("<center>Please turn off adblock!</center>");
     $('#mask').css({'width':maskWidth,'height':maskHeight});  
 
     $('#mask').fadeIn(1000);
     $('#mask').fadeTo("slow",0.8);    
 
     $('.window').show();
+}
+
+$(window).resize(function() {
+    var width = $(window).width();
+    var height = $(window).height();
+    $('#mask').css({'width':width, 'height':height});
 }
 
 $(document).ready(function(){
@@ -50,11 +57,6 @@ $(document).ready(function(){
     $('.window .close').click(function (e) {
         e.preventDefault();
         $('#mask, .window').hide();
-    });       
-
-    $('#mask').click(function () {
-        $(this).hide();
-        $('.window').hide();
     });
 });
 </script>
