@@ -6,7 +6,7 @@ categories: blog js
 
 대충 콘텐츠
 
-1회 수정함
+2회 수정함
 
 <style>
 #mask { 
@@ -46,7 +46,7 @@ $(window).resize(function() {
     var width = $(window).width();
     var height = $(window).height();
     $('#mask').css({'width':width, 'height':height});
-}
+});
 
 $(document).ready(function(){
     $('.openMask').click(function(e){
