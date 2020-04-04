@@ -33,7 +33,7 @@ function wrapWindowByMask(){
     var maskHeight = $(document).height();
     var maskWidth = $(window).width();  
 
-    $('#mask').append("<center><span style="font-size:1.5em; color:white;">Please turn off adblock!</span></center>");
+    $('#mask').append("<center><span style='font-size:1.5em; color:white;'>Please turn off adblock!</span></center>");
     $('#mask').css({'width':maskWidth,'height':maskHeight});  
 
     $('#mask').fadeIn(1000);
