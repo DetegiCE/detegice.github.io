@@ -25,14 +25,14 @@ function validateForm() {
     x = 1000000;
   }
   
-  if(x >= 100000) {
-   sum += parseInt((x-100000)/5000);
-   x = 100000;
+  if(x >= 150000) {
+   sum += parseInt((x-150000)/5000);
+   x = 150000;
   }
   
-  if(x >= 30000) {
-    sum += parseInt((x-30000)/2000);
-    x = 30000;
+  if(x >= 50000) {
+    sum += parseInt((x-50000)/2000);
+    x = 50000;
   }
   
   sum += parseInt(x / 1000);
@@ -41,7 +41,7 @@ function validateForm() {
 }
 </script>
 
-..
+금액을 입력하세요
 
 <form name="inputTest" onsubmit="return validateForm()">
 <input type="text" name="integer">
