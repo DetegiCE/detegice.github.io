@@ -54,6 +54,28 @@
 
 <!-- Navigation Style End -->
 
+<!-- Add Announcement Onload -->
+<script>
+  window.onload = function() {
+    var newAnnCont = document.createElement("p");
+    newAnnCont.innerHTML = "WithCS 9주차 이후의 내용은 <a href=\"https://blog.naver.com/martinok1103\">네이버 블로그</a>에서 확인하세요";
+    
+    var newAnnTitle = document.createElement("h3");
+    newAnnTitle.setAttribute("class", "archive__subtitle");
+    newAnnTitle.innerHTML = "Annoucement";
+    
+    var newArchive = document.createElement("div");
+    newArchive.setAttribute("class", "archive");
+    newArchive.appendChild(newAnnTitle);
+    newArchive.appendChild(newAnnCont);
+    
+    var oldArchive = document.getElementsByClassName("archive");
+    var oldMain = document.getElementById("main");
+    oldMain.insertBefore(newArchive, oldArchive[0]);
+  }
+</script>
+<!-- Announcement End -->
+
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="/assets/css/main.css">
