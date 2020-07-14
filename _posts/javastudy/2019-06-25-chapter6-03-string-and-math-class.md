@@ -92,9 +92,7 @@ sb.replace(8, 10, "your");
 
 ## StringTokenizer Class
 
-String 클래스의 split과는 다른 『진짜』 Tokenizer
-
-~~아 너무 싫어 근데 C언어에서 했던 strtok보단 100배 쉬움 ㄹㅇ 신세계임~~
+String 클래스의 split과는 다른 진짜 Tokenizer
 
 * 구분문자를 기준으로 문자열을 분리하는 클래스
   * 구분 문자 (delimiter) : 문자열을 구분할 때 사용되는 문자
