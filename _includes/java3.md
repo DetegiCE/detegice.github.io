@@ -7,3 +7,4 @@
 
 | [Prev Section](https://detegice.github.io/chapter7-02-arraylist-iterator-hashmap-and-making-generic/) | [Next Section](https://detegice.github.io/chapter12-01-java-thread/) |
 |:---:|:---:|
+| | |
