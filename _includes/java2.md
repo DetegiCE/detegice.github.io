@@ -6,3 +6,4 @@
 
 | [Prev Section](https://detegice.github.io/chapter4-05-static-and-final/) | [Next Section](https://detegice.github.io/chapter8-01-about-java-gui/) |
 |:---:|:---:|
+| | |
