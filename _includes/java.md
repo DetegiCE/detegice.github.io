@@ -5,5 +5,5 @@
 | Ch 3 | [06](https://detegice.github.io/chapter3-01-loop/) | [07](https://detegice.github.io/chapter3-02-array/) | [08](https://detegice.github.io/chapter3-03-exception/) |
 | Ch 4 | [09](https://detegice.github.io/chapter4-01-object-oriented-programming/) | [10](https://detegice.github.io/chapter4-02-class-and-object/) | [11](https://detegice.github.io/chapter4-03-object-array-and-method-overloading/) | [12](https://detegice.github.io/chapter4-04-garbage-collection-and-access-modifier/) | [13](https://detegice.github.io/chapter4-05-static-and-final/) |
 
-| [Next Chapter](https://detegice.github.io/chapter5-01-inheritance/) |
+| [Next Section](https://detegice.github.io/chapter5-01-inheritance/) |
 |:---:|
