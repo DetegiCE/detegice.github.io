@@ -30,6 +30,10 @@ var positions = [
     {
         content: '<center><div>202 치평역</div></center>', 
         latlng: new kakao.maps.LatLng(35.151740, 126.848378)
+    },
+    {
+        content: '<center><div>203 상무역</div></center>', 
+        latlng: new kakao.maps.LatLng(35.146706, 126.848664)
     }
 ];
 
