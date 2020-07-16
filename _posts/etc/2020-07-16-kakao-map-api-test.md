@@ -24,7 +24,7 @@ var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니
 // 마커를 표시할 위치와 내용을 가지고 있는 객체 배열입니다 
 var positions = [
     {
-        content: '<div>시청역</div>', 
+        content: '<center><div>201 시청역</div></center>', 
         latlng: new kakao.maps.LatLng(35.158525, 126.848378)
     }
 ];
