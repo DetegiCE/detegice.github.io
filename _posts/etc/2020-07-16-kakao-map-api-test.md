@@ -24,6 +24,7 @@ var map = new kakao.maps.Map(mapContainer, mapOption);
 var linePath = [
     new kakao.maps.LatLng(35.158525, 126.848378),
     new kakao.maps.LatLng(35.151740, 126.848378),
+    new kakao.maps.LatLng(35.148202, 126.848378),
     new kakao.maps.LatLng(35.146706, 126.848664)
 ];
 
