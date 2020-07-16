@@ -15,11 +15,27 @@ Kakao Map API Test
 <script>
 var mapContainer = document.getElementById('map'), // 지도를 표시할 div  
     mapOption = { 
-        center: new kakao.maps.LatLng(35.155132, 126.848378), // 지도의 중심좌표
-        level: 6 // 지도의 확대 레벨
+        center: new kakao.maps.LatLng(35.151523, 126.869565), // 지도의 중심좌표
+        level: 7 // 지도의 확대 레벨
     };
 
-var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
+var map = new kakao.maps.Map(mapContainer, mapOption);
+
+var linePath = [
+    new kakao.maps.LatLng(35.158525, 126.848378),
+    new kakao.maps.LatLng(35.151740, 126.848378),
+    new kakao.maps.LatLng(35.146706, 126.848664)
+];
+
+var polyline = new kakao.maps.Polyline({
+    path: linePath,
+    strokeWeight: 5,
+    strokeColor: '#0471C3',
+    strokeOpacity: 0.7,
+    strokeStyle: 'solid'
+});
+
+polyline.setMap(map);
  
 // 마커를 표시할 위치와 내용을 가지고 있는 객체 배열입니다 
 var positions = [
