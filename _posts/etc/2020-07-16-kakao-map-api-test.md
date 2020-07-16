@@ -51,6 +51,10 @@ var positions = [
     {
         content: '<center><div>203 상무역</div></center>', 
         latlng: new kakao.maps.LatLng(35.146706, 126.848664)
+    },
+    {
+        content: '<center><div>204 상무역</div></center>', 
+        latlng: new kakao.maps.LatLng(35.146706, 126.848664)
     }
 ];
 
