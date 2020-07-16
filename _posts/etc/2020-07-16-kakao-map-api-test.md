@@ -8,45 +8,53 @@ Kakao Map API Test
 
 - Drawing Gwangju, Korea Subway Line 2 
 
-<div id="map" style="width:500px;height:400px;"></div>
+
+<div id="map" style="width:100%;height:350px;"></div>
+
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=5bf4bd144dadbaeece33e4747d7a3549"></script>
 <script>
-  var container = document.getElementById('map'),
-  options = {
-    center: new kakao.maps.LatLng(35.158525, 126.848378),
-    level: 3
-  };
+var mapContainer = document.getElementById('map'), // 지도를 표시할 div  
+    mapOption = { 
+        center: new kakao.maps.LatLng(35.158525, 126.848378), // 지도의 중심좌표
+        level: 3 // 지도의 확대 레벨
+    };
 
-  var map = new kakao.maps.Map(container, options);
-  
-  var positions = [
+var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
+ 
+// 마커를 표시할 위치와 내용을 가지고 있는 객체 배열입니다 
+var positions = [
     {
-      content: '<div>시청역</div>'
-      latlng: new kakao.maps.LatLng(35.158525, 126.848378)
+        content: '<div>시청역</div>', 
+        latlng: new kakao.maps.LatLng(35.158525, 126.848378)
     }
-  ];
-  
-  for (var i = 0 ; i < positions.length ; i++) {
+];
+
+for (var i = 0; i < positions.length; i ++) {
     var marker = new kakao.maps.Marker({
-      map: map,
-      position: positions[i].latlng
-    }});
-    var infowindow = new kakao.maps.InfoWindow({
-      content: positions[i].content
+        map: map, // 마커를 표시할 지도
+        position: positions[i].latlng // 마커의 위치
     });
+    
+    var infowindow = new kakao.maps.InfoWindow({
+        content: positions[i].content
+    });
+
     kakao.maps.event.addListener(marker, 'mouseover', makeOverListener(map, marker, infowindow));
     kakao.maps.event.addListener(marker, 'mouseout', makeOutListener(infowindow));
-  }
-  
+}
+
+// 인포윈도우를 표시하는 클로저를 만드는 함수입니다 
 function makeOverListener(map, marker, infowindow) {
     return function() {
         infowindow.open(map, marker);
     };
 }
 
+// 인포윈도우를 닫는 클로저를 만드는 함수입니다 
 function makeOutListener(infowindow) {
     return function() {
         infowindow.close();
     };
 }
+
 </script>
