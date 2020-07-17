@@ -45,22 +45,16 @@ polyline.setMap(map);
  
 // 마커를 표시할 위치와 내용을 가지고 있는 객체 배열입니다 
 var positions = [
-    {
-        content: '<center><div>201 시청역</div></center>', 
-        latlng: new kakao.maps.LatLng(35.158525, 126.848378)
-    },
-    {
-        content: '<center><div>202 치평역</div></center>', 
-        latlng: new kakao.maps.LatLng(35.151740, 126.848378)
-    },
-    {
-        content: '<center><div>203 상무역</div></center>', 
-        latlng: new kakao.maps.LatLng(35.146706, 126.848664)
-    },
-    {
-        content: '<center><div>204 금호역</div></center>', 
-        latlng: new kakao.maps.LatLng(35.144288, 126.857258)
-    }
+    {content: '<center><div>201 시청역</div></center>', 
+     latlng: new kakao.maps.LatLng(35.158525, 126.848378)},
+    {content: '<center><div>202 치평역</div></center>', 
+     latlng: new kakao.maps.LatLng(35.151740, 126.848378)},
+    {content: '<center><div>203 상무역</div></center>', 
+     latlng: new kakao.maps.LatLng(35.146706, 126.848664)},
+    {content: '<center><div>204 금호역</div></center>', 
+     latlng: new kakao.maps.LatLng(35.144288, 126.857258)},
+    {content: '<center><div>205 금부역</div></center>', 
+     latlng: new kakao.maps.LatLng(35.137385, 126.858963)}
 ];
 
 for (var i = 0; i < positions.length; i ++) {
