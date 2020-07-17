@@ -68,7 +68,14 @@ var linePath = [
     new kakao.maps.LatLng(35.150877, 126.930370),
     new kakao.maps.LatLng(35.151339, 126.930568),
     new kakao.maps.LatLng(35.154682, 126.931923),
-    new kakao.maps.LatLng(35.159702, 126.930912)
+    new kakao.maps.LatLng(35.159702, 126.930912),
+    new kakao.maps.LatLng(35.160456, 126.930660),
+    new kakao.maps.LatLng(35.161124, 126.930215),
+    new kakao.maps.LatLng(35.161589, 126.929781),
+    new kakao.maps.LatLng(35.162026, 126.929212),
+    new kakao.maps.LatLng(35.162454, 126.928259),
+    new kakao.maps.LatLng(35.164388, 126.921006),
+    new kakao.maps.LatLng(35.166882, 126.911033)
 ];
 
 var polyline = new kakao.maps.Polyline({
@@ -116,7 +123,11 @@ var positions = [
     {content: '<center><div>216 지산역</div></center>',
      latlng: new kakao.maps.LatLng(35.151339, 126.930568)},
     {content: '<center><div>217 두암역</div></center>',
-     latlng: new kakao.maps.LatLng(35.159702, 126.930912)}
+     latlng: new kakao.maps.LatLng(35.159702, 126.930912)},
+    {content: '<center><div>218 서방사거리역</div></center>',
+     latlng: new kakao.maps.LatLng(35.159702, 126.930912)},
+    {content: '<center><div>219 광주역</div></center>',
+     latlng: new kakao.maps.LatLng(35.166882, 126.911033)}
 ];
 
 for (var i = 0; i < positions.length; i ++) {
