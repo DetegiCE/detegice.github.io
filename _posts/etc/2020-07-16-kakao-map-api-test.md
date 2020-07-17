@@ -56,7 +56,9 @@ var positions = [
     {content: '<center><div>204 금호역</div></center>', 
      latlng: new kakao.maps.LatLng(35.144288, 126.857258)},
     {content: '<center><div>205 금부역</div></center>', 
-     latlng: new kakao.maps.LatLng(35.137385, 126.858963)}
+     latlng: new kakao.maps.LatLng(35.137385, 126.858963)},
+    {content: '<center><div>206 마재역</div></center>', 
+     latlng: new kakao.maps.LatLng(35.132602, 126.860602)}
 ];
 
 for (var i = 0; i < positions.length; i ++) {
