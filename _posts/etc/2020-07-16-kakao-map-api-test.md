@@ -55,7 +55,8 @@ var linePath = [
     new kakao.maps.LatLng(35.133355, 126.894103),
     new kakao.maps.LatLng(35.134026, 126.896472),
     new kakao.maps.LatLng(35.134792, 126.899091),
-    new kakao.maps.LatLng(35.133289, 126.901663)
+    new kakao.maps.LatLng(35.133289, 126.901663),
+    new kakao.maps.LatLng(35.133945, 126.910467)
 ];
 
 var polyline = new kakao.maps.Polyline({
@@ -91,7 +92,9 @@ var positions = [
     {content: '<center><div>210 주월역</div></center>',
      latlng: new kakao.maps.LatLng(35.134026, 126.896472)},
     {content: '<center><div>211 백운역</div></center>',
-     latlng: new kakao.maps.LatLng(35.133289, 126.901663)}
+     latlng: new kakao.maps.LatLng(35.133289, 126.901663)},
+    {content: '<center><div>212 양림역</div></center>',
+     latlng: new kakao.maps.LatLng(35.133945, 126.910467)}
 ];
 
 for (var i = 0; i < positions.length; i ++) {
