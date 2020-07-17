@@ -25,7 +25,12 @@ var linePath = [
     new kakao.maps.LatLng(35.158525, 126.848378),
     new kakao.maps.LatLng(35.151740, 126.848378),
     new kakao.maps.LatLng(35.148202, 126.848378),
-    new kakao.maps.LatLng(35.146706, 126.848664)
+    new kakao.maps.LatLng(35.146706, 126.848664),
+    new kakao.maps.LatLng(35.147235, 126.850261),
+    new kakao.maps.LatLng(35.148047, 126.852013),
+    new kakao.maps.LatLng(35.147799, 126.856563),
+    new kakao.maps.LatLng(35.146291, 126.856963),
+    new kakao.maps.LatLng(35.144288, 126.857258)
 ];
 
 var polyline = new kakao.maps.Polyline({
