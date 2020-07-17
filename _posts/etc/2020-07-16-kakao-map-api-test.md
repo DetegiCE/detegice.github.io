@@ -9,7 +9,7 @@ Kakao Map API Test
 - Drawing Gwangju, Korea Subway Line 2 
 
 
-<div id="map" style="width:100%;height:350px;"></div>
+<div id="map" style="width:100%;height:500px;"></div>
 
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=5bf4bd144dadbaeece33e4747d7a3549"></script>
 <script>
@@ -35,7 +35,12 @@ var linePath = [
     new kakao.maps.LatLng(35.137385, 126.858963),
     new kakao.maps.LatLng(35.133046, 126.859388),
     new kakao.maps.LatLng(35.132538, 126.859964),
-    new kakao.maps.LatLng(35.132602, 126.860602)
+    new kakao.maps.LatLng(35.132602, 126.860602),
+    new kakao.maps.LatLng(35.132666, 126.866380),
+    new kakao.maps.LatLng(35.133174, 126.869385),
+    new kakao.maps.LatLng(35.133407, 126.870133),
+    new kakao.maps.LatLng(35.134486, 126.872023),
+    new kakao.maps.LatLng(35.133864, 126.872257)
 ];
 
 var polyline = new kakao.maps.Polyline({
@@ -61,7 +66,9 @@ var positions = [
     {content: '<center><div>205 금부역</div></center>', 
      latlng: new kakao.maps.LatLng(35.137385, 126.858963)},
     {content: '<center><div>206 마재역</div></center>', 
-     latlng: new kakao.maps.LatLng(35.132602, 126.860602)}
+     latlng: new kakao.maps.LatLng(35.132602, 126.860602)},
+    {content: '<center><div>207 월드컵경기장역</div></center>',
+     latlng: new kakao.maps.LatLng(35.133864, 126.872257)}
 ];
 
 for (var i = 0; i < positions.length; i ++) {
