@@ -101,7 +101,6 @@ var linePath = [
     new kakao.maps.LatLng(35.194548, 126.899797),
     new kakao.maps.LatLng(35.196435, 126.899979),
     new kakao.maps.LatLng(35.199789, 126.899819),
-    new kakao.maps.LatLng(35.194548, 126.899797),
     new kakao.maps.LatLng(35.202733, 126.898707),
     new kakao.maps.LatLng(35.201274, 126.893266),
     new kakao.maps.LatLng(35.198016, 126.884971),
