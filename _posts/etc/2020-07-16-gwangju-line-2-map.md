@@ -113,7 +113,23 @@ var linePath = [
     new kakao.maps.LatLng(35.210847, 126.874228),
     new kakao.maps.LatLng(35.211138, 126.874100),
     new kakao.maps.LatLng(35.211332, 126.873885),
-    new kakao.maps.LatLng(35.214612, 126.863298)
+    new kakao.maps.LatLng(35.214612, 126.863298),
+    new kakao.maps.LatLng(35.217580, 126.855562),
+    new kakao.maps.LatLng(35.217684, 126.848743),
+    new kakao.maps.LatLng(35.217723, 126.840468),
+    new kakao.maps.LatLng(35.217675, 126.837959),
+    new kakao.maps.LatLng(35.217215, 126.836307),
+    new kakao.maps.LatLng(35.215894, 126.833986),
+    new kakao.maps.LatLng(35.213348, 126.829543),
+    new kakao.maps.LatLng(35.212007, 126.827761),
+    new kakao.maps.LatLng(35.205162, 126.820561),
+    new kakao.maps.LatLng(35.204214, 126.819893),
+    new kakao.maps.LatLng(35.202988, 126.819506),
+    new kakao.maps.LatLng(35.202433, 126.819530),
+    new kakao.maps.LatLng(35.201283, 126.820034),
+    new kakao.maps.LatLng(35.193669, 126.823468),
+    new kakao.maps.LatLng(35.191859, 126.823925),
+    new kakao.maps.LatLng(35.190719, 126.823855)
 ];
 
 var polyline = new kakao.maps.Polyline({
@@ -187,7 +203,17 @@ var positions = [
     {content: '<center><div>229 용두역</div></center>',
      latlng: new kakao.maps.LatLng(35.210847, 126.874228)},
     {content: '<center><div>230 신용역</div></center>',
-     latlng: new kakao.maps.LatLng(35.214612, 126.863298)}
+     latlng: new kakao.maps.LatLng(35.214612, 126.863298)},
+    {content: '<center><div>231 지스트역</div></center>',
+     latlng: new kakao.maps.LatLng(35.217684, 126.848743)},
+    {content: '<center><div>232 첨단역</div></center>',
+     latlng: new kakao.maps.LatLng(35.217723, 126.840468)},
+    {content: '<center><div>233 응암공원역</div></center>',
+     latlng: new kakao.maps.LatLng(35.215894, 126.833986)},
+    {content: '<center><div>234 수완솔빛역</div></center>',
+     latlng: new kakao.maps.LatLng(35.201283, 126.820034)},
+    {content: '<center><div>235 수완역</div></center>',
+     latlng: new kakao.maps.LatLng(35.190719, 126.823855)}
 ];
 
 for (var i = 0; i < positions.length; i ++) {
