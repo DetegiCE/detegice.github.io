@@ -1,12 +1,12 @@
 ---
-title: "Kakao Map API test"
+title: "광주 도시철도 2호선 노선도"
 date: 2020-07-16 17:19:35
 categories: js api
 ---
 
 Kakao Map API Test
 
-- Drawing Gwangju, Korea Subway Line 2 
+Drawing Gwangju, Korea Subway Line 2 
 
 
 <div id="map" style="width:100%;height:500px;"></div>
@@ -107,7 +107,9 @@ var linePath = [
     new kakao.maps.LatLng(35.197675, 126.883218),
     new kakao.maps.LatLng(35.197789, 126.877135),
     new kakao.maps.LatLng(35.198147, 126.876430),
-    new kakao.maps.LatLng(35.200898, 126.874890)
+    new kakao.maps.LatLng(35.200898, 126.874890),
+    new kakao.maps.LatLng(35.202243, 126.874014),
+    new kakao.maps.LatLng(35.206410, 126.873383)
 ];
 
 var polyline = new kakao.maps.Polyline({
@@ -175,7 +177,9 @@ var positions = [
     {content: '<center><div>226 본촌산단역</div></center>',
      latlng: new kakao.maps.LatLng(35.198016, 126.884971)},
     {content: '<center><div>227 양산공원역</div></center>',
-     latlng: new kakao.maps.LatLng(35.200898, 126.874890)}
+     latlng: new kakao.maps.LatLng(35.200898, 126.874890)},
+    {content: '<center><div>228 양산역</div></center>',
+     latlng: new kakao.maps.LatLng(35.206410, 126.873383)}
 ];
 
 for (var i = 0; i < positions.length; i ++) {
