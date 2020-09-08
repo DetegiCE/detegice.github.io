@@ -1,8 +1,10 @@
 ---
-title: "measuring javascript execution time using console 콘솔을 이용해 자바스크립트 실행 시간 측정"
+title: "Measuring javascript execution time using console"
 date: 2020-09-08 22:00:00
 categories: js
 ---
+
+콘솔을 이용해 자바스크립트 실행 시간 측정하기
 
 ```js
 console.time('alpha');
