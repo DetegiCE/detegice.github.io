@@ -1,5 +1,5 @@
 ---
-title: "VSCode와 GitHub 연결하기"
+title: "VSCode와 GitHub 연결하기 (1)"
 date: 2020-10-06 16:58:29
 categories: github vscode
 ---
