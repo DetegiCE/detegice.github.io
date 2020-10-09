@@ -1,0 +1,71 @@
+---
+title: "애드센스 수익 지급을 위한 국내 은행 SWIFT 코드"
+date: 2020-10-09 13:32:13
+categories: blog adsense
+---
+
+구글 애드센스 수익이 100 달러가 넘어가게 되면 지급을 받는 단계로 넘어간다.
+
+<img width="722" alt="스크린샷 2020-10-09 오후 1 34 00" src="https://user-images.githubusercontent.com/26007107/95543656-18779780-0a34-11eb-8f0e-bc90c3102b9f.png">
+
+정보 입력 창 중에 **SWIFT 은행 식별 코드** 부분이 있는데, 이 코드에 무엇을 적어야 할지, 그리고 은행들의 영문 이름에 대해 알아보도록 하자.
+
+<img width="338" alt="스크린샷 2020-10-09 오후 1 43 37" src="https://user-images.githubusercontent.com/26007107/95544207-7062ce00-0a35-11eb-8ada-cae54bba14f9.png">
+
+**SWIFT 코드**란 신속하고 정확한 해외송금을 위해 만든 국제 코드입니다.
+
+보통 영문과 숫자의 혼합으로 8자리에서 11자리 정도로 이루어져 있으며 벨기에에서 관리하고 있습니다.
+
+구성은 보통 [은행 4자리][국가번호 2자리][소재지 2자리][지점코드 3자리] 로 구성이 됩니다.
+
+SHBKKRSEXXX인 신한은행을 예로 들면, SHBK는 신한은행의 이름, KR은 대한민국, SE는 서울, XXX는 본점 지점코드를 나타냅니다.
+
+<img width="547" alt="스크린샷 2020-10-09 오후 1 46 32" src="https://user-images.githubusercontent.com/26007107/95544359-d8191900-0a35-11eb-9154-91a3fe2921eb.png">
+
+은행명|영문이름|SWIFT 코드
+:---:|:---:|:---:
+IBK기업은행|INDUSTRIAL BANK OF KOREA|IBKOKRSE
+KDB산업은행|KOREA DEVELOPMENT BANK|KODBKRSE
+한국수출입은행|THE EXPORT-IMPORT BANK OF KOREA|EXIKKRSE
+NH농협은행|NONGHYUP BANK|NACFKRSE
+SH수협은행|NATIONAL FEDERATION OF FISHERIES COOPERATIVES|NFFCKRSE
+국민은행|KOOKMIN BANK|CZNBKRSE
+우리은행|WOORI BANK|HVBKKRSE
+신한은행|SHINHAN BANK|SHBKKRSEXXX
+하나은행|HANA BANK|KOEXKRSE
+SC제일은행|STANDARD CHARTERED BANK KOREA|SCBLKRSE
+한국씨티은행|CITIBANK KOREA|CITIKRSX(WLS)
+BNK경남은행|KYONGNAM BANK|KYNAKR22(창원마산본점)<br>KYNAKR22ITL(서울영업부)
+광주은행|KWANGJU BANK|KWABKRSE
+대구은행|DAEGU BANK|DAEBKR22(대구본점)<br>DAEBKR22SEL(서울영업부)
+BNK부산은행|BUSAN BANK|PUSBKR2P(부산본점)<br>PUSBKR2PMAS(창원마산지점)<br>PUSBKR2PSEL(서울영업부)<br>PUSBKR2PINT(국제금융영업부)
+전북은행|JEONBUK BANK|JEONKRS1022(전주본점)<br>JEONKRSE(서울영업부)
+제주은행|JEJU BANK|JJBKKR22
+
+<img width="546" alt="스크린샷 2020-10-09 오후 1 52 40" src="https://user-images.githubusercontent.com/26007107/95544648-b3717100-0a36-11eb-8f8b-5a5cb9667b0c.png">
+
+은행명|영문이름|SWIFT 코드
+:---:|:---:|:---:
+교보증권|KYOBO SECURITIES|KYOBKRS1
+대신증권|DAISHIN SECURITIES|DSSCKRSE
+DB금융투자|DB FINANCIAL INVESTMENT|DSEUKRS1
+리딩투자증권|LEADING INVESTMENT AND SECURITIES|LISCKRS1
+메리츠종금증권|MERITZ SECURITIES|HAISKRS1
+미래에셋대우|MIRAE ASSET DAEWOO SECURITIES|MIAEKRSE
+부국증권|BOOKOOK SECURITIES|BOOSKRS1
+상상인증권|SANGSANGIN INVESTMENT AND SECURITIES|DAECKRS1
+삼성증권|SAMSUNG SECURITIES|SAMCKRSL
+신영증권|SHINYOUNG SECURITIES|SHSEKRS1
+신한금융투자|SHINHAN INVESTMENT|SSISKRS1
+유진투자증권|EUGENE INVESTMENT AND SECURITIES|SEOSKRS1
+유안타증권|YUANTA SECURITIES|TYMBKRSE
+이베스트투자증권|EBEST INVESTMENT AND SECURITIES|ETSIKRS1
+카카오페이증권|KAKAOPAY SECURITIES|BRIUKRS1
+한양증권|HANYANG SECURITIES|HAYSKRS1
+KB증권|KB SECURITIES|HYSEKRSE
+SK증권|SK SECURITIES|SKSEKRS1
+현대차증권|HYUNDAI MOTOR SECURITIES|SHHEKRS1
+하나금융투자|HANA FINANCIAL INVESTMENT|HAFVKRS1
+KTB투자증권|KTB INVESTMENT AND SECURITIES|BRNAKRS1
+우리종합금융|WOORI INVESTMENT BANK|KHMBKRSE
+한국증권금융|KOREA SECURITIES FINANCE|KOSFKRS1
