@@ -175,7 +175,7 @@ popover : https://getbootstrap.com/docs/3.4/javascript/#popovers, http://jsfiddl
     }
 
     curtag = "gt";
-    var priArr5 = new Array(400, 20000, 40000,
+    var priArr5 = new Array(400, 20000, 50000,
                             200000, 100000, 600000,
                             2600000, 3600000, 50000,
                             250000, 2250000, 3000000,
