@@ -142,37 +142,51 @@ popover : https://getbootstrap.com/docs/3.4/javascript/#popovers, http://jsfiddl
       $('#'+curtag+String(i)).popover();
     }
 
+    curtag = "bs";
     var priArr4 = new Array(110000, 330000, 600000,
                             1500000, 1350000, 3500000,
-                            2750000, 4250000, 4850000,
-                            5000000, 4100000, 13000000,
-                            3500000, 5000000, 6000000,
-                            9500000, 12000000, 6000000,
-                            35000000, 24500000, 14500000,
-                            8200000, 9200000, 12200000, 
-                            16500000, 60000000, 7400000,
-                            6100000, 15200000, 23000000,
-                            20000000);
+                            2750000, 4250000, 4800000,
+                            4950000, 4100000, 140000000,
+                            100000000, 12550000, 8000000,
+                            15000000, 3500000, 5000000,
+                            6000000, 9500000, 12000000,
+                            6000000, 34300000, 24300000, 
+                            14300000, 8200000, 9200000,
+                            12200000, 16600000, 58600000,
+                            7400000, 6100000, 15200000,
+                            23100000, 35000000, 40000000,
+                            42000000, 55100000, 20000000);
     for(var i=1 ; i<=priArr4.length ; i++) {
-      document.getElementById("bs"+String(i)).innerText = numToKor(priArr4[i-1]);
-      document.getElementById("bs"+String(i)).setAttribute('rel','popover');
-      document.getElementById("bs"+String(i)).setAttribute('data-trigger','hover');
-      document.getElementById("bs"+String(i)).setAttribute('data-original-title','시세 범위');
-      document.getElementById("bs"+String(i)).setAttribute('data-content',minPrice(priArr4[i-1])+' ~ '+maxPrice(priArr4[i-1]));
-      $('#bs'+String(i)).popover();
+      if(i == 16) {
+        document.getElementById(curtag+String(i)).innerText = numToKor(priArr4[i-1]);
+        document.getElementById(curtag+String(i)).setAttribute('rel','popover');
+        document.getElementById(curtag+String(i)).setAttribute('data-trigger','hover');
+        document.getElementById(curtag+String(i)).setAttribute('data-original-title','시세 범위');
+        document.getElementById(curtag+String(i)).setAttribute('data-content',numToKor(priArr4[i-1])+' ~ : 구미호 버섯 (여우)는 최저 시세만 있습니다');
+        $('#'+curtag+String(i)).popover();
+        continue;
+      }
+      document.getElementById(curtag+String(i)).innerText = numToKor(priArr4[i-1]);
+      document.getElementById(curtag+String(i)).setAttribute('rel','popover');
+      document.getElementById(curtag+String(i)).setAttribute('data-trigger','hover');
+      document.getElementById(curtag+String(i)).setAttribute('data-original-title','시세 범위');
+      document.getElementById(curtag+String(i)).setAttribute('data-content',minPrice(priArr4[i-1])+' ~ '+maxPrice(priArr4[i-1]));
+      $('#'+curtag+String(i)).popover();
     }
 
+    curtag = "gt";
     var priArr5 = new Array(400, 20000, 40000,
                             200000, 100000, 600000,
-                            2600000, 3400000, 50000,
-                            250000, 2250000, 2850000);
+                            2600000, 3600000, 50000,
+                            250000, 2250000, 3000000,
+                            6500000);
     for(var i=1 ; i<=priArr5.length ; i++) {
-      document.getElementById("gt"+String(i)).innerText = numToKor(priArr5[i-1]);
-      document.getElementById("gt"+String(i)).setAttribute('rel','popover');
-      document.getElementById("gt"+String(i)).setAttribute('data-trigger','hover');
-      document.getElementById("gt"+String(i)).setAttribute('data-original-title','시세 범위');
-      document.getElementById("gt"+String(i)).setAttribute('data-content',minPrice(priArr5[i-1])+' ~ '+maxPrice(priArr5[i-1]));
-      $('#gt'+String(i)).popover();
+      document.getElementById(curtag+String(i)).innerText = numToKor(priArr5[i-1]);
+      document.getElementById(curtag+String(i)).setAttribute('rel','popover');
+      document.getElementById(curtag+String(i)).setAttribute('data-trigger','hover');
+      document.getElementById(curtag+String(i)).setAttribute('data-original-title','시세 범위');
+      document.getElementById(curtag+String(i)).setAttribute('data-content',minPrice(priArr5[i-1])+' ~ '+maxPrice(priArr5[i-1]));
+      $('#'+curtag+String(i)).popover();
     }
   }
   function currentMin() {
