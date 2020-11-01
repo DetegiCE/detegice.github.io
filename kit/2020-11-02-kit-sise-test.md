@@ -234,9 +234,17 @@ popover : https://getbootstrap.com/docs/3.4/javascript/#popovers, http://jsfiddl
                   <th scope="row"><a id="jg7"></a></th>
                   <th scope="row">악동 버섯 조각</th>
                   <th scope="row"><a id="jg8"></a></th>
-                  <th scope="row">[기간한정] 해파리 조각</th>
+                  <th scope="row">P 버섯 조각</th>
                   <th scope="row"><a id="jg9"></a></th>
-              </tr>
+                </tr>
+                <tr>
+                  <th scope="row">[기간한정] 해파리 조각</th>
+                  <th scope="row"><a id="jg10"></a></th>
+                  <th scope="row">[기간한정] 구미호 결정</th>
+                  <th scope="row"><a id="jg11"></a></th>
+                  <th scope="row">[기간한정] 구미호 조각</th>
+                  <th scope="row"><a id="jg12"></a></th>
+                </tr>
               </tbody>
           </table>
         </div>
@@ -283,34 +291,50 @@ popover : https://getbootstrap.com/docs/3.4/javascript/#popovers, http://jsfiddl
                   <tr>
                     <th scope="row">SS (기타)</th>
                     <th scope="row"><a id="jr7"></a></th>
-                    <th scope="row">R</th>
+                    <th scope="row">R (소환마녀)</th>
                     <th scope="row"><a id="jr8"></a></th>
-                    <th scope="row">증명서</th>
+                    <th scope="row">R (생물학자)</th>
                     <th scope="row"><a id="jr9"></a></th>
                 </tr>
                 <tr>
-                  <th scope="row">균사체</th>
+                  <th scope="row">P버섯 결정</th>
                   <th scope="row"><a id="jr10"></a></th>
-                  <th scope="row">고급진 균사체</th>
+                  <th scope="row">P버섯 영혼</th>
                   <th scope="row"><a id="jr11"></a></th>
-                  <th scope="row">톱상어</th>
+                  <th scope="row">증명서</th>
                   <th scope="row"><a id="jr12"></a></th>
                 </tr>
                 <tr>
-                  <th scope="row">개복치</th>
+                  <th scope="row">균사체</th>
                   <th scope="row"><a id="jr13"></a></th>
-                  <th scope="row">백상아리</th>
+                  <th scope="row">고급진 균사체</th>
                   <th scope="row"><a id="jr14"></a></th>
-                  <th scope="row">깨끗한 물</th>
+                  <th scope="row">희귀한 균사체</th>
                   <th scope="row"><a id="jr15"></a></th>
                 </tr>
                 <tr>
-                  <th scope="row">G 강화석</th>
+                  <th scope="row">톱상어</th>
                   <th scope="row"><a id="jr16"></a></th>
-                  <th scope="row">Lapis 강화석</th>
+                  <th scope="row">개복치</th>
                   <th scope="row"><a id="jr17"></a></th>
-                  <th scope="row">Redstone 강화석</th>
+                  <th scope="row">백상아리</th>
                   <th scope="row"><a id="jr18"></a></th>
+                </tr>
+                <tr>
+                  <th scope="row">깨끗한 물</th>
+                  <th scope="row"><a id="jr19"></a></th>
+                  <th scope="row">G 강화석</th>
+                  <th scope="row"><a id="jr20"></a></th>
+                  <th scope="row">Lapis 강화석</th>
+                  <th scope="row"><a id="jr21"></a></th>
+                </tr>
+                <tr>
+                  <th scope="row">Redstone 강화석</th>
+                  <th scope="row"><a id="jr22"></a></th>
+                  <th scope="row">낚시 강화석</th>
+                  <th scope="row"><a id="jr23"></a></th>
+                  <th scope="row">S급 물고기</th>
+                  <th scope="row"><a id="jr24"></a></th>
                 </tr>
                 </tbody>
             </table>
@@ -360,7 +384,7 @@ popover : https://getbootstrap.com/docs/3.4/javascript/#popovers, http://jsfiddl
                     <th scope="row"><a id="sj7"></a></th>
                     <th scope="row">U 랜덤상자</th>
                     <th scope="row"><a id="sj8"></a></th>
-                    <th scope="row">잠수코드</th>
+                    <th scope="row">P급 랜덤상자</th>
                     <th scope="row"><a id="sj9"></a></th>
                   </tr>
                   <tr>
@@ -390,8 +414,8 @@ popover : https://getbootstrap.com/docs/3.4/javascript/#popovers, http://jsfiddl
                   <tr>
                     <th scope="row">스페셜 챕터 2 상자</th>
                     <th scope="row"><a id="sj19"></a></th>
-                    <th scope="row"></th>
-                    <th scope="row"></th>
+                    <th scope="row">잠수 코드</th>
+                    <th scope="row"><a id="sj20"></a></th>
                     <th scope="row"></th>
                     <th scope="row"></th>
                   </tr>
@@ -451,64 +475,80 @@ popover : https://getbootstrap.com/docs/3.4/javascript/#popovers, http://jsfiddl
                     <th scope="row"><a id="bs10"></a></th>
                     <th scope="row">SSS (귀부인)</th>
                     <th scope="row"><a id="bs11"></a></th>
-                    <th scope="row">[기간한정] 해파리</th>
+                    <th scope="row">R (소환마녀)</th>
                     <th scope="row"><a id="bs12"></a></th>
                   </tr>
                   <tr>
-                    <th scope="row">G (서커스)</th>
+                    <th scope="row">R (생물학자)</th>
                     <th scope="row"><a id="bs13"></a></th>
-                    <th scope="row">G (메이드)</th>
+                    <th scope="row">[기간한정] 해파리 버섯</th>
                     <th scope="row"><a id="bs14"></a></th>
-                    <th scope="row">G (선생님)</th>
+                    <th scope="row">[기간한정] 구미호 버섯 (사람)</th>
                     <th scope="row"><a id="bs15"></a></th>
                   </tr>
                   <tr>
-                    <th scope="row">U (태권도)</th>
+                    <th scope="row">[기간한정] 구미호 버섯 (여우)</th>
                     <th scope="row"><a id="bs16"></a></th>
-                    <th scope="row">U (학생)</th>
+                    <th scope="row">G (서커스)</th>
                     <th scope="row"><a id="bs17"></a></th>
-                    <th scope="row">U (항해사)</th>
+                    <th scope="row">G (메이드)</th>
                     <th scope="row"><a id="bs18"></a></th>
                   </tr>
                   <tr>
-                    <th scope="row">H (눈사람)</th>
+                    <th scope="row">G (선생님)</th>
                     <th scope="row"><a id="bs19"></a></th>
-                    <th scope="row">H (우주인)</th>
+                    <th scope="row">U (태권도)</th>
                     <th scope="row"><a id="bs20"></a></th>
-                    <th scope="row">H (악동)</th>
+                    <th scope="row">U (학생)</th>
                     <th scope="row"><a id="bs21"></a></th>
                   </tr>
                   <tr>
-                    <th scope="row">L (왕)</th>
+                    <th scope="row">U (항해사)</th>
                     <th scope="row"><a id="bs22"></a></th>
-                    <th scope="row">L (원시인)</th>
+                    <th scope="row">H (눈사람)</th>
                     <th scope="row"><a id="bs23"></a></th>
-                    <th scope="row">L (정령)</th>
+                    <th scope="row">H (우주인)</th>
                     <th scope="row"><a id="bs24"></a></th>
                   </tr>
                   <tr>
-                    <th scope="row">L (대마법사)</th>
+                    <th scope="row">H (악동)</th>
                     <th scope="row"><a id="bs25"></a></th>
-                    <th scope="row">L (고대)</th>
+                    <th scope="row">L (왕)</th>
                     <th scope="row"><a id="bs26"></a></th>
-                    <th scope="row">[잠수] 서핑 버섯</th>
+                    <th scope="row">L (원시인)</th>
                     <th scope="row"><a id="bs27"></a></th>
                   </tr>
                   <tr>
-                    <th scope="row">C+ (평범한)</th>
+                    <th scope="row">L (정령)</th>
                     <th scope="row"><a id="bs28"></a></th>
-                    <th scope="row">U+ (항해사)</th>
+                    <th scope="row">L (대마법사)</th>
                     <th scope="row"><a id="bs29"></a></th>
-                    <th scope="row">G+ (서커스)</th>
+                    <th scope="row">L (고대)</th>
                     <th scope="row"><a id="bs30"></a></th>
                   </tr>
                   <tr>
-                    <th scope="row">[기간한정] 달토끼 버섯</th>
+                    <th scope="row">[잠수] 서핑 버섯</th>
                     <th scope="row"><a id="bs31"></a></th>
-                    <th scope="row"></th>
-                    <th scope="row"></th>
-                    <th scope="row"></th>
-                    <th scope="row"></th>
+                    <th scope="row">C+ (평범한)</th>
+                    <th scope="row"><a id="bs32"></a></th>
+                    <th scope="row">U+ (항해사)</th>
+                    <th scope="row"><a id="bs33"></a></th>
+                  </tr>
+                  <tr>
+                    <th scope="row">G+ (서커스)</th>
+                    <th scope="row"><a id="bs34"></a></th>
+                    <th scope="row">잠수+ (서핑)</th>
+                    <th scope="row"><a id="bs35"></a></th>
+                    <th scope="row">L+ (정령)</th>
+                    <th scope="row"><a id="bs36"></a></th>
+                  </tr>
+                  <tr>
+                    <th scope="row">SS+ (달고나)</th>
+                    <th scope="row"><a id="bs37"></a></th>
+                    <th scope="row">U+ (태권도)</th>
+                    <th scope="row"><a id="bs38"></a></th>
+                    <th scope="row">[기간한정] 달토끼 버섯</th>
+                    <th scope="row"><a id="bs39"></a></th>
                   </tr>
                 </tbody>
             </table>
@@ -568,6 +608,14 @@ popover : https://getbootstrap.com/docs/3.4/javascript/#popovers, http://jsfiddl
                   <th scope="row"><a id="gt11"></a></th>
                   <th scope="row">특급 낚시대</th>
                   <th scope="row"><a id="gt12"></a></th>
+                </tr>
+                <tr>
+                  <th scope="row">강화보호권</th>
+                  <th scope="row"><a id="gt13"></a></th>
+                  <th scope="row"></th>
+                  <th scope="row"></th>
+                  <th scope="row"></th>
+                  <th scope="row"></th>
                 </tr>
                 </tbody>
             </table>
