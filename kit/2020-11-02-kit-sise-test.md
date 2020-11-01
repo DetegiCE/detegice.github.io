@@ -122,7 +122,7 @@ popover : https://getbootstrap.com/docs/3.4/javascript/#popovers, http://jsfiddl
                             50000, 10500000, 22150000, 
                             10000, 20000, 50000, 
                             80000, 500000, 75000, 
-                            200000, 100000, 200000, 
+                            530000, 100000, 200000, 
                             300000, 10000);
     for(var i=1 ; i<=priArr3.length ; i++) {
       if(i == 9) {
