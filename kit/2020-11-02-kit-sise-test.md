@@ -83,7 +83,7 @@ popover : https://getbootstrap.com/docs/3.4/javascript/#popovers, http://jsfiddl
     curtag = "jr";
     var priArr2 = new Array(800, 2000, 4000,
                             15000, 10000, 45000,
-                            30000, 300000, 2000000,
+                            30000, 3000000, 2000000,
                             20000000, 22150000, 3000,
                             103000, 143000, 9780000,
                             1200000, 1200000, 2400000,
@@ -116,29 +116,30 @@ popover : https://getbootstrap.com/docs/3.4/javascript/#popovers, http://jsfiddl
       $('#'+curtag+String(i)).popover();
     }
 
+    curtag = "sj";
     var priArr3 = new Array(800, 1500, 3000,
-                            10000, 15000, 100000,
-                            50000, 10500000, 10000, 
+                            9000, 15000, 200000,
+                            50000, 10500000, 22150000, 
                             10000, 20000, 50000, 
                             80000, 500000, 75000, 
-                            530000, 100000, 200000, 
-                            300000);
+                            200000, 100000, 200000, 
+                            300000, 10000);
     for(var i=1 ; i<=priArr3.length ; i++) {
-      if(i == 6) {
-        document.getElementById("sj"+String(i)).innerText = numToKor(priArr3[i-1]);
-        document.getElementById("sj"+String(i)).setAttribute('rel','popover');
-        document.getElementById("sj"+String(i)).setAttribute('data-trigger','hover');
-        document.getElementById("sj"+String(i)).setAttribute('data-original-title','시세 범위');
-        document.getElementById("sj"+String(i)).setAttribute('data-content',numToKor(priArr3[i-1])+' ~ : R상자는 최저 시세만 있습니다');
-        $('#sj'+String(i)).popover();
+      if(i == 9) {
+        document.getElementById(curtag+String(i)).innerText = numToKor(priArr3[i-1]);
+        document.getElementById(curtag+String(i)).setAttribute('rel','popover');
+        document.getElementById(curtag+String(i)).setAttribute('data-trigger','hover');
+        document.getElementById(curtag+String(i)).setAttribute('data-original-title','시세 범위');
+        document.getElementById(curtag+String(i)).setAttribute('data-content',numToKor(priArr3[i-1])+' ~ : P상자는 최저 시세만 있습니다');
+        $('#'+curtag+String(i)).popover();
         continue;
       }
-      document.getElementById("sj"+String(i)).innerText = numToKor(priArr3[i-1]);
-      document.getElementById("sj"+String(i)).setAttribute('rel','popover');
-      document.getElementById("sj"+String(i)).setAttribute('data-trigger','hover');
-      document.getElementById("sj"+String(i)).setAttribute('data-original-title','시세 범위');
-      document.getElementById("sj"+String(i)).setAttribute('data-content',minPrice(priArr3[i-1])+' ~ '+maxPrice(priArr3[i-1]));
-      $('#sj'+String(i)).popover();
+      document.getElementById(curtag+String(i)).innerText = numToKor(priArr3[i-1]);
+      document.getElementById(curtag+String(i)).setAttribute('rel','popover');
+      document.getElementById(curtag+String(i)).setAttribute('data-trigger','hover');
+      document.getElementById(curtag+String(i)).setAttribute('data-original-title','시세 범위');
+      document.getElementById(curtag+String(i)).setAttribute('data-content',minPrice(priArr3[i-1])+' ~ '+maxPrice(priArr3[i-1]));
+      $('#'+curtag+String(i)).popover();
     }
 
     var priArr4 = new Array(110000, 330000, 600000,
