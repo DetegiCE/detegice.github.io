@@ -100,7 +100,7 @@ popover : https://getbootstrap.com/docs/3.4/javascript/#popovers, http://jsfiddl
     }
 
     curtag = "jr";
-    var namArr1 = new Array("C급 재료", "B급 재료", "A급 재료",
+    var namArr2 = new Array("C급 재료", "B급 재료", "A급 재료",
                             "S(가수, 여전사)", "S(기타)", "SS(치킨, 번개)",
                             "SS(기타)", "R(소환마녀)", "R(생물학자)",
                             "P(유리 결정)", "P(픽셀 결정)", "P(백수 결정)",
