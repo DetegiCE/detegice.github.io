@@ -46,7 +46,16 @@ popover : https://getbootstrap.com/docs/3.4/javascript/#popovers, http://jsfiddl
     document.getElementById("curMin").innerText = String(currentMin());
     document.getElementById("curMax").innerText = String(currentMax());
     var curtag = "jg";
-
+    // setting sises
+    var namArr1 = new Array("왕 버섯의 흔적", "원시인 버섯의 흔적", "정령 버섯의 흔적",
+                            "대마법사 버섯의 흔적", "고대 버섯의 흔적", "눈사람 버섯의 흔적",
+                            "우주인 버섯 조각", "악동 버섯 조각", "P 버섯 조각",
+                            "[기간한정] 해파리 조각", "[기간한정] 구미호 결정", "[기간한정] 구미호 조각")
+    var priArr1 = new Array(100000, 200000, 500000, 
+                           800000, 5000000, 6000000,
+                           4000000, 2000000, 200000,
+                           1200000, 7000000, 800000);
+    
     var col1 = $('#collapseOne');
     col1.append('<div class="card-body">');
     col1.append('<table class="table">');
@@ -55,14 +64,18 @@ popover : https://getbootstrap.com/docs/3.4/javascript/#popovers, http://jsfiddl
         col1.append('<th scope="col">물품</th>');
         col1.append('<th scope="col">가격</th>');
     }
+    col1.append("<tbody>");
+    for(var i=1 ; i<=priArr1.length ; i++) {
+      if(i % 3 == 1) col1.append("<tr>");
+      col1.append('<th scope="row">'+namArr1[i-1]+'</th>');
+      col1.append('<th scope="row"><a id="'+curtag+String(i)+'"></a></th>');
+      if(i % 3 == 0) col1.append("</tr>");
+    }
+    col1.append("</tbody>");
     col1.append("</tr></thead>");
     col1.append("</table>");
     col1.append("</div>");
-    // setting sises
-    var priArr1 = new Array(100000, 200000, 500000, 
-                           800000, 5000000, 6000000,
-                           4000000, 2000000, 200000,
-                           1200000, 7000000, 800000);
+    
     for(var i=1 ; i<=priArr1.length ; i++) {
       if(i == 9) {
         document.getElementById(curtag+String(i)).innerText = numToKor(priArr1[i-1]);
