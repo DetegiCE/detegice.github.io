@@ -250,7 +250,7 @@ popover : https://getbootstrap.com/docs/3.4/javascript/#popovers, http://jsfiddl
       $('#'+curtag+String(i)).popover();
     }
 
-    curtag = "bs2";
+    curtag = "bst";
     var namArr5 = new Array("G(서커스)", "G(메이드)", "G(선생님)",
                             "U(태권도)", "U(학생)", "U(항해사)",
                             "H(눈사람)", "H(우주인)", "H(악동)",
