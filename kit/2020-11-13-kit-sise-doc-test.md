@@ -152,23 +152,40 @@ popover : https://getbootstrap.com/docs/3.4/javascript/#popovers, http://jsfiddl
     }
 
     curtag = "sj";
+    var namArr3 = new Array("C급 상자", "B급 상자", "A급 상자",
+                            "S급 상자", "SS급 상자", "R급 상자",
+                            "G 랜덤 상자", "U 랜덤 상자", "P 랜덤 상자",
+                            "챕터 1 상자", "챕터 2 상자", "챕터 3 상자",
+                            "챕터 4 상자", "챕터 5 상자", "[기간한정] 해파리 상자",
+                            "[기간한정] 달토끼 상자", "히든 챕터 1 상자", "히든 챕터 2 상자",
+                            "스페셜 챕터 2 상자", "잠수코드");
     var priArr3 = new Array(800, 1500, 3000,
-                            9000, 15000, 200000,
-                            50000, 10500000, 22150000, 
+                            8500, 14000, 200000,
+                            50000, 10500000, 12300000, 
                             10000, 20000, 50000, 
                             80000, 500000, 75000, 
                             530000, 100000, 200000, 
                             300000, 10000);
+    col1 = $('#collapseThree');
+    var totStr = '<div class="card-body">';
+    totStr += '<table class="table"><thead class="thead-light"><tr>';
+    for(var i=1 ; i<=3 ; i++) {
+        totStr += '<th scope="col">물품</th><th scope="col">가격</th>';
+    }
+    totStr += "<tbody>";
     for(var i=1 ; i<=priArr3.length ; i++) {
-      if(i == 9) {
-        document.getElementById(curtag+String(i)).innerText = numToKor(priArr3[i-1]);
-        document.getElementById(curtag+String(i)).setAttribute('rel','popover');
-        document.getElementById(curtag+String(i)).setAttribute('data-trigger','hover');
-        document.getElementById(curtag+String(i)).setAttribute('data-original-title','시세 범위');
-        document.getElementById(curtag+String(i)).setAttribute('data-content',numToKor(priArr3[i-1])+' ~ : P상자는 최저 시세만 있습니다');
-        $('#'+curtag+String(i)).popover();
-        continue;
-      }
+      if(i % 3 == 1) totStr += "<tr>";
+      totStr += '<th scope="row">'+namArr3[i-1]+'</th>';
+      totStr += '<th scope="row"><a id="'+curtag+String(i)+'"></a></th>';
+      if(i % 3 == 0) totStr += "</tr>";
+    }
+    if(priArr3.length % 3 >= 1) totStr += '<th scope="row"></th><th scope="row"></th>';
+    if(priArr3.length % 3 == 1) totStr += '<th scope="row"></th><th scope="row"></th>';
+    if(priArr3.length % 3 >= 1) totStr += "</tr>";
+    totStr += "</tbody></tr></thead></table></div>";
+    col1.append(totStr);
+
+    for(var i=1 ; i<=priArr3.length ; i++) {
       document.getElementById(curtag+String(i)).innerText = numToKor(priArr3[i-1]);
       document.getElementById(curtag+String(i)).setAttribute('rel','popover');
       document.getElementById(curtag+String(i)).setAttribute('data-trigger','hover');
@@ -178,21 +195,45 @@ popover : https://getbootstrap.com/docs/3.4/javascript/#popovers, http://jsfiddl
     }
 
     curtag = "bs";
+    var namArr4 = new Array("C급 버섯", "B급 버섯", "A급 버섯",
+                            "S(가수, 여전사)", "S(기타)", "SS(치킨, 번개)",
+                            "SS(기타)", "SSS(검투사,불타는,의사,로봇)", "SSS(마법사,눈물,소림사,마술사)",
+                            "SSS(응단,천사,과학자,주술사)", "SSS(귀부인)", "R(소환마녀)",
+                            "R(생물학자)", "P(유리)", "P(픽셀)",
+                            "P(백수)", "P(음침)", "P(악마)",
+                            "[기간한정] 해파리", "[기간한정] 구미호 (사람)", "[기간한정] 구미호 (여우)",
+                            "[기간한정] 달토끼", "[기간한정] 뱀파이어", "[기간한정] 프랑켄슈타인",
+                            "[기간한정] 늑대");
     var priArr4 = new Array(110000, 330000, 600000,
                             1500000, 1350000, 3500000,
                             2750000, 4250000, 4800000,
                             4950000, 4100000, 140000000,
-                            100000000, 12550000, 8000000,
-                            15000000, 3500000, 5000000,
-                            6000000, 9500000, 12000000,
-                            6000000, 34300000, 24300000, 
-                            14300000, 8200000, 9200000,
-                            12200000, 16600000, 58600000,
-                            7400000, 6100000, 15200000,
-                            23100000, 35000000, 40000000,
-                            42000000, 55100000, 20000000);
+                            100000000, 10000000, 32000000,
+                            42000000, 42500000, 50000000,
+                            12500000, 8000000, 15000000,
+                            20000000, 43500000, 29500000,
+                            22500000);
+    col1 = $('#collapseFour');
+    var totStr = '<div class="card-body">';
+    totStr += '<table class="table"><thead class="thead-light"><tr>';
+    for(var i=1 ; i<=3 ; i++) {
+        totStr += '<th scope="col">물품</th><th scope="col">가격</th>';
+    }
+    totStr += "<tbody>";
     for(var i=1 ; i<=priArr4.length ; i++) {
-      if(i == 16) {
+      if(i % 3 == 1) totStr += "<tr>";
+      totStr += '<th scope="row">'+namArr4[i-1]+'</th>';
+      totStr += '<th scope="row"><a id="'+curtag+String(i)+'"></a></th>';
+      if(i % 3 == 0) totStr += "</tr>";
+    }
+    if(priArr4.length % 3 >= 1) totStr += '<th scope="row"></th><th scope="row"></th>';
+    if(priArr4.length % 3 == 1) totStr += '<th scope="row"></th><th scope="row"></th>';
+    if(priArr4.length % 3 >= 1) totStr += "</tr>";
+    totStr += "</tbody></tr></thead></table></div>";
+    col1.append(totStr);
+
+    for(var i=1 ; i<=priArr4.length ; i++) {
+      if(i == 21) {
         document.getElementById(curtag+String(i)).innerText = numToKor(priArr4[i-1]);
         document.getElementById(curtag+String(i)).setAttribute('rel','popover');
         document.getElementById(curtag+String(i)).setAttribute('data-trigger','hover');
@@ -209,18 +250,89 @@ popover : https://getbootstrap.com/docs/3.4/javascript/#popovers, http://jsfiddl
       $('#'+curtag+String(i)).popover();
     }
 
-    curtag = "gt";
-    var priArr5 = new Array(400, 20000, 50000,
-                            200000, 100000, 600000,
-                            2600000, 3600000, 50000,
-                            250000, 2250000, 3000000,
-                            6500000);
+    curtag = "bs2";
+    var namArr5 = new Array("G(서커스)", "G(메이드)", "G(선생님)",
+                            "U(태권도)", "U(학생)", "U(항해사)",
+                            "H(눈사람)", "H(우주인)", "H(악동)",
+                            "L(왕)", "L(원시인)", "L(정령)",
+                            "L(대마법사)", "L(고대)", "[잠수] 서핑",
+                            "C+(평범한)", "U+(항해사)", "G+(서커스)",
+                            "잠수+(서핑)", "L+(정령)", "SS+(달고나)",
+                            "U+(태권도)");
+    var priArr5 = new Array(3500000, 5000000, 6000000,
+                            9500000, 12000000, 6000000,
+                            34300000, 24300000, 14300000,
+                            8150000, 9150000, 12150000,
+                            16600000, 58600000, 7400000,
+                            6100000, 15200000, 23100000,
+                            34900000, 39500000, 41850000,
+                            55100000);
+
+    col1 = $('#collapseFive');
+    var totStr = '<div class="card-body">';
+    totStr += '<table class="table"><thead class="thead-light"><tr>';
+    for(var i=1 ; i<=3 ; i++) {
+        totStr += '<th scope="col">물품</th><th scope="col">가격</th>';
+    }
+    totStr += "<tbody>";
+    for(var i=1 ; i<=priArr5.length ; i++) {
+      if(i % 3 == 1) totStr += "<tr>";
+      totStr += '<th scope="row">'+namArr5[i-1]+'</th>';
+      totStr += '<th scope="row"><a id="'+curtag+String(i)+'"></a></th>';
+      if(i % 3 == 0) totStr += "</tr>";
+    }
+    if(priArr5.length % 3 >= 1) totStr += '<th scope="row"></th><th scope="row"></th>';
+    if(priArr5.length % 3 == 1) totStr += '<th scope="row"></th><th scope="row"></th>';
+    if(priArr5.length % 3 >= 1) totStr += "</tr>";
+    totStr += "</tbody></tr></thead></table></div>";
+    col1.append(totStr);
+
     for(var i=1 ; i<=priArr5.length ; i++) {
       document.getElementById(curtag+String(i)).innerText = numToKor(priArr5[i-1]);
       document.getElementById(curtag+String(i)).setAttribute('rel','popover');
       document.getElementById(curtag+String(i)).setAttribute('data-trigger','hover');
       document.getElementById(curtag+String(i)).setAttribute('data-original-title','시세 범위');
       document.getElementById(curtag+String(i)).setAttribute('data-content',minPrice(priArr5[i-1])+' ~ '+maxPrice(priArr5[i-1]));
+      $('#'+curtag+String(i)).popover();
+    }
+
+    curtag = "gt";
+    var namArr6 = new Array("포자", "포자뭉치", "루비",
+                            "추천코인", "철곡괭이", "다이아몬드곡괭이",
+                            "에메랄드곡괭이", "루비곡괭이", "낚시대",
+                            "좋은낚시대", "고급진낚시대", "특급낚시대",
+                            "강화보호권");
+    var priArr6 = new Array(400, 20000, 50000,
+                            200000, 100000, 600000,
+                            2600000, 3600000, 50000,
+                            250000, 2250000, 3000000,
+                            6500000);
+
+    col1 = $('#collapseSix');
+    var totStr = '<div class="card-body">';
+    totStr += '<table class="table"><thead class="thead-light"><tr>';
+    for(var i=1 ; i<=3 ; i++) {
+        totStr += '<th scope="col">물품</th><th scope="col">가격</th>';
+    }
+    totStr += "<tbody>";
+    for(var i=1 ; i<=priArr6.length ; i++) {
+      if(i % 3 == 1) totStr += "<tr>";
+      totStr += '<th scope="row">'+namArr6[i-1]+'</th>';
+      totStr += '<th scope="row"><a id="'+curtag+String(i)+'"></a></th>';
+      if(i % 3 == 0) totStr += "</tr>";
+    }
+    if(priArr6.length % 3 >= 1) totStr += '<th scope="row"></th><th scope="row"></th>';
+    if(priArr6.length % 3 == 1) totStr += '<th scope="row"></th><th scope="row"></th>';
+    if(priArr6.length % 3 >= 1) totStr += "</tr>";
+    totStr += "</tbody></tr></thead></table></div>";
+    col1.append(totStr);
+
+    for(var i=1 ; i<=priArr6.length ; i++) {
+      document.getElementById(curtag+String(i)).innerText = numToKor(priArr6[i-1]);
+      document.getElementById(curtag+String(i)).setAttribute('rel','popover');
+      document.getElementById(curtag+String(i)).setAttribute('data-trigger','hover');
+      document.getElementById(curtag+String(i)).setAttribute('data-original-title','시세 범위');
+      document.getElementById(curtag+String(i)).setAttribute('data-content',minPrice(priArr6[i-1])+' ~ '+maxPrice(priArr6[i-1]));
       $('#'+curtag+String(i)).popover();
     }
   }
