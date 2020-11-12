@@ -57,24 +57,25 @@ popover : https://getbootstrap.com/docs/3.4/javascript/#popovers, http://jsfiddl
                            1200000, 7000000, 800000);
     
     var col1 = $('#collapseOne');
-    col1.append('<div class="card-body">');
-    col1.append('<table class="table">');
-    col1.append('<thead class="thead-light"><tr>');
+    var totStr = '<div class="card-body">';
+    totStr += '<table class="table">';
+    totStr += '<thead class="thead-light"><tr>';
     for(var i=1 ; i<=3 ; i++) {
-        col1.append('<th scope="col">물품</th>');
-        col1.append('<th scope="col">가격</th>');
+        totStr += '<th scope="col">물품</th>';
+        totStr += '<th scope="col">가격</th>';
     }
-    col1.append("<tbody>");
+    totStr += "<tbody>";
     for(var i=1 ; i<=priArr1.length ; i++) {
-      if(i % 3 == 1) col1.append("<tr>");
-      col1.append('<th scope="row">'+namArr1[i-1]+'</th>');
-      col1.append('<th scope="row"><a id="'+curtag+String(i)+'"></a></th>');
-      if(i % 3 == 0) col1.append("</tr>");
+      if(i % 3 == 1) totStr += "<tr>";
+      totStr += '<th scope="row">'+namArr1[i-1]+'</th>';
+      totStr += '<th scope="row"><a id="'+curtag+String(i)+'"></a></th>';
+      if(i % 3 == 0) totStr += "</tr>";
     }
-    col1.append("</tbody>");
-    col1.append("</tr></thead>");
-    col1.append("</table>");
-    col1.append("</div>");
+    totStr += "</tbody>";
+    totStr += "</tr></thead>";
+    totStr += "</table>";
+    totStr += "</div>";
+    col1.append(totStr);
     
     for(var i=1 ; i<=priArr1.length ; i++) {
       if(i == 9) {
