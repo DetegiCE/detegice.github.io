@@ -49,20 +49,24 @@ popover : https://getbootstrap.com/docs/3.4/javascript/#popovers, http://jsfiddl
     // setting sises
     var namArr1 = new Array("왕 버섯의 흔적", "원시인 버섯의 흔적", "정령 버섯의 흔적",
                             "대마법사 버섯의 흔적", "고대 버섯의 흔적", "눈사람 버섯의 흔적",
-                            "우주인 버섯 조각", "악동 버섯 조각", "P 버섯 조각",
-                            "[기간한정] 해파리 조각", "[기간한정] 구미호 결정", "[기간한정] 구미호 조각")
+                            "우주인 버섯 조각", "악동 버섯 조각", "P(유리 조각)",
+                            "P(픽셀 조각)", "P(백수 조각)", "P(음침 조각)",
+                            "P(악마 조각)", "[기간한정] 해파리 조각", "[기간한정] 구미호 결정", 
+                            "[기간한정] 구미호 조각", "[기간한정] 뱀파이어 조각", "[기간한정] 프랑켄슈타인 조각",
+                            "[기간한정] 늑대 조각");
     var priArr1 = new Array(100000, 200000, 500000, 
                            800000, 5000000, 6000000,
-                           4000000, 2000000, 200000,
-                           1200000, 7000000, 800000);
+                           4000000, 2000000, 50000,
+                           200000, 300000, 200000,
+                           400000, 1200000, 7000000, 
+                           800000, 6000000, 4000000,
+                           3000000);
     
     var col1 = $('#collapseOne');
     var totStr = '<div class="card-body">';
-    totStr += '<table class="table">';
-    totStr += '<thead class="thead-light"><tr>';
+    totStr += '<table class="table"><thead class="thead-light"><tr>';
     for(var i=1 ; i<=3 ; i++) {
-        totStr += '<th scope="col">물품</th>';
-        totStr += '<th scope="col">가격</th>';
+        totStr += '<th scope="col">물품</th><th scope="col">가격</th>';
     }
     totStr += "<tbody>";
     for(var i=1 ; i<=priArr1.length ; i++) {
@@ -71,23 +75,14 @@ popover : https://getbootstrap.com/docs/3.4/javascript/#popovers, http://jsfiddl
       totStr += '<th scope="row"><a id="'+curtag+String(i)+'"></a></th>';
       if(i % 3 == 0) totStr += "</tr>";
     }
-    totStr += "</tbody>";
-    totStr += "</tr></thead>";
-    totStr += "</table>";
-    totStr += "</div>";
+    if(priArr1.length % 3 >= 1) totStr += '<th scope="row"></th><th scope="row"></th>';
+    if(priArr1.length % 3 == 1) totStr += '<th scope="row"></th><th scope="row"></th>';
+    if(priArr1.length % 3 >= 1) totStr += "</tr>";
+    totStr += "</tbody></tr></thead></table></div>";
     col1.append(totStr);
     
     for(var i=1 ; i<=priArr1.length ; i++) {
-      if(i == 9) {
-        document.getElementById(curtag+String(i)).innerText = numToKor(priArr1[i-1]);
-        document.getElementById(curtag+String(i)).setAttribute('rel','popover');
-        document.getElementById(curtag+String(i)).setAttribute('data-trigger','hover');
-        document.getElementById(curtag+String(i)).setAttribute('data-original-title','시세 범위');
-        document.getElementById(curtag+String(i)).setAttribute('data-content',numToKor(priArr1[i-1])+' ~ : P버섯 조각은 최저 시세만 있습니다');
-        $('#'+curtag+String(i)).popover();
-        continue;
-      }
-      if(i == 11) {
+      if(i == 15) {
         document.getElementById(curtag+String(i)).innerText = numToKor(priArr1[i-1]);
         document.getElementById(curtag+String(i)).setAttribute('rel','popover');
         document.getElementById(curtag+String(i)).setAttribute('data-trigger','hover');
@@ -105,33 +100,49 @@ popover : https://getbootstrap.com/docs/3.4/javascript/#popovers, http://jsfiddl
     }
 
     curtag = "jr";
+    var namArr1 = new Array("C급 재료", "B급 재료", "A급 재료",
+                            "S(가수, 여전사)", "S(기타)", "SS(치킨, 번개)",
+                            "SS(기타)", "R(소환마녀)", "R(생물학자)",
+                            "P(유리 결정)", "P(픽셀 결정)", "P(백수 결정)",
+                            "P(음침 결정)", "P(악마 결정)", "P(유리 영혼)",
+                            "P(픽셀 영혼)", "P(백수 영혼)", "P(악마 영혼)",
+                            "P(음침 영혼)", "증명서", "균사체",
+                            "고급진 균사체", "희귀한 균사체", "톱상어",
+                            "개복치", "백상아리", "깨끗한 물",
+                            "G 강화석", "Lapis 강화석", "Redstone 강화석",
+                            "낚시 강화석", "S급 물고기");
     var priArr2 = new Array(800, 2000, 4000,
                             15000, 10000, 45000,
                             30000, 3000000, 2000000,
-                            20000000, 22150000, 3000,
-                            103000, 143000, 9780000,
-                            1200000, 1200000, 2400000,
-                            5000000, 6000000, 2000000,
-                            2000000, 2000000, 200000);
+                            5000000, 20000000, 30000000,
+                            20000000, 40000000, 5000000,
+                            12000000, 12000000, 22500000,
+                            10000000, 3000, 103000, 
+                            143000, 9780000, 1200000, 
+                            1200000, 2400000, 5000000, 
+                            6000000, 2000000, 2000000, 
+                            2000000, 200000);
+
+    col1 = $('#collapseTwo');
+    var totStr = '<div class="card-body">';
+    totStr += '<table class="table"><thead class="thead-light"><tr>';
+    for(var i=1 ; i<=3 ; i++) {
+        totStr += '<th scope="col">물품</th><th scope="col">가격</th>';
+    }
+    totStr += "<tbody>";
+    for(var i=1 ; i<=priArr1.length ; i++) {
+      if(i % 3 == 1) totStr += "<tr>";
+      totStr += '<th scope="row">'+namArr1[i-1]+'</th>';
+      totStr += '<th scope="row"><a id="'+curtag+String(i)+'"></a></th>';
+      if(i % 3 == 0) totStr += "</tr>";
+    }
+    if(priArr1.length % 3 >= 1) totStr += '<th scope="row"></th><th scope="row"></th>';
+    if(priArr1.length % 3 == 1) totStr += '<th scope="row"></th><th scope="row"></th>';
+    if(priArr1.length % 3 >= 1) totStr += "</tr>";
+    totStr += "</tbody></tr></thead></table></div>";
+    col1.append(totStr);
+
     for(var i=1 ; i<=priArr2.length ; i++) {
-      if(i == 10) {
-        document.getElementById(curtag+String(i)).innerText = numToKor(priArr2[i-1]);
-        document.getElementById(curtag+String(i)).setAttribute('rel','popover');
-        document.getElementById(curtag+String(i)).setAttribute('data-trigger','hover');
-        document.getElementById(curtag+String(i)).setAttribute('data-original-title','시세 범위');
-        document.getElementById(curtag+String(i)).setAttribute('data-content',numToKor(priArr2[i-1])+' ~ : P버섯 결정은 최저 시세만 있습니다');
-        $('#'+curtag+String(i)).popover();
-        continue;
-      }
-      if(i == 11) {
-        document.getElementById(curtag+String(i)).innerText = numToKor(priArr2[i-1]);
-        document.getElementById(curtag+String(i)).setAttribute('rel','popover');
-        document.getElementById(curtag+String(i)).setAttribute('data-trigger','hover');
-        document.getElementById(curtag+String(i)).setAttribute('data-original-title','시세 범위');
-        document.getElementById(curtag+String(i)).setAttribute('data-content',numToKor(priArr2[i-1])+' ~ : P버섯 영혼은 최저 시세만 있습니다');
-        $('#'+curtag+String(i)).popover();
-        continue;
-      }
       document.getElementById(curtag+String(i)).innerText = numToKor(priArr2[i-1]);
       document.getElementById(curtag+String(i)).setAttribute('rel','popover');
       document.getElementById(curtag+String(i)).setAttribute('data-trigger','hover');
@@ -250,13 +261,13 @@ popover : https://getbootstrap.com/docs/3.4/javascript/#popovers, http://jsfiddl
 </script>
 
 <div class="alert alert-danger" role="alert">
-    <h4 class="alert-heading">2020년 11월 2일 기준 시세</h4>
+    <h4 class="alert-heading">2020년 11월 13일 기준 시세</h4>
     <hr>
     <p class="mb-0" style="display: inline;">시세가 없는 물품은 자유 시세로 가능합니다.<br>
         시세 파괴의 기준은 <div id="curMin" class="il"></div>% ~ <div id="curMax" class="il"></div>%로, 서버 규칙을 참고하시기 바랍니다.<br>
         <strong>시세를 벗어나는 거래를 시도하거나 하는 경우, 최대 밴 처벌을 받으실 수 있습니다.</strong></p>
         <hr>
-        금액 위에 마우스를 올리면 시세 범위를 확인하실 수 있습니다.<br>P급, 구미호 결정, 구미호 버섯 (여우)의 경우 최저 시세만 존재합니다.
+        금액 위에 마우스를 올리면 시세 범위를 확인하실 수 있습니다.<br>구미호 결정, 구미호 버섯 (여우)의 경우 최저 시세만 존재합니다.
     </div>
 <div>
     
@@ -269,9 +280,7 @@ popover : https://getbootstrap.com/docs/3.4/javascript/#popovers, http://jsfiddl
           </button>
         </h2>
       </div>
-  
       <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-        
       </div>
     </div>
     <div class="card"> <!-- 재료 -->
@@ -282,87 +291,7 @@ popover : https://getbootstrap.com/docs/3.4/javascript/#popovers, http://jsfiddl
           </button>
         </h2>
       </div>
-      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-        <div class="card-body">
-            <table class="table">
-                <thead class="thead-light">
-                  <tr>
-                      <th scope="col">물품</th>
-                      <th scope="col">가격</th>
-                      <th scope="col">물품</th>
-                      <th scope="col">가격</th>
-                      <th scope="col">물품</th>
-                      <th scope="col">가격</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                      <th scope="row">C급 재료</th>
-                      <th scope="row"><a id="jr1"></a></th>
-                      <th scope="row">B급 재료</th>
-                      <th scope="row"><a id="jr2"></a></th>
-                      <th scope="row">A급 재료</th>
-                      <th scope="row"><a id="jr3"></a></th>
-                  </tr>
-                  <tr>
-                      <th scope="row">S (가수, 여전사)</th>
-                      <th scope="row"><a id="jr4"></a></th>
-                      <th scope="row">S (기타)</th>
-                      <th scope="row"><a id="jr5"></a></th>
-                      <th scope="row">SS (치킨, 번개)</th>
-                      <th scope="row"><a id="jr6"></a></th>
-                  </tr>
-                  <tr>
-                    <th scope="row">SS (기타)</th>
-                    <th scope="row"><a id="jr7"></a></th>
-                    <th scope="row">R (소환마녀)</th>
-                    <th scope="row"><a id="jr8"></a></th>
-                    <th scope="row">R (생물학자)</th>
-                    <th scope="row"><a id="jr9"></a></th>
-                </tr>
-                <tr>
-                  <th scope="row">P버섯 결정</th>
-                  <th scope="row"><a id="jr10"></a></th>
-                  <th scope="row">P버섯 영혼</th>
-                  <th scope="row"><a id="jr11"></a></th>
-                  <th scope="row">증명서</th>
-                  <th scope="row"><a id="jr12"></a></th>
-                </tr>
-                <tr>
-                  <th scope="row">균사체</th>
-                  <th scope="row"><a id="jr13"></a></th>
-                  <th scope="row">고급진 균사체</th>
-                  <th scope="row"><a id="jr14"></a></th>
-                  <th scope="row">희귀한 균사체</th>
-                  <th scope="row"><a id="jr15"></a></th>
-                </tr>
-                <tr>
-                  <th scope="row">톱상어</th>
-                  <th scope="row"><a id="jr16"></a></th>
-                  <th scope="row">개복치</th>
-                  <th scope="row"><a id="jr17"></a></th>
-                  <th scope="row">백상아리</th>
-                  <th scope="row"><a id="jr18"></a></th>
-                </tr>
-                <tr>
-                  <th scope="row">깨끗한 물</th>
-                  <th scope="row"><a id="jr19"></a></th>
-                  <th scope="row">G 강화석</th>
-                  <th scope="row"><a id="jr20"></a></th>
-                  <th scope="row">Lapis 강화석</th>
-                  <th scope="row"><a id="jr21"></a></th>
-                </tr>
-                <tr>
-                  <th scope="row">Redstone 강화석</th>
-                  <th scope="row"><a id="jr22"></a></th>
-                  <th scope="row">낚시 강화석</th>
-                  <th scope="row"><a id="jr23"></a></th>
-                  <th scope="row">S급 물고기</th>
-                  <th scope="row"><a id="jr24"></a></th>
-                </tr>
-                </tbody>
-            </table>
-        </div>
+      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">       
       </div>
     </div>
     <div class="card"> <!-- 상자 -->
@@ -374,276 +303,39 @@ popover : https://getbootstrap.com/docs/3.4/javascript/#popovers, http://jsfiddl
         </h2>
       </div>
       <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-        <div class="card-body">
-            <table class="table">
-                <thead class="thead-light">
-                  <tr>
-                      <th scope="col">물품</th>
-                      <th scope="col">가격</th>
-                      <th scope="col">물품</th>
-                      <th scope="col">가격</th>
-                      <th scope="col">물품</th>
-                      <th scope="col">가격</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                      <th scope="row">C급 선물상자</th>
-                      <th scope="row"><a id="sj1"></a></th>
-                      <th scope="row">B급 선물상자</th>
-                      <th scope="row"><a id="sj2"></a></th>
-                      <th scope="row">A급 선물상자</th>
-                      <th scope="row"><a id="sj3"></a></th>
-                  </tr>
-                  <tr>
-                      <th scope="row">S급 선물상자</th>
-                      <th scope="row"><a id="sj4"></a></th>
-                      <th scope="row">SS급 선물상자</th>
-                      <th scope="row"><a id="sj5"></a></th>
-                      <th scope="row">R급 선물상자</th>
-                      <th scope="row"><a id="sj6"></a></th>
-                  </tr>
-                  <tr>
-                    <th scope="row">G 랜덤상자</th>
-                    <th scope="row"><a id="sj7"></a></th>
-                    <th scope="row">U 랜덤상자</th>
-                    <th scope="row"><a id="sj8"></a></th>
-                    <th scope="row">P급 랜덤상자</th>
-                    <th scope="row"><a id="sj9"></a></th>
-                  </tr>
-                  <tr>
-                    <th scope="row">챕터 1 상자</th>
-                    <th scope="row"><a id="sj10"></a></th>
-                    <th scope="row">챕터 2 상자</th>
-                    <th scope="row"><a id="sj11"></a></th>
-                    <th scope="row">챕터 3 상자</th>
-                    <th scope="row"><a id="sj12"></a></th>
-                  </tr>
-                  <tr>
-                    <th scope="row">챕터 4 상자</th>
-                    <th scope="row"><a id="sj13"></a></th>
-                    <th scope="row">챕터 5 상자</th>
-                    <th scope="row"><a id="sj14"></a></th>
-                    <th scope="row">[기간한정] 해파리 상자</th>
-                    <th scope="row"><a id="sj15"></a></th>
-                  </tr>
-                  <tr>
-                    <th scope="row">[기간한정] 달토끼 상자</th>
-                    <th scope="row"><a id="sj16"></a></th>
-                    <th scope="row">히든 챕터 1 상자</th>
-                    <th scope="row"><a id="sj17"></a></th>
-                    <th scope="row">히든 챕터 2 상자</th>
-                    <th scope="row"><a id="sj18"></a></th>
-                  </tr>
-                  <tr>
-                    <th scope="row">스페셜 챕터 2 상자</th>
-                    <th scope="row"><a id="sj19"></a></th>
-                    <th scope="row">잠수 코드</th>
-                    <th scope="row"><a id="sj20"></a></th>
-                    <th scope="row"></th>
-                    <th scope="row"></th>
-                  </tr>
-                </tbody>
-            </table>
-        </div>
       </div>
     </div>
-    <div class="card"> <!-- 버섯 -->
+    <div class="card"> <!-- 버섯 1 -->
       <div class="card-header" id="headingFour">
         <h2 class="mb-0">
           <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-            버섯
+            버섯 (C~R, P, 기간한정)
           </button>
         </h2>
       </div>
       <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-        <div class="card-body">
-            <table class="table">
-                <thead class="thead-light">
-                  <tr>
-                      <th scope="col">물품</th>
-                      <th scope="col">가격</th>
-                      <th scope="col">물품</th>
-                      <th scope="col">가격</th>
-                      <th scope="col">물품</th>
-                      <th scope="col">가격</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                      <th scope="row">C급 버섯</th>
-                      <th scope="row"><a id="bs1"></a></th>
-                      <th scope="row">B급 버섯</th>
-                      <th scope="row"><a id="bs2"></a></th>
-                      <th scope="row">A급 버섯</th>
-                      <th scope="row"><a id="bs3"></a></th>
-                  </tr>
-                  <tr>
-                      <th scope="row">S (가수, 여전사)</th>
-                      <th scope="row"><a id="bs4"></a></th>
-                      <th scope="row">S (기타)</th>
-                      <th scope="row"><a id="bs5"></a></th>
-                      <th scope="row">SS (치킨, 번개)</th>
-                      <th scope="row"><a id="bs6"></a></th>
-                  </tr>
-                  <tr>
-                    <th scope="row">SS (기타)</th>
-                    <th scope="row"><a id="bs7"></a></th>
-                    <th scope="row">SSS (검투사, 불타는, 의사, 로봇)</th>
-                    <th scope="row"><a id="bs8"></a></th>
-                    <th scope="row">SSS (마법사, 눈물, 소림사, 마술사)</th>
-                    <th scope="row"><a id="bs9"></a></th>
-                  </tr>
-                  <tr>
-                    <th scope="row">SSS (응원단장, 천사, 과학자, 주술사)</th>
-                    <th scope="row"><a id="bs10"></a></th>
-                    <th scope="row">SSS (귀부인)</th>
-                    <th scope="row"><a id="bs11"></a></th>
-                    <th scope="row">R (소환마녀)</th>
-                    <th scope="row"><a id="bs12"></a></th>
-                  </tr>
-                  <tr>
-                    <th scope="row">R (생물학자)</th>
-                    <th scope="row"><a id="bs13"></a></th>
-                    <th scope="row">[기간한정] 해파리 버섯</th>
-                    <th scope="row"><a id="bs14"></a></th>
-                    <th scope="row">[기간한정] 구미호 버섯 (사람)</th>
-                    <th scope="row"><a id="bs15"></a></th>
-                  </tr>
-                  <tr>
-                    <th scope="row">[기간한정] 구미호 버섯 (여우)</th>
-                    <th scope="row"><a id="bs16"></a></th>
-                    <th scope="row">G (서커스)</th>
-                    <th scope="row"><a id="bs17"></a></th>
-                    <th scope="row">G (메이드)</th>
-                    <th scope="row"><a id="bs18"></a></th>
-                  </tr>
-                  <tr>
-                    <th scope="row">G (선생님)</th>
-                    <th scope="row"><a id="bs19"></a></th>
-                    <th scope="row">U (태권도)</th>
-                    <th scope="row"><a id="bs20"></a></th>
-                    <th scope="row">U (학생)</th>
-                    <th scope="row"><a id="bs21"></a></th>
-                  </tr>
-                  <tr>
-                    <th scope="row">U (항해사)</th>
-                    <th scope="row"><a id="bs22"></a></th>
-                    <th scope="row">H (눈사람)</th>
-                    <th scope="row"><a id="bs23"></a></th>
-                    <th scope="row">H (우주인)</th>
-                    <th scope="row"><a id="bs24"></a></th>
-                  </tr>
-                  <tr>
-                    <th scope="row">H (악동)</th>
-                    <th scope="row"><a id="bs25"></a></th>
-                    <th scope="row">L (왕)</th>
-                    <th scope="row"><a id="bs26"></a></th>
-                    <th scope="row">L (원시인)</th>
-                    <th scope="row"><a id="bs27"></a></th>
-                  </tr>
-                  <tr>
-                    <th scope="row">L (정령)</th>
-                    <th scope="row"><a id="bs28"></a></th>
-                    <th scope="row">L (대마법사)</th>
-                    <th scope="row"><a id="bs29"></a></th>
-                    <th scope="row">L (고대)</th>
-                    <th scope="row"><a id="bs30"></a></th>
-                  </tr>
-                  <tr>
-                    <th scope="row">[잠수] 서핑 버섯</th>
-                    <th scope="row"><a id="bs31"></a></th>
-                    <th scope="row">C+ (평범한)</th>
-                    <th scope="row"><a id="bs32"></a></th>
-                    <th scope="row">U+ (항해사)</th>
-                    <th scope="row"><a id="bs33"></a></th>
-                  </tr>
-                  <tr>
-                    <th scope="row">G+ (서커스)</th>
-                    <th scope="row"><a id="bs34"></a></th>
-                    <th scope="row">잠수+ (서핑)</th>
-                    <th scope="row"><a id="bs35"></a></th>
-                    <th scope="row">L+ (정령)</th>
-                    <th scope="row"><a id="bs36"></a></th>
-                  </tr>
-                  <tr>
-                    <th scope="row">SS+ (달고나)</th>
-                    <th scope="row"><a id="bs37"></a></th>
-                    <th scope="row">U+ (태권도)</th>
-                    <th scope="row"><a id="bs38"></a></th>
-                    <th scope="row">[기간한정] 달토끼 버섯</th>
-                    <th scope="row"><a id="bs39"></a></th>
-                  </tr>
-                </tbody>
-            </table>
-        </div>
       </div>
     </div>
-    <div class="card"> <!-- 기타 -->
+    <div class="card"> <!-- 버섯 2 -->
       <div class="card-header" id="headingFive">
         <h2 class="mb-0">
           <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-            기타
+            버섯 (G, U, H, L, 잠수, 강화)
           </button>
         </h2>
       </div>
       <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
-        <div class="card-body">
-            <table class="table">
-                <thead class="thead-light">
-                  <tr>
-                      <th scope="col">물품</th>
-                      <th scope="col">가격</th>
-                      <th scope="col">물품</th>
-                      <th scope="col">가격</th>
-                      <th scope="col">물품</th>
-                      <th scope="col">가격</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                      <th scope="row">포자</th>
-                      <th scope="row"><a id="gt1"></a></th>
-                      <th scope="row">포자뭉치</th>
-                      <th scope="row"><a id="gt2"></a></th>
-                      <th scope="row">루비</th>
-                      <th scope="row"><a id="gt3"></a></th>
-                  </tr>
-                  <tr>
-                      <th scope="row">추천 코인</th>
-                      <th scope="row"><a id="gt4"></a></th>
-                      <th scope="row">철 곡괭이</th>
-                      <th scope="row"><a id="gt5"></a></th>
-                      <th scope="row">다이아몬드 곡괭이</th>
-                      <th scope="row"><a id="gt6"></a></th>
-                  </tr>
-                  <tr>
-                    <th scope="row">에메랄드 곡괭이</th>
-                    <th scope="row"><a id="gt7"></a></th>
-                    <th scope="row">루비 곡괭이</th>
-                    <th scope="row"><a id="gt8"></a></th>
-                    <th scope="row">낚시대</th>
-                    <th scope="row"><a id="gt9"></a></th>
-                </tr>
-                <tr>
-                  <th scope="row">좋은 낚시대</th>
-                  <th scope="row"><a id="gt10"></a></th>
-                  <th scope="row">고급진 낚시대</th>
-                  <th scope="row"><a id="gt11"></a></th>
-                  <th scope="row">특급 낚시대</th>
-                  <th scope="row"><a id="gt12"></a></th>
-                </tr>
-                <tr>
-                  <th scope="row">강화보호권</th>
-                  <th scope="row"><a id="gt13"></a></th>
-                  <th scope="row"></th>
-                  <th scope="row"></th>
-                  <th scope="row"></th>
-                  <th scope="row"></th>
-                </tr>
-                </tbody>
-            </table>
-        </div>
+      </div>
+    </div>
+    <div class="card"> <!-- 기타 -->
+      <div class="card-header" id="headingSix">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+            기타
+          </button>
+        </h2>
+      </div>
+      <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
       </div>
     </div>
   </div>
