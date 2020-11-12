@@ -130,15 +130,15 @@ popover : https://getbootstrap.com/docs/3.4/javascript/#popovers, http://jsfiddl
         totStr += '<th scope="col">물품</th><th scope="col">가격</th>';
     }
     totStr += "<tbody>";
-    for(var i=1 ; i<=priArr1.length ; i++) {
+    for(var i=1 ; i<=priArr2.length ; i++) {
       if(i % 3 == 1) totStr += "<tr>";
-      totStr += '<th scope="row">'+namArr1[i-1]+'</th>';
+      totStr += '<th scope="row">'+namArr2[i-1]+'</th>';
       totStr += '<th scope="row"><a id="'+curtag+String(i)+'"></a></th>';
       if(i % 3 == 0) totStr += "</tr>";
     }
-    if(priArr1.length % 3 >= 1) totStr += '<th scope="row"></th><th scope="row"></th>';
-    if(priArr1.length % 3 == 1) totStr += '<th scope="row"></th><th scope="row"></th>';
-    if(priArr1.length % 3 >= 1) totStr += "</tr>";
+    if(priArr2.length % 3 >= 1) totStr += '<th scope="row"></th><th scope="row"></th>';
+    if(priArr2.length % 3 == 1) totStr += '<th scope="row"></th><th scope="row"></th>';
+    if(priArr2.length % 3 >= 1) totStr += "</tr>";
     totStr += "</tbody></tr></thead></table></div>";
     col1.append(totStr);
 
