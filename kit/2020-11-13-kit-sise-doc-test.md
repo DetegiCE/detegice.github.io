@@ -47,17 +47,17 @@ popover : https://getbootstrap.com/docs/3.4/javascript/#popovers, http://jsfiddl
     document.getElementById("curMax").innerText = String(currentMax());
     var curtag = "jg";
 
-    var col1 = document.getElementById("collapseOne");
-    col1.write('<div class="card-body">');
-    col1.write('<table class="table">');
-    col1.write('<thead class="thead-light"><tr>');
+    var col1 = $('#collapseOne');
+    col1.append('<div class="card-body">');
+    col1.append('<table class="table">');
+    col1.append('<thead class="thead-light"><tr>');
     for(var i=1 ; i<=3 ; i++) {
-        col1.write('<th scope="col">물품</th>');
-        col1.write('<th scope="col">가격</th>');
+        col1.append('<th scope="col">물품</th>');
+        col1.append('<th scope="col">가격</th>');
     }
-    col1.write("</tr></thead>");
-    col1.write("</table>");
-    col1.write("</div>");
+    col1.append("</tr></thead>");
+    col1.append("</table>");
+    col1.append("</div>");
     // setting sises
     var priArr1 = new Array(100000, 200000, 500000, 
                            800000, 5000000, 6000000,
