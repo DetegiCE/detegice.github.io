@@ -48,12 +48,12 @@ popover : https://getbootstrap.com/docs/3.4/javascript/#popovers, http://jsfiddl
     var curtag = "jg";
 
     var col1 = document.getElementById("collapseOne");
-    col1.write("<div class="+"card-body"+">");
-    col1.write("<table class="+"table"+">");
-    col1.write("<thead class="+"thead-light"+"><tr>");
+    col1.write('<div class="card-body">');
+    col1.write('<table class="table">');
+    col1.write('<thead class="thead-light"><tr>');
     for(var i=1 ; i<=3 ; i++) {
-        col1.write("<th scope="+"col"+">물품</th>");
-        col1.write("<th scope="+"col"+">가격</th>");
+        col1.write('<th scope="col">물품</th>');
+        col1.write('<th scope="col">가격</th>');
     }
     col1.write("</tr></thead>");
     col1.write("</table>");
