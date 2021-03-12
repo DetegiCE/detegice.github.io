@@ -3,7 +3,7 @@ layout: none
 permalink: /muyaho/
 author_profile: false
 ---
-<title>무야호 뜻 유래 기원에 대해서 알아보자. - DetegiCE</title>
+<title>무야호 뜻 유래 기원에 대해서 알아보자.</title>
 
 <script data-ad-client="ca-pub-2393564017114032" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -36,12 +36,32 @@ author_profile: false
     }
 </style>
 
+<h1>무야호 뜻 유래 기원에 대해서 알아보자.</h1>
+
 최근에 무야호~ 하는 감탄사를 댓글에서나 영상에서 간혹가다 볼 수 있다.
 
  
 
 이게 과연 무슨 뜻이길래 무야호~ 하는 것일까?
 
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <!-- github -->
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="ca-pub-2393564017114032"
+       data-ad-slot="7921062366"
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+  <ins class="kakao_ad_area" style="display:none;" 
+  data-ad-unit    = "DAN-qxi7q147vuif" 
+  data-ad-width   = "320" 
+  data-ad-height  = "100"></ins> 
+ <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async> </script>
+ 
 - - -
 
 > 무야호의 유래
@@ -92,6 +112,23 @@ author_profile: false
 
 그러나 저 영상은 2010년에 방영되었던 회차인데 왜 갑자기 10년이 지난 지금 '무야호~'가 유행하는 것일까?
 
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <!-- github -->
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="ca-pub-2393564017114032"
+       data-ad-slot="7921062366"
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+  <ins class="kakao_ad_area" style="display:none;" 
+  data-ad-unit    = "DAN-qxi7q147vuif" 
+  data-ad-width   = "320" 
+  data-ad-height  = "100"></ins> 
+ <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async> </script>
 
 
 - - -
@@ -134,7 +171,23 @@ author_profile: false
 
 위 영상의 15:45초 부근부터 보면 된다.
 
- 
+   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <!-- github -->
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="ca-pub-2393564017114032"
+       data-ad-slot="7921062366"
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+  <ins class="kakao_ad_area" style="display:none;" 
+  data-ad-unit    = "DAN-qxi7q147vuif" 
+  data-ad-width   = "320" 
+  data-ad-height  = "100"></ins> 
+ <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async> </script>
 
 이 스트리머는 게임에서 상대방을 죽였을때 '~한 OO 컷!'이라고 말하는 습관이 있는데,
 
@@ -156,3 +209,20 @@ author_profile: false
 
 인터넷 방송 중에서도 특히 랄로 애청자, 소위 랄뚜기들이 이 단어를 애용하는 것을 흔히 볼 수 있다.
 
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <!-- github -->
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="ca-pub-2393564017114032"
+       data-ad-slot="7921062366"
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+  <ins class="kakao_ad_area" style="display:none;" 
+  data-ad-unit    = "DAN-qxi7q147vuif" 
+  data-ad-width   = "320" 
+  data-ad-height  = "100"></ins> 
+ <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async> </script>
