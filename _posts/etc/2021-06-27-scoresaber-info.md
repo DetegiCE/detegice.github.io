@@ -26,7 +26,7 @@ function numComma(num) {
 }
 
 function makeRankText(gRank, cRank, country) {
-    return '<a href="https://scoresaber.com/global">#' + numComma(gRank) + '</a> (<img src="https://www.countryflags.io/' + country + '/flat/24.png"> <a href="https://scoresaber.com/global?country="' + country + '">#' + numComma(cRank) + '</a>)'
+    return '<a href="https://scoresaber.com/global">#' + numComma(gRank) + '</a> (<img src="https://www.countryflags.io/' + country + '/flat/24.png"> <a href="https://scoresaber.com/global?country=' + country + '">#' + numComma(cRank) + '</a>)'
 }
 
 function ssGet() {
@@ -34,12 +34,17 @@ function ssGet() {
     var uid = findUID(sslink);
     var url = 'https://new.scoresaber.com/api/player/' + uid + '/full'
     $.getJSON(url, function(data) {
-        document.getElementById("nameValue").innerHTML = '<a href="https://steamcommunity.com/profiles/' + uid + '>' + data.playerInfo.playerName + '</a>'
+        document.getElementById("nameValue").innerHTML = '<a href="https://steamcommunity.com/profiles/' + uid + '">' + data.playerInfo.playerName + '</a>'
         document.getElementById("rankValue").innerHTML = makeRankText(data.playerInfo.rank, data.playerInfo.countryRank, data.playerInfo.country)
         document.getElementById("ppValue").innerText = numComma(data.playerInfo.pp)
-        document.getElementById("araValue").innerText = String(data.playerInfo.scoreStats.averageRankedAccuracy.toFixed(2)) + '%'
-        document.getElementById("pcValue").innerText = numComma(data.playerInfo.scoreStats.rankedPlayCount) + ' / ' + numComma(data.playerInfo.scoreStats.totalPlayCount)
-        document.getElementById("scoreValue").innerText = numComma(data.playerInfo.scoreStats.totalRankedScore) + ' / ' + numComma(data.playerInfo.scoreStats.totalScore)
+        document.getElementById("araValue").innerText = String((data.scoreStats.averageRankedAccuracy).toFixed(2)) + '%'
+        document.getElementById("pcValue").innerText = numComma(data.scoreStats.rankedPlayCount) + ' / ' + numComma(data.scoreStats.totalPlayCount)
+        document.getElementById("scoreValue").innerText = numComma(data.scoreStats.totalRankedScore) + ' / ' + numComma(data.scoreStats.totalScore)
+    })
+
+    var url2 = 'https://new.scoresaber.com/api/player/' + uid + '/scores/TOP/0'
+    $.getJSON(url, function(data) {
+        document.getElementById("top1Value").innerHTML = 
     })
 }
 </script>
@@ -57,8 +62,8 @@ Input ScoreSaber Link
 <tr><td>랭크</td><td id="rankValue"></td></tr>
 <tr><td>PP</td><td id="ppValue"></td></tr>
 <tr><td>평균 랭곡 정확도</td><td id="araValue"></td></tr>
-<tr><td>플레이 카운트 (랭곡/전체)</td><td id="pcValue"></td></tr>
-<tr><td>점수 합계 (랭곡/전체)</td><td id="scoreValue"></td></tr>
+<tr><td>플레이 카운트<br>(랭곡/전체)</td><td id="pcValue"></td></tr>
+<tr><td>점수 합계<br>(랭곡/전체)</td><td id="scoreValue"></td></tr>
 <tr><td rowspan="3">TOP 3</td><td id="top1Value"></td></tr>
 <tr><td id="top2Value"></td></tr>
 <tr><td id="top3Value"></td></tr>
