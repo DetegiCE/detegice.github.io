@@ -20,12 +20,23 @@ function findUID(sslink) {
     return tlink;
 }
 
+function numComma(num) {
+    var regex = /\B(?=(\d{3})+(?!\d))/g;
+    return num.toString().replace(regex, ',');
+}
+
+function makeRankText(gRank, cRank, country) {
+    return '#' + numComma(gRank) + ' (<img src="https://www.countryflags.io/' + country + '/flat/24.png"> #' + numComma(cRank) + ')'
+}
+
 function ssGet() {
     var sslink = document.forms["ssRead"]["inputSS"].value;
     var uid = findUID(sslink);
     var url = 'https://new.scoresaber.com/api/player/' + uid + '/full'
     $.getJSON(url, function(data) {
         document.getElementById("nameValue").innerText = data.playerInfo.playerName
+        document.getElementById("rankValue").innerHTML = makeRankText(data.playerInfo.rank, data.playerInfo.countryRank, data.playerInfo.country)
+        document.getElementById("ppValue").innerText = numComma(data.playerInfo.pp)
     })
 }
 </script>
@@ -39,7 +50,9 @@ Input ScoreSaber Link
 
 <form name="ssWrite">
 <table>
-<tr><td>이름</td><td id="nameValue"></td></tr>
+<tr><td>Name</td><td id="nameValue"></td></tr>
+<tr><td>Rank</td><td id="rankValue"></td></tr>
+<tr><td>PP</td><td id="ppValue"></td></tr>
 </table>
 </form>
 
