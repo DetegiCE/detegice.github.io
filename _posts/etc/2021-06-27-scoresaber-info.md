@@ -29,6 +29,25 @@ function makeRankText(gRank, cRank, country) {
     return '<a href="https://scoresaber.com/global">#' + numComma(gRank) + '</a> (<img src="https://www.countryflags.io/' + country + '/flat/24.png"> <a href="https://scoresaber.com/global?country=' + country + '">#' + numComma(cRank) + '</a>)'
 }
 
+function difficultyColor(num) {
+    if(num == 9)
+        return '<span style="color:#8f48db;">Expert+</span>';
+    else if(num == 7) 
+        return '<span style="color:#bf2a42;">Expert</span>';
+    else if(num == 5)
+        return '<span style="color:tomato;">Hard</span>';
+    else if(num == 3)
+        return '<span style="color:#59b0f4;">Normal</span>';
+    else if(num == 1)
+        return '<span style="color:MediumSeaGreen;">Easy</span>';
+    else 
+        return '<span style="color:red;">DifficultyDisplayError</span>';
+}
+
+function makeRankSongText(data) {
+    return '<b>#' + String(data.rank) + ' <a href="https://scoresaber.com/leaderboard/' + String(data.leaderboardId) + '">' + data.songAuthorName + ' - ' + data.songName + ' ' + data.songSubName + ' ' + difficultyColor(data.difficulty) + ' by ' + data.levelAuthorName
+}
+
 function ssGet() {
     var sslink = document.forms["ssRead"]["inputSS"].value;
     var uid = findUID(sslink);
@@ -44,7 +63,9 @@ function ssGet() {
 
     var url2 = 'https://new.scoresaber.com/api/player/' + uid + '/scores/TOP/0'
     $.getJSON(url, function(data) {
-        document.getElementById("top1Value").innerHTML = 
+        document.getElementById("top1Value").innerHTML = makeRankSongText(scores[0])
+        document.getElementById("top2Value").innerHTML = makeRankSongText(scores[1])
+        document.getElementById("top3Value").innerHTML = makeRankSongText(scores[2])
     })
 }
 </script>
