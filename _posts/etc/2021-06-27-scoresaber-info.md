@@ -63,9 +63,9 @@ function ssGet() {
 
     var url2 = 'https://new.scoresaber.com/api/player/' + uid + '/scores/TOP/0'
     $.getJSON(url, function(data) {
-        document.getElementById("top1Value").innerHTML = makeRankSongText(scores[0])
-        document.getElementById("top2Value").innerHTML = makeRankSongText(scores[1])
-        document.getElementById("top3Value").innerHTML = makeRankSongText(scores[2])
+        document.getElementById("top1Value").innerHTML = makeRankSongText(data.scores[0])
+        document.getElementById("top2Value").innerHTML = makeRankSongText(data.scores[1])
+        document.getElementById("top3Value").innerHTML = makeRankSongText(data.scores[2])
     })
 }
 </script>
