@@ -37,7 +37,7 @@ function ssGet() {
         document.getElementById("nameValue").innerHTML = '<a href="https://steamcommunity.com/profiles/' + uid + '>' + data.playerInfo.playerName + '</a>'
         document.getElementById("rankValue").innerHTML = makeRankText(data.playerInfo.rank, data.playerInfo.countryRank, data.playerInfo.country)
         document.getElementById("ppValue").innerText = numComma(data.playerInfo.pp)
-        document.getElementById("araValue").innerText = str(data.playerInfo.scoreStats.averageRankedAccuracy.toFixed(2)) + '%'
+        document.getElementById("araValue").innerText = String(data.playerInfo.scoreStats.averageRankedAccuracy.toFixed(2)) + '%'
         document.getElementById("pcValue").innerText = numComma(data.playerInfo.scoreStats.rankedPlayCount) + ' / ' + numComma(data.playerInfo.scoreStats.totalPlayCount)
         document.getElementById("scoreValue").innerText = numComma(data.playerInfo.scoreStats.totalRankedScore) + ' / ' + numComma(data.playerInfo.scoreStats.totalScore)
     })
