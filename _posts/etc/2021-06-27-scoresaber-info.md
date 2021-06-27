@@ -63,7 +63,7 @@ function ssGet() {
         document.getElementById("araValue").innerText = String((data.scoreStats.averageRankedAccuracy).toFixed(2)) + '%'
         document.getElementById("pcValue").innerText = numComma(data.scoreStats.rankedPlayCount) + ' / ' + numComma(data.scoreStats.totalPlayCount)
         document.getElementById("scoreValue").innerText = numComma(data.scoreStats.totalRankedScore) + ' / ' + numComma(data.scoreStats.totalScore)
-        document.getElementById("profileValue").innerHTML = '<img src="https://new.scoresaber.com/' + data.playerInfo.avatar + '" style="border-radius :30%;">'
+        document.getElementById("profileValue").innerHTML = '<img src="https://new.scoresaber.com' + data.playerInfo.avatar + '" style="border-radius :30%;">'
     })
 
     var url2 = 'https://new.scoresaber.com/api/player/' + uid + '/scores/TOP/0'
