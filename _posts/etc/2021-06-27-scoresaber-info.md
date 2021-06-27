@@ -49,7 +49,7 @@ function makeRankSongText(data) {
 }
 
 function makePPText(data) {
-    return String((data.pp).toFixed(2)) + 'pp <span style="color:grey"><i>(' + String((data.pp * data.weight).toFixed(2)) + ')</i></span><br/><span style="color:grey">accuracy: ' + String((data.score * 100 / data.maxScore).toFixed(2)) + '%</span>'
+    return '<p>' + String((data.pp).toFixed(2)) + 'pp <span style="color:grey"><i>(' + String((data.pp * data.weight).toFixed(2)) + 'pp)</i></span></p><p><span style="color:grey">accuracy: ' + String((data.score * 100 / data.maxScore).toFixed(2)) + '%</span></p>'
 }
 
 function ssGet() {
@@ -91,8 +91,8 @@ Input ScoreSaber Link
 <tr><td>랭크</td><td id="rankValue"></td></tr>
 <tr><td>PP</td><td id="ppValue"></td></tr>
 <tr><td>평균 랭곡 정확도</td><td id="araValue" colspan="2"></td></tr>
-<tr><td>플레이 카운트<br/>(랭곡/전체)</td><td id="pcValue" colspan="2"></td></tr>
-<tr><td>점수 합계<br/>(랭곡/전체)</td><td id="scoreValue" colspan="2"></td></tr>
+<tr><td>플레이 카운트</td><td id="pcValue" colspan="2"></td></tr>
+<tr><td>점수 합계</td><td id="scoreValue" colspan="2"></td></tr>
 <tr><td rowspan="3">TOP 3</td><td id="top1Value"></td><td id="top1pp"></td></tr>
 <tr><td id="top2Value"></td><td id="top2pp"></td></tr>
 <tr><td id="top3Value"></td><td id="top3pp"></td></tr>
