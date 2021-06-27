@@ -62,7 +62,7 @@ function ssGet() {
     })
 
     var url2 = 'https://new.scoresaber.com/api/player/' + uid + '/scores/TOP/0'
-    $.getJSON(url, function(data) {
+    $.getJSON(url2, function(data) {
         document.getElementById("top1Value").innerHTML = makeRankSongText(data.scores[0])
         document.getElementById("top2Value").innerHTML = makeRankSongText(data.scores[1])
         document.getElementById("top3Value").innerHTML = makeRankSongText(data.scores[2])
@@ -79,15 +79,15 @@ Input ScoreSaber Link
 
 <form name="ssWrite">
 <table>
-<tr><td>이름</td><td id="nameValue"></td></tr>
+<tr><td>이름</td><td id="nameValue"></td><td rowspan="3"></td></tr>
 <tr><td>랭크</td><td id="rankValue"></td></tr>
 <tr><td>PP</td><td id="ppValue"></td></tr>
-<tr><td>평균 랭곡 정확도</td><td id="araValue"></td></tr>
-<tr><td>플레이 카운트<br>(랭곡/전체)</td><td id="pcValue"></td></tr>
-<tr><td>점수 합계<br>(랭곡/전체)</td><td id="scoreValue"></td></tr>
-<tr><td rowspan="3">TOP 3</td><td id="top1Value"></td></tr>
-<tr><td id="top2Value"></td></tr>
-<tr><td id="top3Value"></td></tr>
+<tr><td>평균 랭곡 정확도</td><td id="araValue" colspan="2"></td></tr>
+<tr><td>플레이 카운트<br>(랭곡/전체)</td><td id="pcValue" colspan="2"></td></tr>
+<tr><td>점수 합계<br>(랭곡/전체)</td><td id="scoreValue" colspan="2"></td></tr>
+<tr><td rowspan="3">TOP 3</td><td id="top1Value"></td><td id="top1pp"></td></tr>
+<tr><td id="top2Value"></td><td id="top2pp"></td></tr>
+<tr><td id="top3Value"></td><td id="top3pp"></td></tr>
 </table>
 </form>
 
